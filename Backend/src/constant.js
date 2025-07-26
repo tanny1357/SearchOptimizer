@@ -1,1 +1,1 @@
-export const DB_NAME=gridProject
+export const DB_NAME="gridProject"
