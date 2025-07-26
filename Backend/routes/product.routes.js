@@ -1,8 +1,8 @@
 
-import express from express
+import express from 'express'
 const router = express.Router();
-const productController = require('../controllers/product.controller'); // Assuming controller exists
-// const authMiddleware = require('../middleware/auth.middleware'); // Optional: for protected routes
+import productController from '../controllers/product.controller.js'; // Assuming controller exists
+// import authMiddleware from '../middleware/auth.middleware.js'; // Optional: for protected routes
 
 /**
  * @route   POST /api/products
@@ -39,4 +39,4 @@ router.put('/:id', /* authMiddleware.isAdmin, */ productController.updateProduct
  */
 router.delete('/:id', /* authMiddleware.isAdmin, */ productController.deleteProduct);
 
-module.exports = router;
+export default router;

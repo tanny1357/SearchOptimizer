@@ -1,4 +1,4 @@
-import mongoose from mongoose
+import mongoose from "mongoose"
 const Schema = mongoose.Schema;
 
 const reviewSchema = new Schema({
@@ -65,4 +65,4 @@ reviewSchema.post(/^findOneAnd/, async function(doc) {
 });
 
 
-module.exports = mongoose.model('Review', reviewSchema);
+export default mongoose.model('Review', reviewSchema);

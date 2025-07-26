@@ -1,4 +1,4 @@
-import mongoose from mongoose
+import mongoose from "mongoose"
 const Schema = mongoose.Schema;
 
 const productSchema = new Schema({
@@ -63,4 +63,4 @@ const productSchema = new Schema({
     timestamps: true // Adds createdAt and updatedAt automatically
 });
 
-module.exports = mongoose.model('Product', productSchema);
+export default mongoose.model('Product', productSchema);
