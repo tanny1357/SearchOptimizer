@@ -1,8 +1,8 @@
 
-import express from express
+import express from 'express'
 const router = express.Router();
-const authController = require('../controllers/auth.controller'); // Assuming controller exists
-const authMiddleware = require('../middleware/auth.middleware'); // Assuming middleware exists
+import authController from '../controllers/auth.controller.js'; // Assuming controller exists
+import authMiddleware from '../middleware/auth.middleware.js'; // Assuming middleware exists
 
 /**
  * @route   POST /api/auth/register
@@ -28,4 +28,4 @@ router.post('/login', authController.loginUser);
 router.get('/me', authMiddleware.protect, authController.getMe);
 
 
-module.exports = router;
+export default router;

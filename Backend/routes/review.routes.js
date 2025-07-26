@@ -1,8 +1,8 @@
 
-import express from express
+import express from 'express'
 const router = express.Router({ mergeParams: true }); // mergeParams allows access to :productId
-const reviewController = require('../controllers/review.controller'); // Assuming controller exists
-// const authMiddleware = require('../middleware/auth.middleware'); // Optional: for protected routes
+import reviewController from '../controllers/review.controller.js'; // Assuming controller exists
+// import authMiddleware from '../middleware/auth.middleware.js'; // Optional: for protected routes
 
 /**
  * @route   POST /api/products/:productId/reviews
@@ -18,4 +18,4 @@ router.post('/', /* authMiddleware.protect, */ reviewController.createReview);
  */
 router.get('/', reviewController.getProductReviews);
 
-module.exports = router;
+export default router;

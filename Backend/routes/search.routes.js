@@ -1,7 +1,7 @@
 
-import express from express
+import express from 'express'
 const router = express.Router();
-const searchController = require('../controllers/search.controller'); // Assuming controller exists
+import searchController from '../controllers/search.controller.js'; // Assuming controller exists
 
 /**
  * @route   GET /api/search/autosuggest
@@ -25,4 +25,4 @@ router.get('/autosuggest', searchController.getAutosuggest);
 router.get('/', searchController.getSearchResults);
 
 
-module.exports = router;
+export default router;

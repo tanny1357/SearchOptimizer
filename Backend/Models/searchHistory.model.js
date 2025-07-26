@@ -1,4 +1,4 @@
-import mongoose from mongoose
+import mongoose from "mongoose"
 const Schema = mongoose.Schema;
 
 const searchHistorySchema = new Schema({
@@ -19,4 +19,4 @@ const searchHistorySchema = new Schema({
     timestamps: true
 });
 
-module.exports = mongoose.model('SearchHistory', searchHistorySchema);
+export default mongoose.model('SearchHistory', searchHistorySchema);
