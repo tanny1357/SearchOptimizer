@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  # MongoDB Database
+  mongodb:
+    image: mongo:7.0
+    container_name: searchoptimizer-mongodb
+    restart: no
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin123
+      MONGO_INITDB_DATABASE: gridProject
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+      - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+    networks:
+      - searchoptimizer-network
+
+  # Backend API Service
+  backend:
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
+    container_name: searchoptimizer-backend
+    restart: no
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - MONGO_URI=mongodb://admin:admin123@mongodb:27017
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongodb
+    networks:
+      - searchoptimizer-network
+    volumes:
+      - ./Backend:/app
+      - /app/node_modules
+
+  # Frontend React App
+  frontend:
+    build:
+      context: ./searchoptimizer
+      dockerfile: Dockerfile
+    container_name: searchoptimizer-frontend
+    restart: no
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - searchoptimizer-network
+
+volumes:
+  mongodb_data:
+
+networks:
+  searchoptimizer-network:
+    driver: bridge
