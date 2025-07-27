@@ -1,13 +1,103 @@
 # SearchOptimizer
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A smart product search system that combines:
+- Semantic search using Sentence Transformers
+- Keyword boosting for exact title matches
+- Image-to-text search using BLIP (image captioning)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Setup Instructions
 
-## Expanding the ESLint configuration
+### 1. Clone the repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/tanny1357/SearchOptimizer.git
+cd SearchOptimizer
+```
+
+### 2. Create and activate virtual environment
+
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate on Windows
+venv\Scripts\activate
+
+# On macOS/Linux:
+# source venv/bin/activate
+```
+
+### 3. Install backend dependencies
+
+```bash
+pip install -r ml-models/requirements.txt
+```
+
+---
+
+## 🚀 Running the Project
+
+### 🧠 Start the backend server
+
+```bash
+cd ml-models
+uvicorn main:app --reload
+```
+
+The FastAPI backend will run at: `http://127.0.0.1:8000`
+
+---
+
+### 💻 Start the frontend (React)
+
+Open another terminal and run:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Frontend will run at: `http://localhost:5173`
+
+---
+
+## 📸 Features
+
+- 🔍 **Semantic search** using `all-MiniLM-L6-v2`
+- 💡 **Hybrid ranking** with exact keyword boost in titles
+- 🖼️ **Image upload** using BLIP model for caption generation
+- ⚡ FastAPI + React + Tailwind + Sentence Transformers
+
+---
+
+## 🔗 API Endpoints
+
+| Method | Endpoint              | Description                     |
+|--------|------------------------|---------------------------------|
+| POST   | `/semantic-search`     | Query using text search         |
+| POST   | `/image-to-caption`    | Upload image, get caption, search |
+| GET    | `/search?query=...`    | Suggestion list (for autocomplete) |
+
+---
+
+## 📁 Project Structure
+
+```
+SearchOptimizer/
+├── frontend/              # React app
+├── ml-models/
+│   ├── main.py            # FastAPI backend
+│   ├── caption_image.py   # BLIP image-to-text
+│   └── products.json      # Product data with embeddings
+└── requirements.txt       # Backend dependencies
+```
+
+---
+
+## 🧠 Model Notes
+
+- **Text embedding**: `all-MiniLM-L6-v2` (sentence-transformers)
+- **Image captioning**: Salesforce's `BLIP` model via transformers
