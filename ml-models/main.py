@@ -1,6 +1,7 @@
-from fastapi import FastAPI, Request, UploadFile, File
+from fastapi import FastAPI, Request, UploadFile, File, Query
 from fastapi.middleware.cors import CORSMiddleware
 from sentence_transformers import SentenceTransformer
+from spell_correction import get_corrected_query
 import json
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
@@ -68,3 +69,8 @@ async def image_to_caption(file: UploadFile = File(...)):
         shutil.copyfileobj(file.file, buffer)
     caption = generate_caption(file_path)
     return {"caption": caption}
+
+@app.get("/spell-correct")
+async def spell_correct(query: str = Query(...)):
+    correction = get_corrected_query(query)
+    return {"correction": correction}
