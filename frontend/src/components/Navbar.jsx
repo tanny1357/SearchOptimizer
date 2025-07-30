@@ -1,14 +1,17 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import SuggestionsList from '../components/SuggestionsList';
 import axios from 'axios';
 import _ from 'lodash';
 import { FaCamera } from 'react-icons/fa';
+import { FiSearch } from 'react-icons/fi';
 
 function Navbar() {
   const [query, setQuery] = useState('');
   const [suggestions, setSuggestions] = useState([]);
   const navigate = useNavigate();
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
 
   const fetchSuggestions = useCallback(
     _.debounce(async (input) => {
@@ -30,8 +33,9 @@ function Navbar() {
     return () => fetchSuggestions.cancel && fetchSuggestions.cancel();
   }, [query, fetchSuggestions]);
 
-  const handleSubmit = (text = query) => {
-    const searchText = text.trim();
+  const handleSubmit = (e) => {
+    e && e.preventDefault();
+    const searchText = query.trim();
     if (searchText) {
       navigate(`/search?query=${encodeURIComponent(searchText)}`);
       setSuggestions([]);
@@ -45,15 +49,19 @@ function Navbar() {
     const formData = new FormData();
     formData.append('file', file);
 
-    const res = await fetch('http://127.0.0.1:8000/image-to-caption', {
-      method: 'POST',
-      body: formData,
-    });
+    try {
+      const res = await fetch('http://127.0.0.1:8000/image-to-caption', {
+        method: 'POST',
+        body: formData,
+      });
 
-    const data = await res.json();
-    if (data.caption) {
-      setQuery(data.caption);
-      handleSubmit(data.caption);
+      const data = await res.json();
+      if (data.caption) {
+        setQuery(data.caption);
+        handleSubmit();
+      }
+    } catch (error) {
+      console.error('Error uploading image:', error);
     }
   };
 
@@ -63,58 +71,58 @@ function Navbar() {
     transition-colors duration-200 text-gray-800 text-lg border-0`;
 
   return (
-    <header className="bg-blue-600 text-white px-6 py-4 shadow sticky top-0 z-50">
+    <header className={`bg-blue-600 text-white px-6 py-4 shadow sticky top-0 z-50 ${isHomePage ? 'bg-opacity-90' : ''}`}>
       <div className="container mx-auto flex flex-col sm:flex-row items-center gap-4">
-        <Link to="/" className="text-2xl font-bold cursor-pointer hover:text-yellow-300 transition-colors">
-          Flipkart Grid
+        <Link to="/" className="text-2xl font-bold text-white hover:text-yellow-300 transition-colors">
+          SearchOptimizer
         </Link>
-
-        <div className="flex-1 w-full max-w-2xl relative">
-          <div className="flex items-center">
-            {/* Input field, fills remaining space, left border radius only */}
-            <input
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search for products..."
-              className="px-4 py-3 rounded-l-md rounded-r-none w-full text-gray-800 bg-white outline-none border-none focus:ring-2 focus:ring-yellow-400"
-              onKeyDown={(e) => e.key === 'Enter' && handleSubmit()}
-            />
-
-            {/* Search button */}
-            <button
-              onClick={handleSubmit}
-              className={`${btnClass} rounded-none border-l border-white`}
-              aria-label="Search"
-              type="button"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 pointer-events-none" viewBox="0 0 20 20" fill="currentColor">
-                <path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd" />
-              </svg>
-            </button>
-
-            {/* Camera button */}
-            <label className={`${btnClass} rounded-r-md rounded-l-none ml-0 border-l border-white cursor-pointer`} tabIndex={0}>
-              <FaCamera className="pointer-events-none" />
+        
+        {/* Only show search on non-homepage routes */}
+        {!isHomePage && (
+          <form onSubmit={handleSubmit} className="flex-grow max-w-2xl relative">
+            <div className="flex w-full">
               <input
-                type="file"
-                accept="image/*"
-                onChange={handleImageUpload}
-                className="hidden"
+                type="text"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="Search for products..."
+                className="w-full px-4 py-2 rounded-l-md text-gray-800 focus:outline-none focus:ring-2 focus:ring-yellow-400"
               />
-            </label>
-          </div>
-
-          {/* Suggestions (optional: wider dropdown, shadow for clarity) */}
-          <div className="absolute w-full z-10 mt-1">
-            <SuggestionsList
-              suggestions={suggestions}
-              onSelect={(s) => {
-                setQuery(s);
-                handleSubmit(s);
-              }}
-              className="shadow-lg"
-            />
-          </div>
+              <label className={btnClass}>
+                <FaCamera />
+                <input
+                  type="file"
+                  accept="image/*"
+                  onChange={handleImageUpload}
+                  className="hidden"
+                />
+              </label>
+              <button type="submit" className={`${btnClass} rounded-r-md`}>
+                <FiSearch />
+              </button>
+            </div>
+            {suggestions.length > 0 && (
+              <SuggestionsList 
+                suggestions={suggestions} 
+                onSelect={(text) => {
+                  setQuery(text);
+                  handleSubmit();
+                }} 
+              />
+            )}
+          </form>
+        )}
+        
+        <div className="flex items-center space-x-4">
+          <Link to="/categories" className="hover:text-yellow-300 transition-colors">
+            Categories
+          </Link>
+          <Link to="/cart" className="hover:text-yellow-300 transition-colors">
+            Cart
+          </Link>
+          <Link to="/account" className="hover:text-yellow-300 transition-colors">
+            Account
+          </Link>
         </div>
       </div>
     </header>

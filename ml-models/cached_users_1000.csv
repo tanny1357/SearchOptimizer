@@ -1,0 +1,1001 @@
+user_id,age,gender,location,income_level,favorite_categories,preferred_brands,price_sensitivity,avg_rating_given,purchase_frequency
+0,56,F,metro,low,['Cellbazaar Blackberry 8520 WHITE LCD LCD (YIT-562)'],[],high,4.036175917821871,medium
+1,39,M,tier3,high,['OEM 170774 Bike Side Stand'],"['Pearstone', 'Transcend']",low,4.04157310987163,low
+2,41,M,metro,medium,"['Amita Home Furnishing Cotton Floral Single Bedsh...', 'Beauty and Personal Care', ""Vishudh Printed Women's Straight Kurta""]",['SVT ADA COLLECTIONS'],medium,4.505682224524156,high
+3,31,M,tier3,high,"['ABEEZ Boys, Men, Girls (Black, Pack of 1)', 'Mast & Harbour Gold Synthetic  Clutch', 'Ocean GP/Pyramid Glass (300 ml, Clear, Pack of 12)']","['Shadow Fax', 'Pearl', 'STREET LONDON']",low,3.7695474641152416,high
+4,46,M,metro,medium,['SHOPOJ Multicolor Paper Sky Lantern (80 cm X 34 ...'],"['Happiness Is', 'Jacadi Paris', 'GoldNera']",medium,3.9439435435326544,low
+5,36,F,tier1,low,['Speedwav 186879 Bajaj Pulsar 200 NS DTS-i LED In...'],[],high,3.034194096203965,medium
+6,60,M,tier2,low,['Zevrr Sterling Silver Swarovski Zirconia Platinu...'],"['YugshaJewels', 'Shopernow', 'Advent Crafts', 'NEWLOOK']",high,3.316324655680742,low
+7,46,M,tier3,low,['Style World Women Flats'],['ARB'],high,2.23543131770261,medium
+8,25,M,tier3,low,"['Corcepts Universal Tablet HD Ultra Clear Transpa...', ""TIMBERLAKE Slim Fit Fit Women's Red Jeans""]",[],high,3.640330913461129,medium
+9,30,M,tier3,medium,"[""Legmark Slim Fit Women's Blue Jeans"", 'Boreal Roller Brush']","['MSC', 'Love More', 'Kleio']",medium,3.7776530177602217,medium
+10,22,F,metro,medium,"['GM Power mate 4 Strip Surge Protector (White)', 'Skayvon SUMMERSIBLE SINGLE PHASE PUMP CONTROLLER...']",[],medium,3.5694878206508887,high
+11,57,M,metro,high,"['SHOPOJ Purple Paper Sky Lantern (80 cm X 34 cm, ...', 'Furniture']",[],low,3.593131382312539,medium
+12,37,F,tier1,high,"['Cellbazaar Blackberry 8520 WHITE LCD LCD (YIT-562)', ""Kombee Girl's Printed Red, Pink Top & Capri Set"", ""Ruhi's Creations Cotton Cartoon King sized Doubl...""]","['SG', 'Made In China', 'Anamis']",low,4.2955095210236065,medium
+13,35,M,tier2,medium,"['REMSON INDIA Women Flats', 'Urban Girl Foundation Brush (Pack of 7)']","['Volaliva', ""Victoria's Secret"", 'Woodino Handicrafts']",medium,4.708103460703513,medium
+14,56,F,metro,low,"['SHOPOJ Yellow Paper Sky Lantern (80 cm X 34 cm, ...', 'Eternal Gandhi Super Series Crystal Paper Weight...', 'BuildTrack PIR Wireless Motion Sensor - One Swit...']","['IWS', 'Coffee', 'KA', 'Oral Care', 'Pumpkin Patch']",high,2.032099127083438,low
+15,31,F,tier1,low,"['Power Smart Quick Charging Pack For PAN CGR-DU-2...', 'Skayvon SUMMERSIBLE SINGLE PHASE PUMP CONTROLLER...', ""BLM Casual Printed Women's Kurti""]",['SKOOKIE'],high,3.9253855976393908,low
+16,23,M,tier1,medium,"[""Yo Baby Girl's Trousers"", 'Small Toes Bellies', ""United Colors of Benetton Girl's Trousers""]",[],medium,2.1137178966445203,high
+17,29,M,metro,medium,['JUSF2 Black Color Hair Band (Multicolor)'],"['Threads & Pals', 'SoleThreads', 'Aria', 'CraftGhar']",medium,3.0871188488225587,low
+18,21,M,tier2,medium,"['ABEEZ Boys, Men, Girls (Black, Pack of 1)', 'Pout Brass Bangle', 'THERISE MD0005 Wired Headset (Pink)']","['Laviva', 'BMS', 'SKIN']",medium,2.9823424428744816,low
+19,23,M,tier1,high,"[""Pazel Slim Fit Men's Jeans"", 'SHOPOJ Purple Paper Sky Lantern (80 cm X 34 cm, ...']",[],low,3.1951136878558595,medium
+20,51,F,tier1,low,"['Just Wow Women Flats', ""Breakbounce Men's Vest""]","['CREEDS', 'MeeMee', 'NILE BLUE', 'Youshine']",high,3.4661888682342057,low
+21,21,M,metro,low,"[""Nine Maternity Wear Women's Fit and Flare Dress"", 'SJ Comet Zoom DPSI Binoculars (30 mm, Black)']",['Mickey And Friends'],high,3.263174963410745,medium
+22,58,M,tier2,low,['Jazz Eyewears Over-sized Sunglasses'],[],high,3.034542624974179,high
+23,60,M,metro,low,"[""Clovia Women's Plunge Bra""]","['Ocean Free', 'Unknown']",high,2.914819655997121,low
+24,35,M,tier2,medium,"[""BLM Casual Printed Women's Kurti"", ""Fly U Slim Fit Fit Women's Brown Jeans"", 'Olvin Aviator Sunglasses']","['ezyPRNT', 'DENIM CAFE', 'Jums', 'LUXANTRA']",medium,3.148461078824562,medium
+25,23,F,tier1,medium,['Speedwav 186926 Royal Enfield 350 Twin Spark LED...'],"['Jss Exports', 'Ezone', 'Made In China', 'i-KitPit', 'England']",medium,4.415363604961728,high
+26,24,M,metro,medium,"[""Indistar Self Design Viscose Women's Stole"", ""Auraa Men's, Women's Solid No Show Socks""]","['Schick', 'Capturing Happiness', 'Shivam']",medium,3.7717488812589117,high
+27,34,M,tier3,medium,['ANAND ARCHIES Girls Wedges'],"['Star Wars', 'Agnihotra Creations', 'RIPR', 'ELEGANZE DECOR']",medium,3.9615259292768137,low
+28,35,F,tier2,low,"['Watches', ""Fly U Slim Fit Fit Women's Brown Jeans"", 'Olvin Rectangular Sunglasses']","['STYLE CLUES FASHION', 'Saviour', 'GENERIC', 'GoMerryKids', 'Emartbuy']",high,4.644528185525612,low
+29,64,F,tier3,medium,"[""Camey Men's Quarter Length Socks"", ""883 Police Full Sleeve Solid Men's Jacket"", 'Gking Hand Stiched Steering Cover For Maruti Ert...']",[],medium,4.331262993834195,high
+30,57,M,tier1,medium,"[""UFO Full Sleeve Solid Girl's Jacket""]",[],medium,3.6123899961948567,low
+31,40,F,tier1,low,['Rasav Jewels Yellow Gold Diamond 18 K Ring'],"['Joy Living', 'Uma']",high,2.9422044110270704,high
+32,28,F,tier1,low,"['Power Smart Quick Charging Pack For PAN CGR-DU-2...', 'Urban Girl Foundation Brush (Pack of 12)']","['Gathbandhan', 'Gasser', 'Suvarnadeep', 'PANIT']",high,3.6548110333859594,low
+33,32,F,tier2,medium,['Style World Women Flats'],"['Osmonde', 'MODWARE', 'KARP', 'Jewelove']",medium,4.352018528990588,low
+34,28,M,tier2,medium,"['Mast & Harbour Gold Synthetic  Clutch', ""TIMBERLAKE Slim Fit Fit Women's Red Jeans"", 'INVENTURE RETAIL Nail Cutter']",['Silvesto India'],medium,3.2556902088521675,medium
+35,46,F,tier3,low,"['Bags, Wallets & Belts', 'Pu-Good Women Flats', 'Footwear']","['RED', 'Waama Jewels', 'Joyeria Milan', 'ELITE STATUES', 'Kerastase']",high,3.646825115857886,low
+36,35,F,tier3,low,"['Dressberry Black Synthetic  Clutch', ""Ruhi's Creations Polyester Silk Blend Cartoon Ki...""]",['LIME'],high,4.015176500522628,low
+37,38,F,tier2,low,['Amita Home Furnishing Cotton Floral Single Bedsh...'],"['Clublaptop', 'Lal Pet Products', 'Anshuhandicrafts', 'Funcart']",high,3.297993844005814,medium
+38,47,F,metro,medium,"[""EASIES Solid Single Breasted Casual Men's Blazer"", 'SHOPOJ White Paper Sky Lantern (80 cm X 34 cm, P...']","['Handloomhub', 'Reebok', 'Desirica']",medium,2.9546653219199777,low
+39,20,M,tier1,medium,"['ANAND ARCHIES Girls Flats', 'Walkline Slippers', 'Gaming']","['SHEFFIELD CLASSIC', 'HSFS', 'Shaun', 'Odoky']",medium,3.716265617027296,medium
+40,21,M,tier3,medium,"[""Selfcare Women's Thong Panty (Pack of 3)"", 'NEWGEN TECH EO-HS3303 218 Wired Headset (White)']",[],medium,2.4716287652443736,low
+41,23,M,tier1,medium,"['Wearable Smart Devices', ""Threads & Pals Full Sleeve Self Design Men's Swe..."", ""SUPERMOD Men's Brief""]","['Camy', 'ab posters', 'Stuffcool', 'Gehna']",medium,3.6135151146239894,high
+42,18,M,tier1,low,"['Naaz Dart game Board Game', 'ATV Pouch for Acer Liquid Z330 (STEEL BLUE)']",['Think3'],high,3.566159501619071,medium
+43,25,F,metro,low,"[""New Darling Women's Printed Top & Pyjama Set"", ""Kombee Girl's Printed Red, Pink Top & Capri Set""]",[],high,2.217776641491842,low
+44,62,F,tier3,medium,"['Walkline Slippers', 'SAY UV Sterilizer Solid Filter Cartridge (0, Pac...']","['Karukraft', 'Camelion']",medium,3.2911137540778466,high
+45,50,F,tier3,medium,"[""Yo Baby Girl's Trousers""]",['Apple'],medium,3.3650294597910655,low
+46,43,F,tier2,medium,['Speedwav 240437 Sun Shade For Hyundai i10 (Dashb...'],['Kamakshi Krafts'],medium,3.920721927123326,medium
+47,63,F,tier2,medium,"['SHOPOJ White Paper Sky Lantern (80 cm X 34 cm, P...', ""Disney Printed Baby Boy's Hooded Grey T-Shirt"", 'Joyra Heart Sterling Silver Swarovski Crystal, S...']","['TUP', 'Gigabyte', 'ABSTAR', 'Curren Nx']",medium,3.9382941321651157,high
+48,18,F,tier3,medium,"['SJ Comet Zoom DPSI Binoculars (30 mm, Black)', 'Jazz Eyewears Over-sized Sunglasses', ""New Darling Women's Printed Top & Pyjama Set""]","['Bela Home', 'Shopo']",medium,4.098318329901656,low
+49,55,F,tier1,medium,"['Knight Ace Kraasa Sports Running Shoes, Cycling ...', 'SHOPOJ Yellow Paper Sky Lantern (80 cm X 34 cm, ...', 'Synergy SFJB0105 Grocery Bag (Blue)']","['ChiragBelhi', 'Ocean', 'INDIANO']",medium,3.523545405648665,medium
+50,42,M,tier2,high,['NEWGEN TECH EO-HS3303 58 Wired Headset (White)'],"['Khushi Fashions', 'diwine jewels', 'ABEEZ', 'Ibz', 'Raghav India']",low,3.1100391630897444,high
+51,25,F,tier2,high,['Clothing'],"['Hedoneesta', 'Smart Wall Guru', 'Rang Rage']",low,2.6070885387814564,medium
+52,28,M,tier2,low,"['Small Toes Bellies', 'Clovia Lingerie Set', 'Srajanaa sr114 Travel Shaving Kit (Black)']",[],high,2.036899971218543,medium
+53,33,M,tier2,low,['Mobiles & Accessories'],"['Agromech', 'Amscan', 'Pack N Buy', 'Miracle Retail', 'Clublaptop']",high,2.6721743868230394,medium
+54,57,M,tier3,high,"['Impala Alloy Cufflink (White)', 'Shrih SH-0192 Wired USB Flexible Keyboard (Red)']","['Eplant', 'KALYANI COVERING', 'Columbus', 'ETHICS']",low,4.314819639264781,medium
+55,45,F,metro,low,"['BuildTrack PIR Wireless Motion Sensor - One Swit...', 'Autoplus M AP18 Arm Sleeve (Black)', ""Starsy Solid Women's Round Neck Green T-Shirt""]",['Light Brown'],high,3.1258041603792392,low
+56,41,F,tier1,high,['Eternal Gandhi Super Series Crystal Paper Weight...'],"['HMO India', 'DIVAS CHOICE', 'Karigaari', 'Joola']",low,2.8902607037085946,high
+57,51,F,tier2,low,"[""Selfcare Women's Thong Panty (Pack of 3)"", 'Royal Seal Creations 40 ST COLOR Silver Zircon N...', 'classyworld Brass Cufflink (Grey-02)']","['Silver Shoppee', 'Total Care']",high,4.477790970863116,low
+58,31,F,tier3,medium,['Himmlisch 20503 Car Bottle Holder (Plastic)'],[],medium,2.0689119180566955,low
+59,59,M,tier2,medium,['Sumo Baby Walker (Red)'],"['Powder Blue', 'Shiyara', 'Creative Spinach', 'Souminie', 'Craft Trade']",medium,4.483456360013735,medium
+60,51,M,tier1,medium,['REMSON INDIA Women Flats'],['Bharatcraft'],medium,2.240329156156857,low
+61,43,M,metro,low,['Glacier Running Shoes'],"['Avaron Projekt', 'Blinkin']",high,3.3144411964848404,high
+62,47,F,tier3,low,"['Arial Morris Women Flats', ""Ajaero Slim Fit Women's Dark Blue Jeans""]","[""Victoria's Secret"", 'Craftatoz', 'Deben & Hill']",high,3.0630194349563373,low
+63,38,F,metro,medium,['Just Wow Women Flats'],"['Shahi Handicraft', 'Ortel', 'Freshme Fashion Jewellery', 'Go Hooked', 'World-Star']",medium,4.330432860159676,low
+64,36,F,tier1,high,"['Gaming', 'Dilan Jewels Alloy Zircon 18K Yellow Gold Bangle...']",['ABSTAR'],low,4.903274562811445,medium
+65,61,F,tier3,medium,['Urban Girl Foundation Brush (Pack of 10)'],[],medium,3.038789680340425,medium
+66,60,F,tier3,high,"['Speedwav 186879 Bajaj Pulsar 200 NS DTS-i LED In...', ""SMART DENIM Solid Women's White Denim Shorts"", 'Mobiles & Accessories']","['Baalaa', 'RAA', 'Gajraula Crafts', 'Theme Jewels']",low,3.0390213652522564,low
+67,54,M,metro,low,"['Speedwav 216510 Manual Rear View Mirror (Right, ...']","['Weldecor', 'NIRLON', 'vency creation', '1OAK', 'Adiva']",high,3.2774908504578355,medium
+68,33,F,metro,medium,"['classyworld Brass Cufflink (Silver-01)', ""Laser X Checkered Men's Boxer (Pack of 4)""]",[],medium,3.372383312103813,medium
+69,30,M,tier1,medium,"['Skayvon SUBMERSIBBLE THREE PHASE PUMP CONTROLLER...', ""Miss Wow Slim Fit Women's Blue Jeans""]","['Tecnia', 'KuberBox']",medium,3.576703263812005,medium
+70,22,F,tier3,high,"[""Leading lady Women's Camisole"", 'INKT INKT A5 Wiro Notebook A5 Notebook Ring Boun...', ""UFO Self Design Round Neck Casual Girl's Sweater""]",['Saffron Craft'],low,3.269713611355441,high
+71,45,F,tier1,low,"['Adidas IND PRO THI GUA Thigh Guard (White, Blue,...', ""Disney Printed Baby Boy's Hooded Grey T-Shirt"", 'SJ Comet Zoom DPSI Binoculars (30 mm, Black)']","['Lavanaya', 'Sifty Collection', 'Peora']",high,4.554888292475531,medium
+72,40,F,tier3,medium,['ANAND ARCHIES Girls Flats'],"['Baby Moshai', 'Manthan', ""Seema'S Craft Creation"", '720 Armour', 'GRJ India']",medium,3.9147655679387183,medium
+73,60,F,metro,medium,['FEET FLOW Women Flats'],"['Homec', 'Mz Nova', 'fashion bazar']",medium,3.6768991201165715,medium
+74,45,M,tier3,medium,"['Mast & Harbour Gold Synthetic  Clutch', ""Starsy Printed Women's Round Neck Black T-Shirt"", 'Jewellery']",[],medium,3.152450877962846,low
+75,23,F,tier3,medium,"['eBooks', ""SMART DENIM Solid Women's White Denim Shorts"", ""MASARA Solid Women's Straight Kurta""]",['Red Chief'],medium,3.872719570763868,high
+76,21,F,tier3,high,"['Urban Girl Foundation Brush (Pack of 10)', ""Breakbounce Men's Vest"", ""EASIES Solid Single Breasted Casual Men's Blazer""]","['Plus Value', 'TeeSort', 'Slim fit']",low,2.0452534253531462,medium
+77,20,F,metro,low,"[""New Darling Women's Printed Top & Pyjama Set""]","['Vitalwalls', 'Blossom Berry', 'Nickolas']",high,3.991933951727042,medium
+78,22,F,tier3,medium,"['SHOPOJ Yellow Paper Sky Lantern (80 cm X 34 cm, ...']","['Elegance', 'BILLYS']",medium,4.464161637601631,medium
+79,24,F,tier1,low,"['V&G Professional HD-37 Hair Dryer (Red)', ""Kombee Girl's Printed Red, Pink Top & Capri Set"", 'Rasav Jewels Yellow Gold Diamond 18 K Ring']","['Shopernow', 'Synergy', 'GOGLE SOURCING', 'Ziveg']",high,4.2545821494317835,low
+80,51,M,tier2,medium,"[""SUPERMOD Men's Brief""]","['vinaya', 'Kalai']",medium,2.928700659150787,medium
+81,22,M,tier1,low,['Olvin Aviator Sunglasses'],"['Theme Jewels', 'Gigabyte', 'KA', 'KalaBhawan']",high,4.259225406196049,medium
+82,42,F,tier1,medium,"[""e-Fresh Baby Boy's Brief (Pack of 10)"", 'Speedwav 216552 Manual Rear View Mirror (Right, ...', 'SMART TRADERS Women Flats']",[],medium,2.707196768697608,medium
+83,48,M,tier3,low,"['Naaz Dart game Board Game', 'Clothing', 'INVENTURE RETAIL Nail Cutter']","['Gojeeva', 'Wella', 'Lavish Blink']",high,3.028173665967937,low
+84,19,F,metro,medium,"['Wellon Fittings set (16 pieces) for RO Water Pur...', 'Sports & Fitness']",['Attitude'],medium,3.226871313014708,medium
+85,42,F,tier2,medium,"['Computers', 'Speedwav 186136 Manual Rear View Mirror (Right, ...', ""Sisel Printed Poly Cotton Women's Stole""]","['Flazee Home Trends', 'Bergner']",medium,2.579730879890476,high
+86,40,F,tier2,low,"[""United Colors of Benetton Girl's Trousers"", ""Legmark Slim Fit Women's Light Blue Jeans"", 'Lucky Thailand GL/ LG30 Glass (300 ml, Clear, Pa...']",[],high,4.562009795444983,medium
+87,40,M,metro,medium,"[""piftif Women's Sports Bra"", 'SJ Barstel 56m / 1000m Binoculars (30 mm, Black)']",['KAVACi'],medium,4.5131758284480545,medium
+88,62,M,metro,low,"['Jewellery', 'D&D Women Flats']","['JOVIFashion', 'Bento', 'RJVON', 'Clear Shield', 'Edel']",high,3.2747972674513863,low
+89,37,F,tier2,low,"['Sports & Fitness', 'NEWGEN TECH EO-HS3303 58 Wired Headset (White)', 'Home Entertainment']",[],high,4.470545533456405,low
+90,37,F,tier2,medium,"['GM Power mate 4 Strip Surge Protector (White)', 'SJ Comet Zoom DPSI Binoculars (30 mm, Black)', 'Lucky Thailand GL/ LG30 Glass (300 ml, Clear, Pa...']",[],medium,2.0541337491566836,medium
+91,45,F,tier1,medium,"['Rasav Jewels Yellow Gold Diamond 18 K Ring', 'Home & Kitchen']",['Toygully'],medium,3.558903760555734,high
+92,30,M,tier2,medium,['Mast & Harbour Black Synthetic  Clutch'],"['LukLuck', 'Lip Rageous', 'Geol', 'Daxter', 'the jewelbox']",medium,3.660749197975033,medium
+93,19,M,tier2,medium,"['Kraft Seeds Rosemary Herb (Pack Of 5) Seed (75 p...', 'SMART TRADERS Girls Bellies', 'Crafty Hands Kutchchi Mirrorwork Tapestry (Maroon)']",[],medium,5.0,low
+94,54,M,tier2,medium,"['Tools & Hardware', 'SHOPOJ White Paper Sky Lantern (80 cm X 34 cm, P...']",[],medium,2.7150405583324178,medium
+95,38,M,metro,low,['Srajanaa sr114 Travel Shaving Kit (Black)'],"['Fashion Era', 'Techno TrendZ', 'imitzworld', 'Trudeau']",high,3.860896805312274,low
+96,38,F,tier2,low,"['Eternal Gandhi Super Series Crystal Paper Weight...', 'SMART TRADERS Women Wedges', ""Sisel Printed Poly Cotton Women's Stole""]",['G-Luck'],high,3.540054315996144,high
+97,44,M,tier1,low,['INDILEGO Women Flats'],"['Tucasa', 'Vector X', 'Britex', 'Femme Couture']",high,3.4285615584574365,medium
+98,40,F,tier2,medium,"['SJ Barstel 56m / 1000m Binoculars (30 mm, Black)', 'Glacier Running Shoes']","['Bhavika', 'TeeSort']",medium,2.200388008037916,medium
+99,54,F,tier3,medium,"[""The Cotton Company Solid Women's Polo Neck Pink ...""]","['Anuze Fashions', 'Fashiondeal', 'Futaba', 'nayasa', 'next steps']",medium,4.325607980244679,medium
+100,62,F,metro,low,"['Autoplus M AP15 Arm Sleeve (Black)', 'Skayvon SUBMERSIBBLE THREE PHASE PUMP CONTROLLER...', 'Home Furnishing']","['Spe', 'Gift Studios']",high,2.6145394404674316,low
+101,53,M,tier1,high,['Abhinl Fashion Cotton Printed Semi-stitched Salw...'],['KANCHOO'],low,2.799034352155597,low
+102,55,M,tier1,low,"[""LondonHouze Printed Women's Round Neck Grey T-Shirt""]","['RANGSUTRA', 'IESD', 'Mynte']",high,2.2201715367404855,high
+103,27,F,metro,medium,"[""Camey Men's Quarter Length Socks"", 'Linzina Fashions LIN-HOSS-1.5 Faucet Set', 'Samprada Modern art Tapestry (Black, Pink)']","['Phototech', 'Delberto', 'Fashion Infinite']",medium,4.44177953907944,high
+104,60,M,tier3,high,"['Anuradha Art Stylish Hair Clip (Black)', ""Noor Embroidered Women's Straight Kurta"", 'Pu-Good Women Flats']",['asa products'],low,3.4036114088589455,low
+105,35,F,metro,low,"['Shonaya Printed Bhagalpuri Art Silk Sari', 'ATV Pouch for Acer Liquid Z330 (STEEL BLUE)', 'Carbanao Chrome Grill Chevrolet Cruze Car Grill ...']",['Anshul fashion'],high,2.7536415479273497,medium
+106,58,M,metro,low,"[""Be 13 Printed Boy's Round Neck T-Shirt (Pack of 2)""]","['OutMad', 'RYTHMX', 'Deben & Hill']",high,4.9046633409020925,low
+107,34,F,tier3,medium,"[""Vishudh Printed Women's Anarkali Kurta"", 'Sugandh Vatika 24 Natural Masala, Sandal Incense...']","['Pulse Audio', 'Creez', 'Ndura']",medium,4.0418641090746945,high
+108,35,M,tier2,high,"['BuildTrack PIR Wireless Motion Sensor - One Swit...', 'SAY UV Sterilizer Solid Filter Cartridge (0, Pac...', ""UFO Full Sleeve Solid Girl's Jacket""]","['Needhi', 'BrandMeUp', 'Zyaden', 'Victor']",low,1.8444527160304836,high
+109,44,M,tier3,low,['Zevrr Sterling Silver Swarovski Zirconia Platinu...'],[],high,3.73250483843798,low
+110,40,M,tier3,high,"['Cellbazaar Blackberry 8520 WHITE LCD LCD (YIT-562)', ""ANASAZI Casual 3/4 Sleeve Solid Women's Top"", 'Shonaya Printed Bhagalpuri Art Silk Sari']",['Jack Martin'],low,3.7711136683711213,low
+111,42,F,metro,high,"[""piftif Women's Sports Bra""]",['Nine Maternity Wear'],low,3.834537032773466,medium
+112,35,F,metro,medium,['INKT INKT A5 Wiro Notebook A5 Notebook Ring Boun...'],['Indidecor'],medium,2.350280452895082,high
+113,24,M,tier1,low,"['Olvin Wayfarer Sunglasses', 'Urban Girl Foundation Brush (Pack of 12)']","['sharp n style', 'WOAP', 'Raymond', 'soie', 'Seher']",high,4.3647553257178355,high
+114,42,M,tier1,low,"['Olvin Rectangular Sunglasses', ""Fly U Slim Fit Fit Women's Brown Jeans"", 'ANAND ARCHIES Girls Wedges']","['VES', 'Eternity', 'Amadore', 'Vheelocityin', 'Ultra']",high,4.5129635787581295,low
+115,44,F,tier1,low,"['Anuradha Art Stylish Hair Clip (Blue)', 'Remax Rm-10000 Remax Vanguard 10000mah 10000 mAh...']","['Craft And Curtain', 'Kanch Mall', 'Opaleena', 'Sahara Q Shop', 'Look-Kool']",high,3.4066452593505523,low
+116,49,M,metro,high,"[""fourgee Slim Fit Women's Blue Jeans""]",['Blanket Zone'],low,3.796363636830599,medium
+117,29,F,metro,medium,"['SJ Bushnell 122/1000M Binoculars (36 mm, Black)']","['Coash', 'Earth Ro System', 'Sapatos']",medium,2.3777166530894247,medium
+118,49,M,tier3,low,"['Joyra Heart Sterling Silver Swarovski Crystal, S...', ""killys Men's Solid No Show Socks""]","['TRINK', 'Aapti', 'Laadli Boutique', 'AirFlow', 'Indian Swan']",high,3.790449330067988,low
+119,37,M,metro,low,['Watches'],"['SOS', 'Max']",high,2.283348152083095,low
+120,38,F,tier3,medium,"['Koie  Battery - For Samsung 7562 Premium Quality...', 'JUSF2 Black Color Hair Band (Multicolor)', 'Mobiles & Accessories']","['Tenda', 'Go Hooked']",medium,3.9285248218465574,high
+121,61,F,metro,medium,"['Mobiles & Accessories', 'Clickforsign Vehicles parked Illegally will be t...']","['Comfort Couch', 'Ocean']",medium,3.6405165489568247,medium
+122,21,M,tier3,medium,"['Jewellery', 'Gking Hand Stiched Steering Cover For Renault Sc...']","['Grafion', 'Toyto', 'Lakos', 'JaipurCrafts', 'Airwind']",medium,3.747794439722091,medium
+123,49,M,tier3,medium,"['Baby Care', 'Linzina Fashions LIN-HOSS-1.5 Faucet Set', ""Starsy Printed Women's Round Neck Black T-Shirt""]","['Star Metal', 'Urban Monk Creations', 'Philigree', 'Jaypee Kukeezi']",medium,4.368111098064553,medium
+124,22,F,tier3,low,"['Zikrak Exim Women Wedges', 'classyworld Brass Cufflink (Silver-01)']",['Spangle'],high,3.4340017931303923,low
+125,20,F,tier2,medium,"[""Clovia Women's Full Coverage Bra""]","['Abhinl Fashion', 'Sapphire Diaries', 'Leopard Print', 'Kazo', 'World-Star']",medium,3.7108726275774,medium
+126,37,F,tier1,medium,['Clovia Lingerie Set'],['Khadi Herbal'],medium,3.6120825615534904,high
+127,50,F,tier2,medium,"[""Vinenzia Printed Winter Men's Gloves"", 'Eyewear']",['LukLuck'],medium,2.692073206441748,medium
+128,62,F,tier3,medium,"['Himmlisch 20503 Car Bottle Holder (Plastic)', 'Naaz Dart game Board Game']","['Lava', 'Ziveg']",medium,3.889314379163111,high
+129,25,M,tier1,medium,"['Tools & Hardware', 'Prime Printed 8 Seater Table Cover (Multicolor, ...', ""Viral Girl Women's Full Coverage Bra""]","['Grey & White', 'Toto Link', 'PUSHCART', 'Singh Xpress']",medium,4.113663656642893,medium
+130,33,F,tier1,low,"[""ANASAZI Casual 3/4 Sleeve Solid Women's Top"", 'SMART TRADERS Women Flats', 'Jazz Eyewears Over-sized Sunglasses']","['V-AARCI', 'Rehoboth']",high,2.740980690184626,medium
+131,36,F,tier1,medium,"[""Yo Baby Girl's Trousers"", 'Sonaxo Men Running Shoes', ""Oly Two Fit Fit Women's Black Jeans""]",['SViRU'],medium,4.337001266658827,low
+132,64,M,tier3,low,['Anuradha Art Stylish Hair Clip (Blue)'],"['Leather chief', 'Fs Mini Klub', 'ARMOIRE', 'AAO+', 'Fashionvalley']",high,4.489197861283072,low
+133,43,M,metro,medium,"[""e-Fresh Baby Boy's Brief (Pack of 10)"", 'Impala Alloy Cufflink (White)', ""Be 13 Printed Boy's Round Neck T-Shirt (Pack of 2)""]",['GB Jewellery'],medium,3.575842954219458,high
+134,63,F,tier1,low,"['D&D Women Flats', 'clickforsign Avoid Contanimation Wash your Hands...']",['Aria'],high,3.5862697135078667,medium
+135,62,M,tier1,medium,"['Carbanao Chrome Grill Chevrolet Cruze Car Grill ...', 'Tools & Hardware']","['Furst', 'Total Agency']",medium,3.2195395888776663,medium
+136,33,F,tier1,medium,['Speedwav 240437 Sun Shade For Hyundai i10 (Dashb...'],[],medium,4.043801376727593,medium
+137,47,F,tier1,low,['Jazz Eyewears Over-sized Sunglasses'],"['REAL', 'Urdiva Fashions', 'Smghut']",high,4.059706133982748,low
+138,64,F,tier1,low,"['Small Toes Bellies', 'Home Entertainment']","['Robotel', 'Indiatrendzs', 'Sitare', 'Lodge', 'IndoSurgicals']",high,2.8363740749551285,low
+139,26,F,tier3,low,"['Nut Khut Embroidered Kurta & Churidar', 'ABEEZ Boys, Men, Girls (Black, Pack of 1)', 'Taurus Black & white Lace Up']",['720 Armour'],high,2.6485058983297898,medium
+140,28,M,tier1,low,['Frabjous German silver Rings For Women Alloy Zir...'],[],high,1.87986417829931,high
+141,53,F,tier2,medium,"[""Laser X Checkered Men's Boxer (Pack of 4)"", 'ANAND ARCHIES Girls Wedges']","['CarSizzler', 'Task Logistics', 'RaSav Jewels', 'Libas', 'Com-Paint']",medium,3.6688577118139114,high
+142,44,F,metro,medium,"['Speedwav 240437 Sun Shade For Hyundai i10 (Dashb...', ""Little Stars Girl's A-line Multicolor Dress""]","['PeepalComm', 'Sparkle Street', 'Jiya Fashion Pretties', 'Joyeria Milan']",medium,3.764017018965236,low
+143,35,M,tier1,low,['Kraft Seeds Rosemary Herb (Pack Of 5) Seed (75 p...'],"['Wise Pebble', 'Swethamber Arts', 'Mod-Inn']",high,4.4295700245145895,medium
+144,32,M,tier2,low,"[""Vishudh Printed Women's Anarkali Kurta"", 'NEWGEN TECH EO-HS3303 179 Wired Headset (White)']","['Klaur Melbourne', 'Filink', 'Libas', 'Karp']",high,3.1260996595807518,low
+145,39,F,tier2,low,"[""Little Stars Girl's A-line Multicolor Dress"", 'Kraft Seeds Rosemary Herb (Pack Of 5) Seed (75 p...', 'Eternal Gandhi Super Series Crystal Paper Weight...']","['Schneider', 'Clench', 'Ankita', 'Sheetal Jewellery', 'Onlinemaniya']",high,4.229710027825144,low
+146,35,M,tier1,low,['NEWGEN TECH EO-HS3303 58 Wired Headset (White)'],"['JANKI JEWELLERS', 'LUV']",high,4.947573000287873,high
+147,31,M,metro,low,"['Bags, Wallets & Belts']",['Sparkle Street'],high,2.5388105073625815,medium
+148,40,M,tier3,low,"[""e-Fresh Boy's Brief (Pack of 5)"", 'Treppe Bellies', ""tadd Men's, Women's Ankle Length Socks""]","['Realx Fit', 'Retaaz']",high,3.29265295905436,medium
+149,33,M,tier2,medium,"[""Libas Printed Women's A-line Kurta""]","['Brahaan BLUE TAG', 'Stealodeal', 'HomeEdge', 'Mobilecops']",medium,3.489669839387643,low
+150,37,F,metro,medium,"[""Leading lady Women's Camisole"", ""BLM Casual Printed Women's Kurti"", ""Yo Baby Girl's Trousers""]",['TPH Covers'],medium,4.41435109931363,medium
+151,53,F,tier3,medium,"['Rasav Jewels Yellow Gold Diamond 18 K Ring', 'Taurus Black & white Lace Up']","['NEHP', 'Elite Handicrafts', 'Orange and Orchid', 'sovam']",medium,3.4324311082002095,high
+152,28,F,tier2,high,"['Dressberry Green Synthetic  Clutch', ""Starsy Printed Women's Round Neck Black T-Shirt"", 'Urban Girl Foundation Brush (Pack of 10)']","['Aadi', 'Hotpiper', 'Marwar', 'Pasabahce']",low,2.539969506346181,medium
+153,37,F,metro,medium,"['Speedwav 186879 Bajaj Pulsar 200 NS DTS-i LED In...', ""Starsy Printed Women's Round Neck Black T-Shirt"", 'K&P Lord Ganesha Large 03 Showpiece  -  19 cm (P...']","['FliFit', 'Martini']",medium,4.027319613233572,low
+154,59,M,tier2,low,"['Dremel 2615.023.132 Plastic Friction Work Bench ...', 'Mast & Harbour Black Synthetic  Clutch', 'Bootwale Bellies']","['Accessory Mart', 'Decron Jewels', 'Trackdeal', 'Divinit', 'Frabjous']",high,3.808660292035583,high
+155,35,F,tier3,high,"['Skayvon SUBMERSIBBLE THREE PHASE PUMP CONTROLLER...', 'Toys & School Supplies', 'Arial Morris Women Flats']",[],low,4.462590712997434,medium
+156,57,M,metro,high,"['Gaming', ""Yo Baby Girl's Trousers""]","['Happiness Is', 'PDI', 's2s', 'Artifa']",low,3.067095492184348,low
+157,52,F,tier2,low,"[""tadd Men's, Women's Ankle Length Socks"", ""PrivateLifes MasterPiece Women's Push-up Bra"", ""Be 13 Printed Boy's Round Neck T-Shirt (Pack of 2)""]","['Foot Furnish', 'Gold Dust', 'Jon Pep', 'Darkpink']",high,2.149166809570663,medium
+158,39,M,tier1,low,"['Sumo Baby Walker (Red)', 'Boreal Roller Brush', 'clickforsign Sound horn Before entering Emergenc...']","['AAKAR', 'EZ Life', 'loomkart']",high,3.286383296881729,medium
+159,26,M,tier1,high,['Urban Girl Foundation Brush (Pack of 12)'],"['Medex', 'Nikunj']",low,5.0,low
+160,54,F,tier2,low,"[""Vinenzia Printed Winter Men's Gloves"", 'Speedwav 216456 Manual Rear View Mirror (Right, ...']","['999store', 'Power Smart', 'RajasthaniKart', 'Ornate']",high,4.961413514161981,medium
+161,37,F,tier2,low,"['Zikrak Exim Women Wedges', 'Siemens 5SL Betagard 5SL MCB (1)', 'Linzina Fashions LIN-HOSS-1.5 Faucet Set']","['Infiniti', 'Remix']",high,3.6743373683918428,medium
+162,21,M,metro,medium,"['Synergy SFJB0105 Grocery Bag (Blue)', 'Kraft Seeds Rosemary Herb (Pack Of 5) Seed (75 p...', ""Laser X Checkered Men's Boxer (Pack of 4)""]","['Piyo Piyo', 'Style Homez', 'Jewelina Gems', 'Arial Morris']",medium,4.657856924038887,low
+163,49,M,tier3,high,"[""Oly Two Fit Fit Women's Black Jeans"", ""UFO Self Design Round Neck Casual Girl's Sweater"", ""e-Fresh Boy's Brief (Pack of 5)""]",['BM WOOD FURNITURE'],low,3.2755761438088125,low
+164,51,M,tier3,medium,"['NEWGEN TECH EO-HS3303 218 Wired Headset (White)', 'K&P Dr.Ambedkar Large 04 Showpiece  -  19 cm (Po...']","['Yuccabe Italia', 'beebay', 'piftif']",medium,2.2152511441821976,low
+165,58,F,tier3,medium,"['classyworld Brass Cufflink (Grey-02)', ""Vishudh Printed Women's Straight Kurta""]","['Fashionite', 'Adino', 'Rehoboth', 'VASTUGHAR', 'Relaxed']",medium,2.721035889043092,medium
+166,48,M,metro,medium,"['NEWGEN TECH EO-HS3303 58 Wired Headset (White)', ""Miss Wow Slim Fit Women's Blue Jeans""]",[],medium,3.7204778728080012,low
+167,63,F,metro,medium,['Himmlisch 20503 Car Bottle Holder (Plastic)'],[],medium,2.7384037297441366,high
+168,31,M,tier1,medium,"[""Ruhi's Creations Cotton Floral King sized Double...""]",[],medium,3.3030123629538233,high
+169,54,F,tier3,high,"[""Legmark Slim Fit Women's Light Blue Jeans""]","['Skovin', 'Ninety One Degree', 'Novicz', 'TOPQ']",low,2.0057466245691034,low
+170,24,F,tier3,low,"[""E'Hiose Girl's Leggings (Pack of 6)"", ""Indistar Self Design Viscose Women's Stole"", 'Wella Elements Leight Weight Renewing Conditione...']",[],high,3.217029989865394,low
+171,37,M,tier3,high,"[""Be 13 Printed Boy's Round Neck T-Shirt (Pack of 2)"", 'Pout Brass Bangle']","['Nuteez', 'FTCBazar', 'NAVISHA']",low,5.0,medium
+172,60,F,tier2,medium,"['Furniture', 'Kraft Seeds Rosemary Herb (Pack Of 5) Seed (75 p...']","['Diti Enterprises', 'The Jewelbox', 'Freelance', 'WhiteGems']",medium,2.0912869753424825,low
+173,48,F,tier2,low,"[""piftif Women's Sports Bra""]",[],high,3.603389223018866,low
+174,49,M,tier2,low,"['K&P Dr.Ambedkar Large 04 Showpiece  -  19 cm (Po...', 'Areon Luxurious Fragrance Long Lasting Car,Home,...', ""killys Men's Solid No Show Socks""]","['Glacier', 'Silco', 'Lily']",high,3.076667130386877,low
+175,44,F,tier1,medium,"['Speedwav 240437 Sun Shade For Hyundai i10 (Dashb...', 'Furniture', 'SMART TRADERS Girls Bellies']","['OMRD', 'Naxa Electronics', 'Rouge Red', 'Chevron', 'Daxter']",medium,3.523406775900249,medium
+176,27,M,metro,medium,"['Himmlisch 20503 Car Bottle Holder (Plastic)', 'AutoKraftZ Optimum Locking Device For Bajaj Puls...']","['SUPERMOD', 'Dinoimpex', 'Body Balance']",medium,4.157696106008169,medium
+177,52,M,tier1,low,"[""SUPERMOD Men's Brief""]","['Change360°', 'JJ JONEX']",high,3.0566891549906408,low
+178,21,F,tier1,high,"['SJ Bushnell 122/1000M Binoculars (36 mm, Black)', 'Home Decor & Festive Needs', 'Anuradha Art Stylish Hair Clip (Blue)']",['Viral Shopping'],low,3.6432939406230016,high
+179,50,F,tier3,medium,"['Dressberry Black Synthetic  Clutch', 'OEM 170774 Bike Side Stand']",[],medium,2.961882676969414,medium
+180,59,F,metro,medium,"['Impala Alloy Cufflink (White)', ""Ajaero Slim Fit Women's Dark Blue Jeans"", ""Starsy Printed Women's Round Neck Black T-Shirt""]","['Barbar', 'Bemoree', 'Katalogue', 'Addyvero', 'ManeKo']",medium,3.704331164568865,medium
+181,47,F,tier2,medium,['Dressberry Gold Synthetic  Clutch'],[],medium,2.0506807796959974,low
+182,47,F,tier1,medium,"['Speedwav 186879 Bajaj Pulsar 200 NS DTS-i LED In...', 'Jewellery']","['TAB91', 'Yumlookup', 'Reins']",medium,3.358853694392201,medium
+183,34,F,tier2,low,['REMSON INDIA Women Flats'],"['OXO', 'Madhavs', 'Flair', 'classyworld']",high,5.0,medium
+184,29,M,tier2,medium,"['Dressberry Orange Synthetic  Clutch', 'Autoplus M AP18 Arm Sleeve (Black)']","['Advent Crafts', 'Imagination And Beyond', 'The Fine World', 'DOLZ']",medium,2.4896852503315223,medium
+185,40,F,tier1,low,['Style World Women Flats'],[],high,3.264379883067795,medium
+186,45,M,tier1,medium,"['OEM 170774 Bike Side Stand', 'Cameras & Accessories', 'Siemens 5SL Betagard 5SL MCB (1)']","['Manirathnum', 'Vamtek', 'Asus', 'Ollington St. Collection']",medium,1.6567730838686634,high
+187,22,F,metro,low,['Power Smart Quick Charging Pack For PAN CGR-DU-2...'],"['Beebay', 'Aapti', 'Fourwalls', 'Treppe']",high,3.8094910628909395,medium
+188,64,M,metro,low,"[""EASIES Solid Single Breasted Casual Men's Blazer""]","['Sanaa Creations', 'Jaipar Heritage']",high,2.8653430666952993,low
+189,39,F,tier3,medium,"[""Auraa Men's, Women's Solid No Show Socks""]",['Prachin'],medium,3.3201234327326272,low
+190,52,F,metro,medium,['Mast & Harbour Black Synthetic  Clutch'],"['Demokrazy', 'Onlinemaniya', 'HP']",medium,2.615017221233972,low
+191,58,F,tier3,medium,['Abhinl Fashion Cotton Printed Semi-stitched Salw...'],"['R S Jewels', 'Kamakhya Jewels', 'NIRLON', 'Hoffmen', 'Leo n Babes']",medium,4.339439046053556,low
+192,55,M,tier3,medium,"[""Disney Printed Baby Boy's Hooded Grey T-Shirt"", ""Auraa Men's, Women's Solid No Show Socks"", 'classyworld Brass Cufflink (Grey-02)']","['Prym', 'Schneider', 'Neyth']",medium,3.1554321290737795,medium
+193,24,F,tier1,medium,"['ANAND ARCHIES Girls Wedges', ""Auraa Men's, Women's Solid No Show Socks"", 'Impala Alloy Cufflink (White)']","['Unique Fashion', 'Shreeka']",medium,2.911733507110012,medium
+194,35,F,tier1,medium,"['Mast & Harbour Gold Synthetic  Clutch', 'Frabjous German silver Rings For Women Alloy Zir...']","['THINK3', 'W', 'Koncepts']",medium,2.7980762648996866,medium
+195,59,F,tier3,low,"['Escan Lace Up', ""e-Fresh Baby Boy's Brief (Pack of 10)""]","['Bold Black', 'Siyas Collection', 'Clickroo', 'Sitaram']",high,3.6051805144651037,low
+196,18,M,metro,low,['Siemens 5SL Betagard 5SL MCB (1)'],"['STM', 'dilli bazaaar', 'FURNISHINGLAND', 'Funku Fashion']",high,4.443262451084149,high
+197,32,F,tier1,low,"['Clothing', 'Pu-Good Women Flats']","['Tiedribbons', 'Masterhandicraft', 'Shyam Fashion']",high,4.0519118000876855,medium
+198,61,M,tier2,high,"['Kanvas Bellies', 'Oddy RS 1.5 X 2 100 Sheets Self Stick Reposition...', 'Siemens 5SL Betagard 5SL MCB (1)']","['Star Metal', '69th Avenue']",low,2.2516312401260175,high
+199,61,F,tier1,medium,"['Gking Hand Stiched Steering Cover For Maruti Ert...', 'Speedwav 240437 Sun Shade For Hyundai i10 (Dashb...', ""Libas Printed Women's A-line Kurta""]","['Agrasen International', 'Manjaree', 'Ruby', 'Vijayanti', 'Suvini']",medium,3.157444861602646,low
+200,38,F,tier2,medium,"[""Threads & Pals Full Sleeve Printed, Solid Men's ...""]","['Tucasa', 'Gungun', 'Cinderella']",medium,2.417187697409971,high
+201,18,M,metro,medium,['Clovia Lingerie Set'],"['Momin Libas', 'Pretty Women', 'Merlin']",medium,5.0,low
+202,62,M,tier3,medium,"[""Breakbounce Men's Vest"", 'Olvin Rectangular Sunglasses', 'Remax Rm-10000 Remax Vanguard 10000mah 10000 mAh...']","['ARB', 'LGRL', 'Anupam', 'DOCOSS']",medium,2.132072124032921,high
+203,57,M,metro,medium,"[""Clovia Women's Full Coverage Bra""]",[],medium,4.973242067393386,high
+204,27,F,metro,medium,"[""Ajaero Slim Fit Women's Dark Blue Jeans"", ""Fabpoppy Printed Women's Jumpsuit"", 'AutoKraftZ Optimum Locking Device For Bajaj Puls...']","['OM SHIVAKRITI', 'Lucky Thailand']",medium,2.043043186023451,medium
+205,20,M,tier1,medium,"['SJ Comet Zoom DPSI Binoculars (30 mm, Black)', 'Automation & Robotics']","['wallskart', 'BornBabyKids', 'Monmione', 'Chazer']",medium,3.8627362048236287,high
+206,41,F,tier2,low,"[""Camey Men's Quarter Length Socks""]","['Unravel India', 'Riot Jeans', 'Purple', 'Ortel', 'Hangrr']",high,5.0,high
+207,47,M,tier2,low,"[""Kombee Girl's Printed Red, Pink Top & Capri Set""]",['Kozdiko'],high,3.118235492849541,low
+208,52,M,tier3,medium,"['FEET FLOW Women Flats', 'Skayvon SUBMERSIBBLE THREE PHASE PUMP CONTROLLER...', ""Nine Maternity Wear Women's Fit and Flare Dress""]",['Kanu'],medium,4.845283185512486,medium
+209,42,M,tier3,low,"['SRPC BAOER STARWALKER EXECUTIVE ROLLERBALL Pen G...', ""BLM Casual Printed Women's Kurti"", 'SMART TRADERS Women Flats']","['Vamtek', 'Gravolite', 'Funcart', 'JJ Jonex']",high,3.1981275315310382,low
+210,23,F,tier2,high,['Home Furnishing'],[],low,3.296052468756705,medium
+211,43,M,metro,medium,"[""Yo Baby Girl's Trousers""]",[],medium,3.647738421428238,medium
+212,38,M,tier2,medium,"[""EASIES Solid Single Breasted Casual Men's Blazer"", 'Gking Hand Stiched Steering Cover For Renault Sc...']","['Yashasvi', 'Super Drool', 'Home Fashion Gallery', 'chamanhandicrafts']",medium,2.9451836674580845,medium
+213,24,M,metro,medium,"[""Breakbounce Men's Vest"", 'Firangi Cotton, Polyester Free Floor Mat Firangi...', ""Ruhi's Creations Cotton Floral King sized Double...""]","['Craft And Curtain', 'KHUSHI HANDICRAFTS', 'Shopernow']",medium,3.3734722938926582,medium
+214,48,F,tier3,medium,"[""Vinenzia Printed Winter Men's Gloves"", 'Tools & Hardware']","['Eternal Gandhi', 'MCB Exports', 'Gehna', 'Invaders']",medium,3.0178965456039055,low
+215,58,F,metro,medium,['Food & Nutrition'],['Jss Exports'],medium,4.3887066313050695,low
+216,21,M,tier3,low,"['Siemens 5SL Betagard 5SL MCB (1)', ""Libas Printed Women's Anarkali Kurta""]",[],high,2.877821046858865,medium
+217,24,F,metro,medium,"['clickforsign Sound horn Before entering Emergenc...', 'Zikrak Exim Women Wedges', 'SRPC BAOER STARWALKER EXECUTIVE ROLLERBALL Pen G...']","['Indidecor', ""Carter'S"", 'Ermani Export', 'RosesNRibbons']",medium,2.656877098600127,low
+218,44,M,tier3,high,['Glacier Running Shoes'],"['Satovira', 'Miss Wow', 'Weldecor', 'Foot Candy', 'Pearl']",low,2.7383377621232436,low
+219,43,F,metro,medium,"[""UFO Full Sleeve Solid Girl's Jacket"", 'Sugandh Vatika 24 Natural Masala, Sandal Incense...']",['Right'],medium,3.9577656220157316,medium
+220,53,M,tier2,low,"['Dremel 2615.023.132 Plastic Friction Work Bench ...', 'Dressberry Black Synthetic  Clutch', ""Nine Maternity Wear Women's Fit and Flare Dress""]",[],high,2.902188914954022,medium
+221,30,F,metro,high,"[""EASIES Solid Single Breasted Casual Men's Blazer"", ""HANS Men's Crew Length Socks"", ""Threads & Pals Full Sleeve Printed, Solid Men's ...""]","['KRiSS', 'Polo House USA']",low,4.717900830447382,medium
+222,49,M,tier3,low,"['Speedwav 186879 Bajaj Pulsar 200 NS DTS-i LED In...', ""883 Police Full Sleeve Solid Men's Jacket"", 'Automation & Robotics']","['JK Import', 'MSL', 'Wi Retail']",high,3.2763185935301102,low
+223,28,F,tier2,low,"[""soie Fashion Women's Sports Bra"", ""tadd Men's, Women's Ankle Length Socks"", 'Pout Brass Bangle']","['Interio Crafts', 'e.l.f. Cosmetics']",high,2.782500134562841,medium
+224,56,M,tier3,medium,['Naaz 2 in 1 Paper Quilling Board Game'],[],medium,3.6015209336850447,medium
+225,36,M,tier2,medium,"['Kitchen & Dining', 'Sunglasses']","['First Smart Deal', 'Coddle', 'Imli Street']",medium,4.541737136566321,medium
+226,23,F,metro,low,"[""Disney Printed Baby Boy's Hooded Grey T-Shirt""]","['Crokrok', 'C9', 'Light Purple', 'Global Ganesha', 'Quirky']",high,5.0,medium
+227,31,M,tier2,low,['Jewellery'],"['LAST BENCH', 'Disney', 'YugshaJewels', 'JBG Home Store', 'Akin']",high,2.716372893039155,low
+228,58,M,metro,medium,"['Cellbazaar Blackberry 8520 WHITE LCD LCD (YIT-562)', ""New Darling Women's Printed Top & Pyjama Set""]",['Sunita Fashion'],medium,4.480945656753659,low
+229,26,F,tier3,high,"[""E'Hiose Girl's Leggings (Pack of 6)"", 'BuildTrack PIR Wireless Motion Sensor - One Swit...']","['SHIMZA', 'Cookart']",low,3.927033228942375,medium
+230,41,F,tier1,medium,['Boreal Roller Brush'],"['Antshrike', 'Zephyrr', 'Trudeau', 'BagsHub']",medium,3.1985526220593488,low
+231,34,M,metro,low,"[""Oly Two Fit Fit Women's Dark Blue Jeans"", 'SHOPOJ Multicolor Paper Sky Lantern (80 cm X 34 ...']","['Gwyn lingerie', 'Spycom', 'Elan']",high,3.1141900834322143,medium
+232,39,M,tier2,medium,"[""killys Men's Solid No Show Socks""]",['NITGEN'],medium,2.810484500967829,low
+233,64,F,tier2,low,"['Power Smart Quick Charging Pack For PAN CGR-D28 ...', ""Ruhi's Creations Polyester Silk Blend Cartoon Ki...""]","['Attitude', 'Art Antiqua']",high,1.3678835219363892,high
+234,51,F,tier1,high,"[""Spa Culture Fit Fit Women's Black Jeans"", 'Kalpaveda Copper Bowl (Gold, Pack of 1)']",['LukLuck'],low,4.707802710507947,low
+235,59,M,tier3,medium,['Anuradha Art Stylish Hair Clip (Black)'],"['Mafatlal', 'Cotts Hub', 'Mr Plus', 'Mario Gotze']",medium,4.893377325797801,low
+236,27,M,metro,medium,"[""Fly U Slim Fit Fit Women's Brown Jeans"", ""Clovia Women's Full Coverage Bra""]","['Satovira', 'Khaan Saab Editions', 'Vgstore', 'Wipro']",medium,3.5426381856914655,low
+237,55,F,tier3,low,"['INKT INKT A5 Wiro Notebook A5 Notebook Ring Boun...', ""UFO Full Sleeve Solid Girl's Jacket"", ""Clovia Women's T-Shirt Bra""]","['Adorelabel', 'BUMPKIN', 'Nature Gold', 'SMC', 'Jojo']",high,3.31653722483287,low
+238,38,M,tier2,high,['Impala Alloy Cufflink (White)'],[],low,2.7114386749938246,low
+239,22,M,tier1,low,"[""Nine Maternity Wear Women's Fit and Flare Dress""]",['BONHEUR'],high,3.299607320265662,medium
+240,41,F,tier3,medium,['Escan Lace Up'],"['ABCD', 'Bed & Bath', 'KASCN']",medium,3.3376059508087637,low
+241,64,F,tier2,medium,['Home Decor & Festive Needs'],['Bagru Crafts'],medium,1.6397500419638922,high
+242,31,M,tier3,medium,"['Household Supplies', ""Starsy Printed Women's Round Neck Black T-Shirt""]","['Ada Jewel', 'ATIS AMCO', 'Samaa']",medium,3.389801420052495,high
+243,55,F,metro,low,"['Kraft Seeds Rosemary Herb (Pack Of 5) Seed (75 p...', 'Home Furnishing']",['Favourite BikerZ'],high,3.6570137929269606,low
+244,43,F,tier2,high,"['Autoplus M AP15 Arm Sleeve (Black)', 'Speedwav 240437 Sun Shade For Hyundai i10 (Dashb...']","['Creativity Centre', 'Beanz']",low,2.6209509296492284,low
+245,41,F,tier3,high,"['Zixtro Bug (Black, Backpack)', 'Anuradha Art Stylish Hair Clip (Blue)']","['FS Brass', 'Nine Maternity Wear', ""Bull's Eye"", 'CUBA', 'Sahej']",low,2.213274378290144,medium
+246,58,F,tier3,low,"['Clothing', 'Pu-Good Women Flats', ""e-Fresh Boy's Brief (Pack of 5)""]","['ortel', 'Eastman']",high,4.117454746419198,low
+247,50,F,metro,medium,['Abhinl Fashion Cotton Printed Semi-stitched Salw...'],"['Czds India', 'Vs International']",medium,4.434807206311908,low
+248,38,M,tier1,medium,"['Prime Printed 8 Seater Table Cover (Multicolor, ...', 'SHOPOJ White Paper Sky Lantern (80 cm X 34 cm, P...', ""Legmark Slim Fit Women's Blue Jeans""]","['RJ', 'Lolaski', 'Myint']",medium,3.9171547640339073,high
+249,45,F,tier3,medium,"['Knight Ace Kraasa Sports Running Shoes, Cycling ...', 'Power Smart Quick Charging Pack For PAN CGR-D28 ...']","['Tsquare', 'Pearl Berry', 'Sonaxo', 'Panditnmshrimali', 'NIKsales']",medium,3.1329215333608627,high
+250,47,M,tier2,high,"[""Attitude Printed Women's Round Neck Black T-Shirt"", 'Olvin Wayfarer Sunglasses']","['Dremel', 'RoyalLifestyle', 'Rajo Raja', 'Ole Baby', 'Bestway']",low,3.426118497406704,medium
+251,64,F,tier1,high,"[""Dassler Slim Fit Women's Multicolor Jeans"", 'Sj Bushnell 119M / 1000 Binoculars (36 mm, Black)', 'Oddy RS 1.5 X 2 100 Sheets Self Stick Reposition...']","['ULTRAVISION', 'TSG Escape', 'Desert Eshop', 'Abhushan']",low,3.472299775733386,medium
+252,32,M,tier1,low,"[""killys Men's Solid No Show Socks"", 'Anuradha Art Stylish Hair Clip (Blue)']",[],high,4.368890054311089,medium
+253,24,M,tier1,medium,"['Amita Home Furnishing Cotton Printed Single Beds...', 'Automation & Robotics', ""Vitamins Solid Baby Girl's Basic Shorts""]","['tryfeet', 'Gioiabazar', 'Firozy', 'Chazer']",medium,3.6181332495594254,medium
+254,30,F,tier3,medium,"['Speedwav 216456 Manual Rear View Mirror (Right, ...', 'Oddy RS 1.5 X 2 100 Sheets Self Stick Reposition...']","['DIVAS CHOICE', 'Deepvan']",medium,4.243566053337409,low
+255,25,F,tier1,medium,"[""TSG Breeze Printed Women's Round Neck Multicolor...""]","['Jutecentral', 'saubhagyawatifashions', 'fashion point']",medium,3.9253698728715873,medium
+256,25,F,tier1,medium,"['Firangi Cotton, Polyester Free Floor Mat Firangi...']","['Dilan Jewels', 'Planet Waves']",medium,3.266229748569253,medium
+257,62,F,tier3,low,"['Home Furnishing', 'Crafty Hands Kutchchi Mirrorwork Tapestry (Maroon)']",['Fash Blush'],high,4.407658859384443,medium
+258,28,M,tier1,medium,"['Speedwav 186879 Bajaj Pulsar 200 NS DTS-i LED In...', ""Legmark Slim Fit Women's Light Blue Jeans"", 'Mast & Harbour Black Synthetic  Clutch']","['Anshuhandicrafts', 'Kalt', 'k shopping']",medium,5.0,low
+259,30,F,tier3,medium,"['ABEEZ Boys, Men, Girls (Black, Pack of 1)']","['Royalminchem', 'Auto Wheel Garage', 'Pakshal Premium']",medium,2.6648480284708955,low
+260,19,M,tier2,high,"['Skayvon SUBMERSIBBLE THREE PHASE PUMP CONTROLLER...', ""Miss Wow Slim Fit Women's Blue Jeans"", 'Frabjous German silver Rings For Women Alloy Zir...']",['Nillkin'],low,3.5842249213257213,high
+261,55,F,metro,medium,"['Behringer Xenyx 502 Analog Sound Mixer', ""HANS Men's Crew Length Socks"", 'Kraft Seeds Dill Herb Seed (50 per packet)']","['StyBuzz', 'MYFAA']",medium,3.2596610279766964,medium
+262,61,F,metro,medium,"[""UFO Full Sleeve Solid Girl's Jacket"", 'INVENTURE RETAIL Nail Cutter']","['Just Women', 'Guardian']",medium,2.8089660925567808,low
+263,31,M,metro,high,['Bootwale Bellies'],"['Hi Art', 'Magideal', 'IBALL', 'Mahalaxmi', 'Pu-Good']",low,2.387818929141532,low
+264,21,M,metro,low,['Himmlisch 20503 Car Bottle Holder (Plastic)'],"['Download Apparel', 'Reins']",high,3.0079863621710423,low
+265,23,M,metro,low,['Speedwav 186926 Royal Enfield 350 Twin Spark LED...'],['Durian'],high,4.087605543307672,low
+266,42,M,tier3,high,"['Anuradha Art Stylish Hair Clip (Black)', ""piftif Women's Sports Bra"", 'Boreal Roller Brush']","['Hitobito', 'Magentta']",low,3.052759523379376,high
+267,27,F,tier3,medium,"['Sj Bushnell 119M / 1000 Binoculars (36 mm, Black)', ""MASARA Solid Women's Straight Kurta""]",[],medium,3.3127564977840094,low
+268,51,M,metro,low,"[""Auraa Men's, Women's Solid No Show Socks"", 'Olvin Oval Sunglasses']","['Shivam', 'CREEDS', 'Shop Rajasthan', 'Clovia']",high,3.2582943492445446,low
+269,55,F,tier1,low,"['clickforsign Sound horn Before entering Emergenc...', ""SMART DENIM Solid Women's White Denim Shorts"", ""Breakbounce Men's Vest""]","['Body Balance', 'Allure Auto', 'Rajex', 'NavyaRiti']",high,3.1766177427029363,low
+270,33,F,tier1,medium,"[""Dolz Slim Fit Fit Women's Brown Jeans"", 'Pia International 10X70X70 WITH ZOOM SAKURA Bino...']","['Suave', 'KAROZ', 'VR Designers']",medium,3.62111460843597,medium
+271,27,M,metro,medium,"['Favourite BikerZ 3514 RAD air filter Ionic Air F...', ""TSG Breeze Printed Women's Round Neck Multicolor..."", ""Libas Printed Women's Anarkali Kurta""]",['LIENZ'],medium,3.7577897703124914,medium
+272,30,F,tier3,high,"['Koie  Battery - For Samsung 7562 Premium Quality...', 'Furniture', 'BALAJI EXPORTS Bottled Wine Cooler (9 Bottles)']",[],low,2.9944885606952725,high
+273,58,F,tier3,medium,"[""e-Fresh Boy's Brief (Pack of 5)"", 'Urban Girl Foundation Brush (Pack of 10)', 'SHOPOJ Multicolor Paper Sky Lantern (80 cm X 34 ...']","['Asavari world', 'Jouer', 'Oly Two', 'Blush Collections']",medium,2.013529670012523,medium
+274,54,F,tier2,medium,"[""soie Fashion Women's Full Coverage Bra"", 'Carbanao Chrome Grill Chevrolet Cruze Car Grill ...']","['OMRD', 'Rajex', 'Goblin']",medium,3.658740179750827,low
+275,58,F,metro,low,"['Speedwav 216510 Manual Rear View Mirror (Right, ...', 'Planet Waves Woodstock Strap (Multicolor)']","['5 FEELINGS', 'SHIMZA', 'Fuschia', 'Aaina Home Decor']",high,4.382633275164234,medium
+276,63,F,tier1,low,"['Siyas Collection Lac Cubic Zirconia Bangle Set (...', 'Urban Girl Foundation Brush (Pack of 7)']","[""Buyer's Beach"", 'Pro biker', 'SHANY']",high,2.553463084689832,low
+277,27,F,metro,medium,['Pet Supplies'],['Medex'],medium,2.8465301583472113,medium
+278,19,F,tier2,low,"[""kem Flow Gold skinny Fit Baby Girl's Blue Jeans"", 'Prime Printed 8 Seater Table Cover (Multicolor, ...', ""TIMBERLAKE Slim Fit Fit Women's Brown Jeans""]","['KHI', 'The Fine World', 'Andrew Christian', 'Amatra']",high,4.100687099094216,medium
+279,19,F,tier3,medium,['Naaz Dart game Board Game'],"['NELL', '9blings', 'Oggo Deo']",medium,3.643058774234393,low
+280,36,F,metro,medium,"[""GALLOWAY skinny Fit Women's Jeans"", 'Urban Girl Foundation Brush (Pack of 12)']",['Rang Rage'],medium,3.480992021864627,medium
+281,21,F,metro,low,"[""TIMBERLAKE Slim Fit Fit Women's Blue Jeans"", 'Kalpaveda Copper Bowl (Gold, Pack of 1)', 'SHOPOJ Yellow Paper Sky Lantern (80 cm X 34 cm, ...']","['Opc', 'Skovin']",high,2.7518369616755414,high
+282,56,M,tier1,medium,"['Lucky Thailand GL/ LG30 Glass (300 ml, Clear, Pa...']","['Boreal', 'Sinina', 'Art n Beyond']",medium,3.2121030013203806,low
+283,22,M,metro,high,"[""Ajaero Slim Fit Women's Dark Blue Jeans"", 'Autoplus M AP15 Arm Sleeve (Black)', 'Small Toes Bellies']","['FEET FLOW', 'Jiya Fashion Pretties']",low,2.9007704901818854,low
+284,30,F,metro,medium,"['Beauty and Personal Care', ""Vishudh Printed Women's Anarkali Kurta"", 'Adidas IND PRO THI GUA Thigh Guard (White, Blue,...']",['Herbal Jewellery'],medium,3.581881192999323,high
+285,23,M,tier2,medium,"['Jewellery', 'Asics Gel-Kayano 22 Running Shoes']","['Kalaai', 'Amour', 'LAMS', 'SG']",medium,4.15184477444452,medium
+286,49,M,tier3,medium,['Behringer Xenyx 502 Analog Sound Mixer'],"['Hand to Hearts', 'Lavanaya', 'SRPC', 'Magnusdeal', 'Being Trendy']",medium,2.7013501781396805,low
+287,21,M,tier1,medium,"['Planet Waves Woodstock Strap (Multicolor)', 'INKT INKT A5 Wiro Notebook A5 Notebook Ring Boun...']","['Awari', 'Surface 180', 'Aakar', 'Homedesires', 'iCare']",medium,2.2859369038848163,low
+288,38,M,tier3,medium,['INVENTURE RETAIL Nail Cutter'],[],medium,3.4061559697560186,low
+289,36,M,tier3,medium,"[""fourgee Slim Fit Boy's Black Jeans"", 'Planet Waves Woodstock Strap (Multicolor)', 'Synergy SFJB0105 Grocery Bag (Blue)']",['Concorde'],medium,2.890610942350485,medium
+290,35,F,metro,medium,"[""Legmark Slim Fit Women's Blue Jeans""]","['Hariom enterprises', 'Toons', 'SYON', 'Royal Blue']",medium,5.0,medium
+291,41,F,tier1,low,['Planet Waves Woodstock Strap (Multicolor)'],"['Slice of Bengal', 'The Cotton Company', 'Antistreet']",high,3.2077517555195487,medium
+292,30,M,tier1,medium,"['GM Power mate 4 Strip Surge Protector (White)', 'Pens & Stationery']","['Knox', 'You Got Plan B', 'Cottage', 'BuildTrack', 'OSS-FUEL']",medium,2.9191165762221836,low
+293,55,F,tier1,medium,"[""Dassler Slim Fit Women's Multicolor Jeans"", 'SHOPOJ Yellow Paper Sky Lantern (80 cm X 34 cm, ...', 'Dressberry Orange Synthetic  Clutch']","['Weavers Villa', 'Cream']",medium,3.939243374237177,low
+294,32,F,tier1,low,['Dressberry Orange Synthetic  Clutch'],"['Xenio', 'Crocs']",high,4.3173998554753465,medium
+295,21,F,metro,high,"['Home Improvement', 'Home Decor & Festive Needs', ""Legmark Slim Fit Women's Light Blue Jeans""]","['@home', 'soie', 'ShwetaInternational']",low,4.15280613200612,low
+296,18,F,tier2,medium,"['Zevrr Sterling Silver Swarovski Zirconia Platinu...', 'Olvin Rectangular Sunglasses', 'K&P Dr.Ambedkar Large 04 Showpiece  -  19 cm (Po...']","['DWM', 'Dark Image', 'Creative Textiles', ""Khadim's""]",medium,4.7262037610297565,medium
+297,61,M,tier1,low,"['Beauty and Personal Care', 'clickforsign Avoid Contanimation Wash your Hands...', ""Lilliput Top Baby Girl's  Combo""]","['INEXT', 'Autoplus', 'HANSFOOTNFIT']",high,4.033756479684379,low
+298,48,M,tier3,low,['The Crazy Me 1 Compartments Eco-Friendly leather...'],"['EthnicQueen', 'MARVEL', 'Fayon', 'mobiworld4u', 'Cotton World']",high,3.153775485775016,medium
+299,58,M,metro,medium,"[""Sisel Printed Poly Cotton Women's Stole"", 'Taurus Black & white Lace Up']",[],medium,4.888847774775126,low
+300,53,F,tier1,medium,"[""piftif Women's Sports Bra"", 'Tools & Hardware', 'Cameras & Accessories']",['Raghav India'],medium,4.522391266163099,high
+301,53,M,tier3,high,"[""Kombee Girl's Printed Red, Pink Top & Capri Set""]","['Shivam', 'Change360°']",low,2.871893969439396,medium
+302,18,M,metro,low,"[""EASIES Solid Single Breasted Casual Men's Blazer""]","['Type R', 'SKC', 'adidas']",high,3.3103364739630923,low
+303,28,F,tier3,high,['Zikrak Exim Women Wedges'],"['MohanJodero', 'Zaveri Pearls']",low,2.9651920457337697,medium
+304,23,M,tier3,low,"['SJ Comet Zoom DPSI Binoculars (30 mm, Black)']","['Ollington St. Collection', 'KALYANI COVERING']",high,4.0675342799783545,high
+305,60,M,metro,medium,"['Speedwav 216456 Manual Rear View Mirror (Right, ...', 'SMART TRADERS Women Flats']","['Mark Home', 'Vency creation', '999store']",medium,2.9098802710599547,low
+306,54,F,tier3,medium,['Dressberry Gold Synthetic  Clutch'],"['Lilliput', 'Shop4everything', 'MARVEL', 'C9', 'RIPR']",medium,3.8710025495744755,medium
+307,28,M,metro,medium,"['Frabjous German silver Rings For Women Alloy Zir...', ""BLM Casual Printed Women's Kurti""]",[],medium,2.0586397045265876,medium
+308,18,M,tier2,medium,['Clickforsign Vehicles parked Illegally will be t...'],"['Furry', 'Peacock', 'Apex']",medium,2.304868343976005,medium
+309,20,M,tier3,medium,"[""The Cotton Company Solid Women's Polo Neck Pink ..."", 'NEWGEN TECH EO-HS3303 218 Wired Headset (White)', 'Wellon Fittings set (16 pieces) for RO Water Pur...']",[],medium,2.9698312305688903,high
+310,45,M,tier3,medium,"[""Vinenzia Printed Winter Men's Gloves"", 'Behringer Xenyx 502 Analog Sound Mixer', 'Wellon Fittings set (16 pieces) for RO Water Pur...']",['Lavie'],medium,3.75387095070973,medium
+311,50,M,tier3,medium,['Favourite BikerZ 3514 RAD air filter Ionic Air F...'],"['Cobb', 'Charu Fashionz', 'ALIFS', 'Ally The Creations']",medium,4.294529184076466,high
+312,50,F,tier1,medium,"[""Spa Culture Fit Fit Women's Black Jeans"", 'Firangi Cotton, Polyester Free Floor Mat Firangi...']","['Wake Up Competition', 'Petshop7', 'VINSON LONDON', 'Done By None']",medium,3.6541885566783923,low
+313,49,M,metro,medium,"['Baby Care', ""e-Fresh Boy's Brief (Pack of 5)"", 'Just Wow Women Flats']","['kawal fashion', 'Regular Fit', 'Infiniti', 'Trend Notes']",medium,4.284581878021857,low
+314,47,F,tier3,high,"['SRPC BAOER STARWALKER EXECUTIVE ROLLERBALL Pen G...', 'Home Improvement']",['Fashionography'],low,3.9019391589291157,high
+315,64,F,tier1,low,"['Speedwav 216510 Manual Rear View Mirror (Right, ...', 'FEET FLOW Women Flats']","['Nishtaa', 'Deepvan', 'SSCP', 'V Creations']",high,4.2716043454414,low
+316,19,M,metro,low,"['Sj Bushnell 119M / 1000 Binoculars (36 mm, Black)', ""Oly Two Fit Fit Women's Black Jeans""]",['Color Palatte'],high,3.4919597321947102,low
+317,20,F,metro,medium,"['Olvin Oval Sunglasses', 'eBooks']","['CONVENIENCE', 'SR Crafts', 'Finolex', 'Sunlast', 'Ollington St. Collection']",medium,4.7340422070981605,low
+318,53,M,metro,high,"[""Indistar Self Design Viscose Women's Stole""]","['Osmonde', 'Adino', 'Adaa', 'Red Chief']",low,3.224132325725407,medium
+319,19,M,tier2,high,"['Sugandh Vatika 24 Natural Masala, Sandal Incense...', 'SAY Thread Wounded Candle 10"" Set of 4 pcs Solid...']",['HugMe.fashion'],low,4.553402302039817,high
+320,34,M,metro,low,['Shrih SH-0192 Wired USB Flexible Keyboard (Red)'],"['Type R', 'Value Bay', 'Wella', 'Parth Collection', 'Exilient']",high,4.664695887217544,medium
+321,44,M,tier1,medium,"['SHOPOJ Yellow Paper Sky Lantern (80 cm X 34 cm, ...', 'Kraft Seeds Dill Herb Seed (50 per packet)', 'Kalpaveda Copper Bowl (Gold, Pack of 1)']",['Aapti'],medium,3.7316624758855137,medium
+322,41,M,metro,low,"['Speedwav 216456 Manual Rear View Mirror (Right, ...', 'Eternal Gandhi Super Series Crystal Paper Weight...', ""Noor Embroidered Women's Straight Kurta""]",['JEWELIZER'],high,2.9985211887898875,low
+323,41,M,tier3,low,['Mobiles & Accessories'],"['Pure Source', 'Stallion Barware', 'Golden Collections', 'Urban WhiZ']",high,3.065654893512604,low
+324,21,F,tier2,high,"[""Nine Maternity Wear Women's Fit and Flare Dress""]",['Lushomes'],low,2.1327232624731054,high
+325,25,M,tier3,medium,"[""Viral Girl Women's Full Coverage Bra"", ""United Colors of Benetton Girl's Trousers""]","['Bengal Blooms', 'Plus', 'Embellish outfits', 'Linksys', 'Planet']",medium,2.4647458712976977,medium
+326,47,F,tier2,low,['Pout Brass Bangle'],"['Netis', 'Amita Home Furnishing', 'GrandShop']",high,3.0732356898745197,high
+327,44,M,tier1,medium,"['Areon Luxurious Fragrance Long Lasting Car,Home,...']","['Shrikant Traders', 'PI ZON', 'Jewel Touch', 'Ratnapriya Art']",medium,2.385241131884084,high
+328,50,M,tier3,high,"['Mast & Harbour Gold Synthetic  Clutch', 'Remax Rm-10000 Remax Vanguard 10000mah 10000 mAh...']","['Goyal India', 'WEIDELI', 'Fashavi']",low,3.2634756583757705,low
+329,36,M,tier2,medium,"['Taurus Black & white Lace Up', 'D&D Women Flats', 'Speedwav 186879 Bajaj Pulsar 200 NS DTS-i LED In...']","['Tescoma', 'Alisha', 'BONHEUR', 'induscraft', 'Siyas Collection']",medium,2.0980132283934037,medium
+330,44,M,metro,medium,"[""Viral Girl Women's Full Coverage Bra""]","['Urban WhiZ', 'Aaina Home Decor', 'Magic', 'Le Angelique', 'Hddecor']",medium,3.954456679440184,medium
+331,45,F,tier2,high,"[""Pazel Slim Fit Men's Jeans""]","['Joyeria Milan', 'Chickraft', 'Royal Diamond Jewellery', 'Allora', 'Baby Pink']",low,1.9545704242066695,low
+332,29,M,tier3,low,"['Walkline Slippers', 'Wella Elements Leight Weight Renewing Conditione...', 'SHOPOJ Multicolor Paper Sky Lantern (80 cm X 34 ...']",[],high,3.6647458023315034,low
+333,61,M,tier3,low,"['Behringer Xenyx 502 Analog Sound Mixer', ""SUPERMOD Men's Brief""]","['Shreeka', 'Z-Support', 'Nakashi']",high,3.521530159046946,low
+334,21,M,tier2,medium,"[""e-Fresh Boy's Brief (Pack of 5)"", ""TIMBERLAKE Slim Fit Fit Women's Red Jeans"", 'Impala Alloy Cufflink (White)']",[],medium,2.2902945149726355,medium
+335,27,M,tier3,medium,"[""UFO Full Sleeve Solid Girl's Jacket"", 'SHOPOJ Purple Paper Sky Lantern (80 cm X 34 cm, ...', 'Style World Women Flats']","['Palakz', 'SKY TRENDS GIFT', 'Jettec', 'Frazzer']",medium,3.209091754236408,high
+336,30,M,tier2,medium,"[""Threads & Pals Full Sleeve Self Design Men's Swe...""]","['Breakbounce', 'Mahalaxmi']",medium,3.9058933762920978,low
+337,55,F,tier3,medium,"['Himmlisch 20503 Car Bottle Holder (Plastic)', 'Carbanao Chrome Grill Chevrolet Cruze Car Grill ...', ""Viral Girl Women's Full Coverage Bra""]","['Rasav Jewels', 'NIROSHA']",medium,2.6209591816744497,low
+338,48,M,tier2,low,"['Kraft Seeds Rosemary Herb (Pack Of 5) Seed (75 p...', 'Eternal Gandhi Super Series Crystal Paper Weight...', 'clickforsign Avoid Contanimation Wash your Hands...']","['Head Kik', 'Skanders', 'Young Birds', 'BOMBAY VELVAT FAB', 'Megaway']",high,3.8231119401832796,high
+339,23,M,tier3,high,"['Bags, Wallets & Belts', 'D&D Women Flats']","['Regan', 'YOA', 'Plush']",low,4.086755718647149,medium
+340,41,M,tier2,medium,"[""Be 13 Printed Boy's Round Neck T-Shirt (Pack of 2)""]",['YELLOW CHIMES'],medium,3.519144147761352,low
+341,31,M,tier3,medium,"[""LGRL Women's Leggings"", 'Crafty Hands Kutchchi Mirrorwork Tapestry (Maroon)']",[],medium,3.117935025601295,low
+342,33,M,metro,low,"[""The Cotton Company Solid Women's Polo Neck Pink ..."", 'Dressberry Black Synthetic  Clutch']",['Rajlaxmi'],high,2.928776194378597,low
+343,46,F,metro,high,"[""Clovia Women's Full Coverage Bra"", 'Pens & Stationery', 'Kalpaveda Copper Bowl (Gold, Pack of 1)']","['Real Seed', 'Jocular']",low,3.272199507607286,medium
+344,56,F,tier3,low,['Dilan Jewels Alloy Zircon 18K Yellow Gold Bangle...'],['Zadine'],high,4.23293396402162,low
+345,46,M,metro,high,['Escan Lace Up'],[],low,3.374613778223468,medium
+346,26,M,tier3,low,"['Olvin Rectangular Sunglasses', ""Vitamins Solid Baby Girl's Basic Shorts"", 'SHOPOJ Yellow Paper Sky Lantern (80 cm X 34 cm, ...']","['Portia', 'A M International']",high,3.431302094631117,low
+347,32,F,tier3,medium,"[""Attitude Printed Women's Round Neck Black T-Shirt""]",[],medium,3.095051147622899,medium
+348,37,F,metro,high,"[""Kombee Girl's Printed Red, Pink Top & Capri Set"", 'Gaming', 'NEWGEN TECH EO-HS3303 58 Wired Headset (White)']","['Tescoma', 'S C Handicrafts']",low,4.4838691328100975,low
+349,44,M,metro,medium,"['REMSON INDIA Women Flats', ""UFO Self Design Round Neck Casual Girl's Sweater""]","['eKolhapuri', 'Petshop7', 'Babytintin', 'Hunter']",medium,1.0,high
+350,54,F,metro,low,"[""Clovia Women's T-Shirt Bra"", ""Viral Girl Women's Full Coverage Bra"", 'FEET FLOW Women Flats']","['KANCHOO', 'FTCBAZAR', 'Magneto', 'Multi']",high,3.1966466428442764,low
+351,21,F,tier2,medium,"[""Oly Two Fit Fit Women's Dark Blue Jeans""]",['Blinkin'],medium,2.5058036069036174,high
+352,25,M,tier1,low,['Asics Gel-Kayano 22 Running Shoes'],"['Frabjous', 'SignKraft', 'Red Chief', 'The Craftz', 'killys']",high,4.188873258616528,low
+353,47,F,tier2,high,"['NEWGEN TECH EO-HS3303 218 Wired Headset (White)', ""killys Men's Solid No Show Socks""]","['Hadwin', 'Inc.5']",low,2.9665565816669757,high
+354,38,M,tier2,low,"[""Libas Printed Women's Anarkali Kurta"", 'Amita Home Furnishing Cotton Printed Single Beds...', 'K&P Lord Ganesha Large 03 Showpiece  -  19 cm (P...']",[],high,2.9408354183906034,low
+355,59,F,tier2,high,"['Bags, Wallets & Belts', 'The Crazy Me 1 Compartments Eco-Friendly leather...', 'THERISE MD0005 Wired Headset (Pink)']",['Homec'],low,3.6889936720877063,low
+356,63,M,metro,medium,"[""kem Flow Gold skinny Fit Baby Girl's Blue Jeans"", ""LondonHouze Printed Women's Round Neck Grey T-Shirt""]",['CrayonFlakes'],medium,3.9879177087191655,low
+357,61,M,tier1,low,"['Style World Women Flats', ""Starsy Solid Women's Round Neck Green T-Shirt"", ""Fly U Slim Fit Fit Women's Brown Jeans""]",[],high,4.404881942017852,medium
+358,27,F,tier2,low,"['Wella Elements Leight Weight Renewing Conditione...', 'Shrih Toe & Foot Protector Pain Relief Pad (Pack...', 'Beauty and Personal Care']",['Feelinwow'],high,4.071082012908112,medium
+359,55,M,tier2,high,"[""UFO Self Design Round Neck Casual Girl's Sweater"", 'Speedwav 186926 Royal Enfield 350 Twin Spark LED...']","['Kamakhya Jewels', 'Dremel', 'Furhome', 'Uncommon Stuffs', 'Lock&Lock']",low,3.4140387311460567,low
+360,31,M,metro,low,"[""Vishudh Printed Women's Straight Kurta"", ""New Darling Women's Printed Top & Pyjama Set""]","['GM', 'Clear Shield', 'Adishma']",high,3.937661120779752,low
+361,49,F,tier3,medium,"['Walkline Slippers', 'clickforsign Sound horn Before entering Emergenc...']","['Acromax', 'Dark Blue', 'Easy', 'DECOREX', 'FEET FLOW']",medium,2.970366434704726,low
+362,49,F,tier1,low,"[""Nine Maternity Wear Women's Fit and Flare Dress"", 'SHOPOJ Yellow Paper Sky Lantern (80 cm X 34 cm, ...']","['Concorde', 'Tks', 'SAARAH']",high,2.2444998784786607,low
+363,33,M,tier3,medium,['Automation & Robotics'],"['Bottoms More', 'Masterfit', 'Infinity India']",medium,2.0972627369348436,high
+364,41,M,metro,low,"['Speedwav 216552 Manual Rear View Mirror (Right, ...', 'Bengal Blooms Rose Artificial Plant  with Pot (3...']","['GENIAL', 'HKJ']",high,3.131238825835319,medium
+365,28,M,tier2,medium,['ATV Pouch for Acer Liquid Z330 (STEEL BLUE)'],"['SYL', 'VAGON', 'SSCP']",medium,3.027470445900375,low
+366,31,M,tier3,low,['Pens & Stationery'],[],high,3.3108317248155887,low
+367,36,F,tier2,low,['Health & Personal Care Appliances'],['Shopaholic'],high,1.91218558138702,medium
+368,50,F,tier3,medium,"[""Be 13 Printed Boy's Round Neck T-Shirt (Pack of 2)"", 'ATV Pouch for Acer Liquid Z330 (STEEL BLUE)', 'SHOPOJ Yellow Paper Sky Lantern (80 cm X 34 cm, ...']","['Liza', 'Envoy', 'EZ Life']",medium,2.8508617493783115,medium
+369,19,F,tier3,high,"['Escan Lace Up', ""Be 13 Printed Boy's Round Neck T-Shirt (Pack of 2)""]",['ZEVA'],low,3.29235230074908,low
+370,24,M,tier1,low,"[""Sisel Printed Poly Cotton Women's Stole""]",['MTB'],high,3.4861095290035253,medium
+371,62,M,tier2,low,"[""New Darling Women's Printed Top & Pyjama Set"", 'Asics Gel-Kayano 22 Running Shoes', 'SAY UV Sterilizer Solid Filter Cartridge (0, Pac...']","['Wilkins & Tuscany', 'Value Bay', 'JBI', 'STERN', 'Payalwala']",high,3.311108467339003,medium
+372,39,F,tier1,medium,"[""TIMBERLAKE Slim Fit Fit Women's Brown Jeans"", ""Leading lady Women's Camisole""]",['Le Angelique'],medium,1.8916883386426528,low
+373,57,M,metro,medium,['Car vastra 1pcs Car Vastra Honda Beige Backrest ...'],['BAFNA GEMS & JEWELS'],medium,3.215178303808165,medium
+374,56,M,tier3,low,['INKT INKT A5 Wiro Notebook A5 Notebook Ring Boun...'],"['TEMPO', 'Pure Source']",high,2.937096572976049,low
+375,56,M,tier3,high,"['Skayvon SUBMERSIBBLE THREE PHASE PUMP CONTROLLER...', 'Urban Girl Foundation Brush (Pack of 7)']","['blue stag', 'Com-Paint']",low,3.3349543155197554,medium
+376,50,M,tier1,medium,"[""Laser X Checkered Men's Boxer (Pack of 4)""]","['Durian', 'Filink']",medium,3.7961208876693435,medium
+377,59,M,metro,high,"['Firangi Cotton, Polyester Free Floor Mat Firangi...']",['Shoppingtara'],low,3.6592541968102648,high
+378,41,F,tier1,medium,"['THERISE MD0005 Wired Headset (Pink)', 'Lucky Thailand GL/ LG30 Glass (300 ml, Clear, Pa...']","['Karpine', 'FEET FLOW']",medium,3.8234536403750763,high
+379,56,M,tier1,low,"['Eternal Gandhi Super Series Crystal Paper Weight...', 'Pet Supplies', ""ANASAZI Casual 3/4 Sleeve Solid Women's Top""]",['Comex'],high,2.633574316130953,medium
+380,51,F,tier3,low,['Bengal Blooms Rose Artificial Plant  with Pot (3...'],"['iAccy', 'Katwa Clasic', 'Home Fashion Gallery']",high,3.954336140284758,low
+381,41,M,tier3,low,"['Automation & Robotics', 'Arial Morris Women Flats']",[],high,3.462837408051157,low
+382,63,M,metro,high,"['Dilan Jewels Alloy Zircon 18K Yellow Gold Bangle...', 'Sumo Baby Walker (Red)']","['Shwetna.com', 'Relaxfeel', 'Herbal Jewellery', 'Lilpicks Couture', 'Pinc Ginger']",low,4.571157162792485,medium
+383,37,M,tier3,low,"['Watches', 'Impala Alloy Cufflink (White)']","['Bestech', 'Cotton On Kids', 'Eclat', 'Babytintin']",high,2.1760554608362064,high
+384,42,M,metro,high,"['Style World Women Flats', ""Legmark Slim Fit Women's Blue Jeans"", ""e-Fresh Boy's Brief (Pack of 5)""]",['JaipurCrafts'],low,3.970895061394067,medium
+385,21,M,metro,low,"['Just Wow Women Flats', ""Legmark Slim Fit Women's Light Blue Jeans"", ""UFO Full Sleeve Solid Girl's Jacket""]",[],high,3.1793595100622873,low
+386,30,F,tier3,high,"['Naaz 2 in 1 Paper Quilling Board Game', ""New Darling Women's Printed Top & Pyjama Set"", 'clickforsign Avoid Contanimation Wash your Hands...']",['Bemoree'],low,2.2978673098726907,low
+387,46,M,tier2,medium,"[""Legmark Slim Fit Women's Light Blue Jeans"", ""Spa Culture Fit Fit Women's Black Jeans""]",[],medium,3.052083455166264,low
+388,22,F,tier2,low,"[""TIMBERLAKE Slim Fit Fit Women's Blue Jeans"", 'Zixtro Bug (Black, Backpack)']","['Jazam', 'KAROZ', 'Jewel Paradise']",high,4.514052669971748,low
+389,22,M,metro,medium,"[""Nine Maternity Wear Women's Fit and Flare Dress"", ""Libas Printed Women's Anarkali Kurta""]","['Bharat', 'Craftcart']",medium,3.9183507005169043,low
+390,47,M,metro,medium,['Olvin Aviator Sunglasses'],"['Camey', 'Shortkut enterprises']",medium,4.518880062680966,low
+391,60,F,metro,medium,"[""Vinenzia Printed Winter Men's Gloves""]","['BLM', 'Download Apparel', 'VGreen', 'Rasianve']",medium,2.497893821349701,medium
+392,19,F,tier2,high,['AutoKraftZ Optimum Locking Device For Bajaj Puls...'],['Panditnmshrimali'],low,3.3747112733166227,low
+393,58,F,tier2,medium,"['Power Smart Quick Charging Pack For PAN CGR-D28 ...', 'Kraft Seeds Dill Herb Seed (50 per packet)']","['Amante', 'Only', 'PROBOTT']",medium,2.4946444046455882,low
+394,36,F,tier3,high,['NEWGEN TECH EO-HS3303 58 Wired Headset (White)'],['Johareez'],low,4.2242621928111515,low
+395,45,F,tier2,low,['Corcepts Universal Tablet HD Ultra Clear Transpa...'],"['i-gadgets', 'SthriElite', 'Mavi', 'Sound Logic']",high,2.5884812336753313,low
+396,43,F,metro,low,"[""Camey Men's Quarter Length Socks""]",['Nishtaa'],high,3.7569629483049054,medium
+397,53,M,tier3,medium,['Speedwav 186879 Bajaj Pulsar 200 NS DTS-i LED In...'],['Lovely'],medium,3.694650399096382,medium
+398,53,M,tier3,medium,['Crafty Hands Kutchchi Mirrorwork Tapestry (Maroon)'],[],medium,4.5177976658995584,medium
+399,20,M,tier2,medium,['OEM 170774 Bike Side Stand'],"['Wall Decal', 'Rajex']",medium,3.7068382453923134,high
+400,40,M,tier3,medium,"[""TSG Breeze Printed Women's Round Neck Multicolor..."", 'Wearable Smart Devices']",['Miway'],medium,2.2029093945593563,low
+401,35,F,tier2,low,['Naaz 2 in 1 Paper Quilling Board Game'],"['Prachin', 'Hoffrichter']",high,2.696383868459883,medium
+402,64,M,tier1,high,"[""Dassler Slim Fit Women's Multicolor Jeans"", ""soie Fashion Women's Sports Bra""]",['ESBEDA'],low,4.207542679177049,low
+403,44,F,tier2,medium,"['Impala Alloy Cufflink (White)', 'Synergy SFJB0105 Grocery Bag (Blue)']",['9blings'],medium,3.688074036881531,low
+404,23,M,tier2,low,"['JUSF2 Black Color Hair Band (Multicolor)', 'Urban Girl Foundation Brush (Pack of 10)']","['TheLostPuppy', 'Stallion Barware', 'Ojasvi']",high,4.1532059679975575,medium
+405,35,M,metro,medium,"['Gking Hand Stiched Steering Cover For Renault Sc...', 'Sonaxo Men Running Shoes', 'Mobiles & Accessories']",['kawal fashion'],medium,2.7156128726017412,low
+406,61,M,tier2,medium,"['Kitchen & Dining', ""Threads & Pals Full Sleeve Self Design Men's Swe..."", 'ANAND ARCHIES Girls Flats']","['Tillu Pillu', 'Bottoms More', 'Itiha', 'PALSUN WEARS']",medium,3.4168948488603066,low
+407,25,F,tier3,high,"['Urban Girl Foundation Brush (Pack of 7)', 'Automation & Robotics']","['Krown', 'The Bean House', 'Fashionera', 'Niremo', 'HSFS']",low,3.1852799782688113,medium
+408,42,F,tier3,medium,"[""UFO Self Design Round Neck Casual Girl's Sweater""]","['Arial Morris', 'DARPAN', 'Trove', 'Surface180']",medium,4.7864106251552805,high
+409,18,F,tier3,medium,"['SMART TRADERS Women Flats', 'clickforsign Avoid Contanimation Wash your Hands...', 'Small Toes Bellies']",['Elite Handicrafts'],medium,4.396077896308544,low
+410,47,M,tier2,high,"[""soie Fashion Women's Full Coverage Bra"", 'SAY UV Sterilizer Solid Filter Cartridge (0, Pac...', 'Food & Nutrition']","['Arghyam', 'BeYOUtiful', 'Tapawire', 'Mavi', 'UMA TRADERS']",low,4.294173678362028,medium
+411,25,F,tier1,low,"['Footwear', ""e-Fresh Baby Boy's Brief (Pack of 10)""]","['Surface 180', 'SHIMZA', 'Globalite', 'Epresent']",high,3.007295404412682,low
+412,63,M,tier3,medium,['Urban Girl Foundation Brush (Pack of 10)'],[],medium,2.41135332974089,low
+413,19,M,tier1,low,['eBooks'],"['Mr Plus', 'Sparkling Drop']",high,2.8945666288104204,low
+414,22,M,metro,low,"[""Legmark Slim Fit Women's Blue Jeans"", 'Car vastra 1pcs Car Vastra Honda Beige Backrest ...']","['red', 'Utsav Handicraft', 'Shopnetix']",high,2.93879613292804,high
+415,32,M,tier2,medium,['Koie  Battery - For Samsung 7562 Premium Quality...'],"['Suranas Jewelove', 'Real Seed', 'Pavers England']",medium,3.5559665301988894,medium
+416,46,F,tier1,medium,['Koie  Battery - For Samsung 7562 Premium Quality...'],"['Marwal', 'Dispowear', 'Mydress Mystyle']",medium,2.2821715340227886,medium
+417,22,M,tier2,medium,"['classyworld Brass Cufflink (Silver-01)', 'Kitchen & Dining', 'Taurus Black & white Lace Up']","['Very Me', 'Asmi', 'Gifts By Meeta']",medium,4.622211467229472,low
+418,38,M,tier3,high,"['SJ Barstel 56m / 1000m Binoculars (30 mm, Black)', 'Dilan Jewels Alloy Zircon 18K Yellow Gold Bangle...', ""fourgee Slim Fit Boy's Black Jeans""]",['Young Birds'],low,4.725516531614789,low
+419,18,M,metro,high,"['REMSON INDIA Women Flats', 'Srajanaa sr114 Travel Shaving Kit (Black)', 'ATV Pouch for Acer Liquid Z330 (STEEL BLUE)']","['Vismay Creation', 'Sahej', 'United', 'Craft And Curtain']",low,4.665418606213634,low
+420,53,M,tier3,high,['Dressberry Orange Synthetic  Clutch'],"['Morph Maternity', 'Imit Jewel']",low,3.702046285107888,high
+421,23,F,tier2,medium,"['K&P Dr.Ambedkar Large 04 Showpiece  -  19 cm (Po...', 'Linzina Fashions LIN-HOSS-1.5 Faucet Set', ""Ruhi's Creations Cotton Floral King sized Double...""]","['Ethnochic', 'Style Foot', 'Antistreet']",medium,4.927320581714792,high
+422,64,F,tier3,low,"[""Ruhi's Creations Cotton Floral King sized Double..."", 'Car vastra 1pcs Car Vastra Honda Beige Backrest ...']","['Itzmyfashion', 'Kushies baby', 'Easy4buy']",high,4.4433348220415425,medium
+423,59,M,tier2,medium,"['Pet Supplies', 'SHOPOJ Multicolor Paper Sky Lantern (80 cm X 34 ...']","['LUMENPULSE', 'tiwaritraders', 'JaipurCrafts']",medium,3.990521948945431,low
+424,57,F,tier1,medium,"[""Vinenzia Printed Winter Men's Gloves""]","['Crazy Deal', 'Jewelnation', 'Raju Purse Collection', 'Fashion Jewellery', 'Pollo']",medium,3.8278045639288996,medium
+425,50,F,metro,medium,"['Urban Girl Foundation Brush (Pack of 10)', 'Corcepts Universal Tablet HD Ultra Clear Transpa...']","['Utsukushii', 'Imagination And Beyond']",medium,3.6799127643329617,low
+426,35,M,tier2,low,"['Frabjous German silver Rings For Women Alloy Zir...', 'Treppe Bellies']","['Rajlaxmi', 'Port', 'M S Rugs']",high,3.654556104486761,low
+427,61,M,tier3,low,"['Prime Printed 8 Seater Table Cover (Multicolor, ...']","['Tecnia', 'Techone+', 'Pack N Buy', 'Flair', 'X-Poz']",high,1.0933249769992885,low
+428,47,F,metro,low,"['INVENTURE RETAIL Nail Cutter', ""Legmark Slim Fit Women's Blue Jeans"", 'JUSF2 Black Color Hair Band (Multicolor)']","['Reyes Reales', 'BELL', 'Abhushan', 'L&T']",high,1.0,medium
+429,34,F,tier3,high,"['Power Smart Quick Charging Pack For PAN CGR-DU-2...', ""LondonHouze Printed Women's Round Neck Grey T-Shirt"", 'SAY Thread Wounded Candle 10"" Set of 4 pcs Solid...']",['Gurjari'],low,3.3711536441857923,low
+430,54,M,tier1,medium,"[""Libas Printed Women's A-line Kurta""]",[],medium,3.3898334225172726,high
+431,43,M,metro,low,['Cameras & Accessories'],[],high,3.60245029617513,low
+432,40,M,tier1,medium,"['SMART TRADERS Women Flats', 'ANAND ARCHIES Girls Wedges']","[""Ona'S""]",medium,2.952730728616628,medium
+433,59,M,tier1,high,"[""Oly Two Fit Fit Women's Dark Blue Jeans"", 'Speedwav 186879 Bajaj Pulsar 200 NS DTS-i LED In...']","['Durian', 'Abee']",low,3.8881726960311136,low
+434,42,M,tier1,medium,['JUSF2 Black Color Hair Band (Multicolor)'],[],medium,4.066265142042972,medium
+435,20,M,tier3,medium,"[""Dolz Slim Fit Fit Women's Brown Jeans"", 'SHOPOJ Yellow Paper Sky Lantern (80 cm X 34 cm, ...', 'Arial Morris Women Flats']",[],medium,3.217186684156755,low
+436,28,F,tier1,low,"['Kraft Seeds Dill Herb Seed (50 per packet)', ""Clovia Women's Plunge Bra""]","['Orange Tree', 'Menow', 'Boreal', 'Manjaree', 'GoldNera']",high,1.401588089212105,low
+437,31,F,tier3,medium,"['Just Wow Women Flats', 'Shrih Toe & Foot Protector Pain Relief Pad (Pack...', ""Oly Two Fit Fit Women's Black Jeans""]","[""L'appel Du vide"", 'Celebrity', 'Jewellerywale']",medium,2.871289573972555,low
+438,37,F,tier1,low,"['Style World Women Flats', 'COIRFIT Single Coir Mattress']",['Dressberry'],high,1.0848271305226063,low
+439,27,M,tier1,low,"['Prime Printed 8 Seater Table Cover (Multicolor, ...', ""United Colors of Benetton Girl's Trousers"", 'Automation & Robotics']",['Enthopia'],high,3.4973993207284404,high
+440,47,F,tier3,high,"['Car vastra 1pcs Car Vastra Honda Beige Backrest ...', 'Synergy SFJB0105 Grocery Bag (Blue)']","['Merastore', 'Laser X', 'Anti Gravity', 'Trendy Home', 'Vivre Jewels']",low,4.0936883071469365,medium
+441,64,F,tier1,low,['AutoKraftZ Optimum Locking Device For Bajaj Puls...'],[],high,2.9979503291878973,high
+442,18,F,tier2,medium,"['Klaur Melbourne Bellies', 'THERISE MD0005 Wired Headset (Pink)', ""Nine Maternity Wear Women's Fit and Flare Dress""]","['DISNEY', 'Finolex', 'Mahek Saree', 'Visaga', 'HuppmeGift']",medium,2.52749324308886,low
+443,24,F,tier2,medium,"[""MASARA Solid Women's Straight Kurta"", 'Home Entertainment']","['Textile India', 'Clever Steps', 'Gadgetshieldz', 'chamanhandicrafts']",medium,1.773216039708735,medium
+444,36,M,tier2,medium,"['Household Supplies', ""Vitamins Solid Baby Girl's Basic Shorts""]",['ARRA'],medium,3.679541702092093,low
+445,42,M,tier2,medium,"[""Starsy Solid Women's Round Neck Green T-Shirt""]","['Berge', 'Very Me', ""D'Panache"", 'SM', 'reenak']",medium,2.842310338393534,medium
+446,37,F,tier3,high,"[""TSG Breeze Printed Women's Round Neck Multicolor..."", 'Skayvon SUBMERSIBBLE THREE PHASE PUMP CONTROLLER...', ""Lilliput Top Baby Girl's  Combo""]",['beebay'],low,4.055271582124665,low
+447,57,F,tier3,medium,"['Home Furnishing', ""Clovia Women's T-Shirt Bra"", ""EASIES Solid Single Breasted Casual Men's Blazer""]",['Beautywear'],medium,3.4739148025806386,high
+448,37,F,tier2,low,"['Jewellery', 'Shrih Toe & Foot Protector Pain Relief Pad (Pack...', 'Gaming']","['red', 'Simitoes', 'fashion rudraksh', 'NESTWELL']",high,3.7446792893573173,low
+449,19,M,metro,medium,"[""The Cotton Company Solid Women's Polo Neck Pink ...""]","['Harp', 'Inspired Livingg', 'BM WOOD FURNITURE', 'Jaipur Raga']",medium,2.9498044320467622,low
+450,55,M,tier1,low,['Siyas Collection Lac Cubic Zirconia Bangle Set (...'],"['appleofmyi', 'MomToBe']",high,2.928405757100068,medium
+451,33,F,metro,medium,"[""Be 13 Printed Boy's Round Neck T-Shirt (Pack of 2)"", 'Sonaxo Men Running Shoes', 'Olvin Wayfarer Sunglasses']","['Eureka', 'Pezzava']",medium,3.8729166837004447,low
+452,51,M,tier1,medium,['ANAND ARCHIES Girls Wedges'],"['AutoGarh', 'Ajanta']",medium,3.7705710177971783,medium
+453,32,M,tier1,medium,"['clickforsign Sound horn Before entering Emergenc...', 'Shrih SH-0192 Wired USB Flexible Keyboard (Red)', 'Asics Gel-Kayano 22 Running Shoes']",['Bracevor'],medium,4.128821690611592,medium
+454,31,F,metro,medium,"[""e-Fresh Baby Boy's Brief (Pack of 10)"", ""Libas Printed Women's Anarkali Kurta""]","['Mickey And Friends', 'Data cable', 'BELL', 'His & Her']",medium,3.0360284225742387,low
+455,23,F,tier1,medium,"['Speedwav 216456 Manual Rear View Mirror (Right, ...', ""Legmark Slim Fit Women's Light Blue Jeans"", 'SHOPOJ Multicolor Paper Sky Lantern (80 cm X 34 ...']","['JBB', 'Hustler', 'Griptek', 'Proganix', 'Walkline']",medium,4.22929645467714,high
+456,45,F,tier1,low,"[""UFO Self Design Round Neck Casual Girl's Sweater"", ""Lilliput Top Baby Girl's  Combo""]","['Sunvi', 'Setu Infocom', 'Handiana', 'Pazel', 'Juhi Malhotra']",high,3.192384050107688,low
+457,34,F,tier1,low,"['FEET FLOW Women Flats', 'REMSON INDIA Women Flats']","['PINK FEVER', 'Yijun', 'Uniball']",high,3.4541539983128486,medium
+458,41,F,tier1,medium,"['Adidas IND PRO THI GUA Thigh Guard (White, Blue,...']","['Morph Maternity', 'Tradition India', 'PRINT SHAPES', 'Gajraula Crafts']",medium,2.157505159522273,medium
+459,18,F,metro,low,"[""TIMBERLAKE Slim Fit Fit Women's Red Jeans""]","['The Crystal Jewel', 'Auraa', 'Rajdoot']",high,3.7266126174935335,medium
+460,19,F,tier1,medium,"['Computers', ""Little Stars Girl's A-line Multicolor Dress""]","['Eclat', 'FreeHand', 'Udaipur Art Gallery', 'e-Fresh']",medium,4.264157963012009,medium
+461,35,F,tier2,medium,"[""ANASAZI Casual 3/4 Sleeve Solid Women's Top""]",[],medium,2.76395997856451,medium
+462,19,M,tier2,high,"[""Vinenzia Printed Winter Men's Gloves"", 'Arial Morris Women Flats', ""Vishudh Printed Women's Anarkali Kurta""]",[],low,3.206946874491487,low
+463,54,M,tier2,high,"['Computers', 'Gaming']","['Areon', 'xpert']",low,3.861534444619405,medium
+464,48,M,tier2,medium,"['Planet Waves Woodstock Strap (Multicolor)', 'Arial Morris Women Flats']","['JOY', 'Trigcars']",medium,3.7638512668588797,medium
+465,21,M,tier3,high,"['Home Improvement', 'Kanvas Bellies']","['X Doria', 'Merastore', 'MicroCotton']",low,3.9973993771775227,low
+466,27,F,tier1,high,"[""Sisel Printed Poly Cotton Women's Stole""]","['Engross', 'WEIDELI']",low,3.6575282857498963,medium
+467,49,M,tier3,high,"['Arial Morris Women Flats', 'Sj Bushnell 119M / 1000 Binoculars (36 mm, Black)']","['Rs Electrical', 'LIFE LIKE', 'Wetex Premium', 'ASUS', 'Escan']",low,2.363557137200992,low
+468,22,F,metro,low,"['Amita Home Furnishing Cotton Floral Single Bedsh...', ""Vishudh Printed Women's Anarkali Kurta""]","['Modx', 'Neha', 'Elegance', 'Jewels of Jaipur']",high,3.281103980274259,medium
+469,22,F,tier3,high,['Automotive'],"['Durian', 'Gear X', 'KE']",low,4.620472908730411,medium
+470,19,M,tier1,low,['Escan Lace Up'],"['Ruvee', 'Novicz', 'Amba Handicraft']",high,3.0903160704714945,medium
+471,53,M,tier3,high,"['Speedwav 186926 Royal Enfield 350 Twin Spark LED...', ""Starsy Solid Women's Round Neck Green T-Shirt"", 'Mast & Harbour Black Synthetic  Clutch']","['Njoy', 'AT', 'Globalite', 'Skin']",low,5.0,high
+472,58,F,tier1,high,"['Speedwav 186879 Bajaj Pulsar 200 NS DTS-i LED In...', 'FEET FLOW Women Flats']","['FAUSTO', 'Cellbazaar']",low,3.998343325304047,low
+473,33,F,tier1,medium,"['Mast & Harbour Black Synthetic  Clutch', ""TIMBERLAKE Slim Fit Fit Women's Red Jeans""]","['VR Designers', 'JQR', 'Linzina', 'CANMP']",medium,3.305174798752157,low
+474,19,F,tier3,low,"['SAY UV Sterilizer Solid Filter Cartridge (0, Pac...']","['Blue Birds USA Homeware', 'Siemens', 'Lula', 'Babytintin']",high,4.169684234509635,medium
+475,25,M,tier2,low,"['Sugandh Vatika 24 Natural Masala, Sandal Incense...', 'SAY UV Sterilizer Solid Filter Cartridge (0, Pac...']","['Tiara Diaries', 'Mikado']",high,2.130820705200903,low
+476,28,M,metro,medium,['Shonaya Printed Bhagalpuri Art Silk Sari'],[],medium,4.449756891247068,low
+477,50,M,tier2,low,"[""Clovia Women's T-Shirt Bra""]","['Embellish outfits', 'Rajlaxmi', 'Ruchiworld']",high,4.247132677231384,high
+478,20,M,metro,medium,['Skayvon SUBMERSIBBLE THREE PHASE PUMP CONTROLLER...'],"['Mahalaxmi', 'Beebay']",medium,3.495858989644369,high
+479,29,F,metro,high,"['Home Entertainment', ""United Colors of Benetton Girl's Trousers"", ""Oly Two Fit Fit Women's Dark Blue Jeans""]",['Merchant eshop'],low,3.7896615621890457,medium
+480,29,F,tier1,medium,"['SRPC BAOER STARWALKER EXECUTIVE ROLLERBALL Pen G...', 'Sumo Baby Walker (Red)', 'Eternal Gandhi Super Series Crystal Paper Weight...']",[],medium,2.866003712255102,medium
+481,32,F,metro,medium,"['Areon Luxurious Fragrance Long Lasting Car,Home,...', 'xy decor Cotton Sofa Cover (white Pack of 6)']","['Chazer', 'Adwitiya Collection', 'Taraash', 'Camy', 'R&Mshoppee']",medium,2.5125511472599964,high
+482,32,F,tier3,low,['Urban Girl Foundation Brush (Pack of 10)'],"['Vidhya Kangan', 'Cenizas', 'R18jewels-Fashion&U', 'Total']",high,4.3971928468322625,low
+483,47,M,tier3,medium,"[""UFO Self Design Round Neck Casual Girl's Sweater"", ""GALLOWAY skinny Fit Women's Jeans"", 'Autoplus M AP15 Arm Sleeve (Black)']",['Nautica'],medium,2.89688241214926,high
+484,37,M,tier3,medium,['Arial Morris Women Flats'],"['La Shades', 'NEWLOOK', 'Black Diamond', 'Ganapathy Gems']",medium,3.862018296095249,low
+485,47,M,tier2,medium,"['Mast & Harbour Black Synthetic  Clutch', 'Shonaya Printed Bhagalpuri Art Silk Sari']",[],medium,2.9525185585813536,high
+486,28,F,tier1,low,"['Kraft Seeds Dill Herb Seed (50 per packet)', 'Boreal Roller Brush']","['Funcart', 'TRINK']",high,2.9397744025963037,low
+487,55,M,tier1,medium,"['Jewellery', 'Kitchen & Dining', 'Kraft Seeds Rosemary Herb (Pack Of 5) Seed (75 p...']","['Kelvinator', 'Deben & Hill', 'Pazel', 'Big Balaji']",medium,4.494220014265909,low
+488,21,M,tier1,low,"['Pens & Stationery', 'Jewellery']",[],high,3.619823322745898,medium
+489,61,M,tier1,medium,"['classyworld Brass Cufflink (Grey-02)', 'Toys & School Supplies']","['LAST BENCH', 'Handecor', 'Via Mazzini']",medium,3.596749756521085,medium
+490,25,F,tier1,medium,"['SJ Barstel 56m / 1000m Binoculars (30 mm, Black)']",[],medium,3.731130703691167,medium
+491,25,F,metro,high,"['Baby Care', ""Spa Culture Fit Fit Women's Black Jeans""]","['Stallion Barware', 'Cenizas']",low,2.6172089858900973,low
+492,50,F,tier2,high,"[""Starsy Printed Women's Round Neck Black T-Shirt"", 'COIRFIT Single Coir Mattress']",['Uniross'],low,1.0,high
+493,52,M,tier3,medium,"['Olvin Aviator Sunglasses', 'Joyra Heart Sterling Silver Swarovski Crystal, S...']",['GALLOWAY'],medium,3.711100025181173,high
+494,44,F,metro,low,"[""Noor Embroidered Women's Straight Kurta"", ""Vitamins Solid Baby Girl's Basic Shorts""]",[],high,3.6629389900897227,high
+495,61,F,tier1,high,"['Jazz Eyewears Over-sized Sunglasses', ""piftif Women's Sports Bra"", 'Sumo Baby Walker (Red)']",['Araanz by Tribhovandas Bhimji Zaveri Delhi'],low,3.4466248675941245,low
+496,34,M,metro,high,"['Home Entertainment', ""HANS Men's Crew Length Socks""]","['Fame16', 'Shahi Handicraft', 'Raymond Home']",low,2.790346900058164,medium
+497,25,M,metro,medium,"[""E'Hiose Girl's Leggings (Pack of 6)"", 'Skayvon SUBMERSIBBLE THREE PHASE PUMP CONTROLLER...']",[],medium,3.4961103937279865,medium
+498,26,F,tier3,low,['NEWGEN TECH EO-HS3303 58 Wired Headset (White)'],[],high,4.298944085417871,low
+499,64,M,tier3,medium,"[""883 Police Full Sleeve Solid Men's Jacket""]","['Exotic India', 'Asmi', 'ATC', 'chota packet']",medium,3.5838759421910784,low
+500,44,M,tier1,medium,"['Power Smart Quick Charging Pack For PAN CGR-D28 ...', ""Miss Wow Slim Fit Women's Blue Jeans"", 'THERISE MD0005 Wired Headset (Pink)']",['Indistar'],medium,2.367429828082903,low
+501,21,M,metro,low,"['Amita Home Furnishing Cotton Printed Single Beds...', ""Fly U Slim Fit Fit Women's Brown Jeans"", 'Baby Care']","['Himalayan Sutra', 'Vglit', 'Maspar']",high,2.7696817496100645,high
+502,58,M,tier2,medium,['Olvin Wayfarer Sunglasses'],[],medium,3.814989825773454,low
+503,63,F,metro,medium,['Himmlisch 20503 Car Bottle Holder (Plastic)'],"['regular', 'Lolprint']",medium,3.270286625915416,medium
+504,23,F,tier1,medium,"['Sunglasses', 'OEM 170774 Bike Side Stand']","['Jovan', 'Abstract Mood', 'Khanna Jupiter', 'Wall1ders']",medium,4.093294349093419,high
+505,45,M,tier1,medium,"['V&G Professional HD-37 Hair Dryer (Red)', 'Foot Candy Women Flats', 'Furniture']",['Petto'],medium,4.931250060705857,low
+506,53,M,tier1,medium,"['Knight Ace Kraasa Sports Running Shoes, Cycling ...']","['Comfast', 'Rajo Raja', 'Vismay Creation']",medium,3.6104913920835036,medium
+507,30,F,tier2,high,"['Naaz 2 in 1 Paper Quilling Board Game', 'Gaming', 'Klaur Melbourne Bellies']",[],low,4.583387008932915,low
+508,30,F,metro,medium,"['Automotive', 'Klaur Melbourne Bellies']","['Curren Nx', 'Ceela', 'Karukraft', 'Kyra', 'Grey/ White']",medium,3.563170269989171,medium
+509,41,F,tier2,high,"['Home & Kitchen', 'Power Smart Quick Charging Pack For PAN CGR-DU-2...']","['Emartbuy', 'Arow', 'Bling', 'Mrigya', 'Coddle']",low,3.148413153652662,low
+510,63,F,tier3,high,"['BuildTrack PIR Wireless Motion Sensor - One Swit...', ""TIMBERLAKE Slim Fit Fit Women's Blue Jeans"", 'Pout Brass Bangle']",[],low,2.452689701241561,low
+511,36,M,tier2,medium,['Sumo Baby Walker (Red)'],"['Prestige', 'Optokart', 'N K Computers', 'RYTHMX']",medium,2.188498208943612,medium
+512,30,F,metro,low,['Toys & School Supplies'],"['MicroCotton', 'Zombom', 'Indianbeauty', 'Tp-Link', 'Shortkut enterprises']",high,4.5053060278048065,medium
+513,45,F,metro,medium,['clickforsign Sound horn Before entering Emergenc...'],"['Oggo Deo', 'Aimedu Toy']",medium,3.394011552970199,medium
+514,23,F,tier1,medium,"['SJ Barstel 56m / 1000m Binoculars (30 mm, Black)', 'Toys & School Supplies']",['Story @ Home'],medium,4.097658950545226,high
+515,22,M,metro,medium,"[""Auraa Men's, Women's Solid No Show Socks"", ""Fly U Slim Fit Fit Women's Brown Jeans""]","['INAYA', 'Finnexe']",medium,2.9202032003559593,low
+516,33,F,tier1,medium,"[""Oly Two Fit Fit Women's Dark Blue Jeans""]",[],medium,3.800876801495456,high
+517,57,F,tier2,low,['Oddy RS 1.5 X 2 100 Sheets Self Stick Reposition...'],[],high,3.8580847810464975,high
+518,58,M,metro,medium,['Urban Girl Foundation Brush (Pack of 12)'],"['Chumbak', '@home']",medium,2.892718387346843,high
+519,22,F,metro,high,"['ABEEZ Boys, Men, Girls (Black, Pack of 1)', ""E'Hiose Girl's Leggings (Pack of 6)"", ""Ruhi's Creations Cotton Cartoon King sized Doubl...""]",[],low,3.5067017045915425,low
+520,18,M,tier1,medium,['NEWGEN TECH EO-HS3303 179 Wired Headset (White)'],"['Lab No. 4', 'MRB', 'Jewelsindia', 'Newgen Tech', 'Pearl Berry']",medium,5.0,medium
+521,64,F,tier1,high,"['Speedwav 216456 Manual Rear View Mirror (Right, ...', ""Auraa Men's, Women's Solid No Show Socks""]","['Shoprillo', 'Lucky Thailand']",low,4.428934248197145,high
+522,43,F,tier1,medium,"[""E'Hiose Girl's Leggings (Pack of 6)""]",['Dressberry'],medium,2.581869738384885,medium
+523,25,M,tier2,medium,"['SHOPOJ Purple Paper Sky Lantern (80 cm X 34 cm, ...']",[],medium,3.150910434266974,medium
+524,56,M,metro,low,"['Abhinl Fashion Cotton Printed Semi-stitched Salw...', 'Pu-Good Women Flats', 'GM Power mate 4 Strip Surge Protector (White)']","['I Ball', 'Texlon', 'Asics']",high,3.404263350796002,low
+525,22,F,tier2,low,"[""Vitamins Solid Baby Girl's Basic Shorts"", 'JUSF2 Black Color Hair Band (Multicolor)', ""EASIES Solid Single Breasted Casual Men's Blazer""]","['Interio Crafts', 'Yijun', 'Art n Beyond']",high,4.43409947496036,low
+526,21,F,metro,medium,"['Amita Home Furnishing Cotton Printed Single Beds...', 'Sj Bushnell 119M / 1000 Binoculars (36 mm, Black)']","['Targus', 'Vibrant Yellow', 'Alysa']",medium,3.405087820061606,high
+527,30,M,metro,low,"['SJ Bushnell 122/1000M Binoculars (36 mm, Black)']","['Pout', 'IaD', 'Nillkin', 'Great Art']",high,4.050189670807069,low
+528,23,F,tier1,medium,"['Koie  Battery - For Samsung 7562 Premium Quality...', 'SJ Comet Zoom DPSI Binoculars (30 mm, Black)']",['Sharani'],medium,2.604513983012069,high
+529,23,F,tier1,medium,"['Amita Home Furnishing Cotton Floral Single Bedsh...', 'REMSON INDIA Women Flats', 'Gking Hand Stiched Steering Cover For Renault Sc...']",['Bright Home Appliances'],medium,3.8903963508791057,low
+530,36,M,tier1,high,"['ANAND ARCHIES Girls Flats', 'Olvin Oval Sunglasses']","['DOUBLE HORSE', 'Xupply']",low,4.198249540343273,low
+531,44,M,tier3,high,['Foot Candy Women Flats'],[],low,3.8243387394075277,medium
+532,37,M,tier1,medium,"['Joyra Heart Sterling Silver Swarovski Crystal, S...']","['Philigree', 'Gadget-Wagon', 'Handloom Hut']",medium,3.455043828405995,high
+533,23,F,tier1,low,"['SJ Comet Zoom DPSI Binoculars (30 mm, Black)']",['diwine jewels'],high,3.9866908673031354,high
+534,33,M,tier1,low,"[""Indistar Self Design Viscose Women's Stole"", ""Lilliput Top Baby Girl's  Combo"", 'BALAJI EXPORTS Bottled Wine Cooler (9 Bottles)']","['INDIRANG', 'Bianca']",high,2.757859752171718,medium
+535,28,M,metro,low,['Naaz Dart game Board Game'],"['Royal Blue', 'Craft Store India']",high,4.650324621828059,high
+536,42,F,tier1,medium,['Clothing'],[],medium,2.7270608162757783,low
+537,58,F,tier2,low,"['Crafty Hands Kutchchi Mirrorwork Tapestry (Maroon)', 'Skayvon SUBMERSIBBLE THREE PHASE PUMP CONTROLLER...']","['Beingwomen', 'blue stag']",high,3.085037526516999,low
+538,52,F,tier3,low,"['Clickforsign Vehicles parked Illegally will be t...', 'Linzina Fashions LIN-HOSS-1.5 Faucet Set']","['Rouge Red', 'Masaba for Magic fairy', 'O Baby', 'R S Jewels']",high,2.562146404095673,low
+539,31,M,tier3,medium,"['Bags, Wallets & Belts']",['STREET LONDON'],medium,4.695580479784302,medium
+540,61,M,metro,medium,"['Shrih SH-0192 Wired USB Flexible Keyboard (Red)', ""Noor Embroidered Women's Straight Kurta""]","['LRB', 'Pilot', 'Wow!', 'Khaan Saab Editions', 'Guardian']",medium,4.211061599294477,low
+541,60,F,tier3,high,"['Himmlisch 20503 Car Bottle Holder (Plastic)', 'SMART TRADERS Women Flats']","['Alicia Souza', 'AYESHA', 'SSM', 'Imagica']",low,2.4809690233861144,medium
+542,37,F,tier3,medium,"['Dressberry Orange Synthetic  Clutch', 'Computers']",[],medium,4.284051104127419,high
+543,18,M,tier2,low,"[""Leading lady Women's Camisole"", 'Health & Personal Care Appliances']","['Oye', 'Cazcase']",high,4.124649470514713,low
+544,42,M,tier1,low,"['Taurus Black & white Lace Up', 'Srajanaa sr114 Travel Shaving Kit (Black)']","['Amardeep', 'Malhar', 'Astrodidi', 'Koncepts', 'Hako']",high,3.8711079840525007,medium
+545,56,F,tier1,low,"['Dressberry Gold Synthetic  Clutch', ""FIFO Bottom Women's  Combo""]","['Jack Martin', 'Brahmz', 'YK', 'Blackberrys', 'Zaveri Pearls']",high,3.351614490478625,medium
+546,44,F,tier3,medium,"[""Dassler Slim Fit Women's Multicolor Jeans""]","['Raghav India', 'YGS', 'Zaicus']",medium,4.070302929822269,medium
+547,60,M,tier2,medium,"['Anuradha Art Stylish Hair Clip (Blue)', 'ABEEZ Boys, Men, Girls (Black, Pack of 1)', 'SJ Comet Zoom DPSI Binoculars (30 mm, Black)']","['misshruts', 'Hangrr', 'Aqua', 'JLRS']",medium,4.058611137212315,high
+548,18,M,tier2,medium,"['Jazz Eyewears Over-sized Sunglasses', ""Vishudh Printed Women's Straight Kurta"", 'Skayvon SUMMERSIBLE SINGLE PHASE PUMP CONTROLLER...']","['Johhny Cash', 'Kuhuk', 'Micromax']",medium,3.6300149539718753,medium
+549,23,F,tier3,high,"[""TIMBERLAKE Slim Fit Fit Women's Blue Jeans"", 'Skayvon SUMMERSIBLE SINGLE PHASE PUMP CONTROLLER...']","['Avsar', 'LinkedInLove']",low,1.0,medium
+550,30,F,tier1,low,"['Jazz Eyewears Over-sized Sunglasses', 'INVENTURE RETAIL Nail Cutter']","['SViRU', 'The Decor mart', 'Purple', 'Silver Shoppee', 'Jiya Fashion Pretties']",high,2.77792016009523,medium
+551,43,F,tier1,medium,"[""e-Fresh Boy's Brief (Pack of 5)""]","['Ornate', 'ZOSIGN', 'dilli bazaaar', 'AutoKraftZ']",medium,3.1120645189501897,medium
+552,64,F,tier3,low,['Dremel 2615.023.132 Plastic Friction Work Bench ...'],"['SMART TRADERS', 'Home Genie', 'LAMS', 'Metro Sports', 'Twella Creations']",high,4.781006673135785,medium
+553,23,M,tier3,medium,"['Walkline Slippers', ""Noor Embroidered Women's Straight Kurta"", ""Pazel Slim Fit Men's Jeans""]","['Perfect', 'Babyoye Premium', 'Foxy Trend', 'Kiya Trends']",medium,4.08456331604829,low
+554,40,F,metro,medium,"[""Fly U Slim Fit Fit Women's Brown Jeans"", 'Urban Girl Foundation Brush (Pack of 10)', 'Bootwale Bellies']","['Toto Link', 'Sahej']",medium,3.121579499178007,medium
+555,46,F,tier3,low,"[""Dolz Slim Fit Fit Women's Brown Jeans""]",['Xpert'],high,3.92222449703224,medium
+556,32,F,metro,high,"[""SMART DENIM Solid Women's White Denim Shorts"", ""Vinenzia Printed Winter Men's Gloves"", 'Nut Khut Embroidered Kurta & Churidar']",['Anmol'],low,4.392386714843839,medium
+557,31,M,tier1,medium,['Jazz Eyewears Over-sized Sunglasses'],"['Force 10 By Liberty', 'Paisa worth', 'CarMobCentral']",medium,4.339346692422048,medium
+558,44,F,tier1,low,['Cellbazaar Blackberry 8520 WHITE LCD LCD (YIT-562)'],"['Jewels Of Jaipur', 'TP-Link', 'Chipmunk', 'Titrit', 'Elephant']",high,3.272166323129795,high
+559,44,M,tier3,medium,"[""Nine Maternity Wear Women's Fit and Flare Dress""]",[],medium,3.9283730764857197,high
+560,27,M,tier1,high,"['Favourite BikerZ 3514 RAD air filter Ionic Air F...', ""Viral Girl Women's Full Coverage Bra"", 'Kanvas Bellies']","['Uma', 'Kuhuk', 'Mahadev Handicrafts', 'Mahalaxmi']",low,1.677940270203821,low
+561,41,F,tier3,low,"['SMART TRADERS Girls Bellies', 'Boreal Roller Brush', ""FIFO Bottom Women's  Combo""]","['xpert', 'Shashvat Jewels', 'Home Decor Line', 'JK Cartridge', 'SG Creations']",high,5.0,low
+562,25,M,tier3,low,"[""Dolz Slim Fit Fit Women's Brown Jeans"", 'xy decor Cotton Sofa Cover (white Pack of 6)', ""Legmark Slim Fit Women's Blue Jeans""]","['Chap Ice', 'Mount Track']",high,4.014437740321694,low
+563,43,F,metro,medium,"[""PrivateLifes MasterPiece Women's Push-up Bra"", ""883 Police Full Sleeve Solid Men's Jacket"", ""kem Flow Gold skinny Fit Baby Girl's Blue Jeans""]","['Leebo', 'VITAMINS']",medium,4.572178263644588,high
+564,50,M,tier3,low,"['Dressberry Gold Synthetic  Clutch', 'ABEEZ Boys, Men, Girls (Black, Pack of 1)', 'Naaz 2 in 1 Paper Quilling Board Game']",[],high,4.022723520371622,low
+565,44,F,metro,medium,"['Asics Gel-Cumulus 17 Running Shoes', ""Little Stars Girl's A-line Multicolor Dress""]",['Cotts Hub'],medium,4.158421885228671,low
+566,59,M,tier1,medium,"['Speedwav 240437 Sun Shade For Hyundai i10 (Dashb...', 'Speedwav 216510 Manual Rear View Mirror (Right, ...']","['kush creation', 'BILLYS', 'Spick', 'V&V ART', 'Soulful Threads']",medium,3.4722993708514487,low
+567,45,F,tier1,high,['Amita Home Furnishing Cotton Floral Single Bedsh...'],"['Sapatos', 'Chefkraft', 'Pasabahce', 'EZRA']",low,5.0,medium
+568,57,F,tier1,low,['Olvin Aviator Sunglasses'],['La Shades'],high,4.432555886237822,low
+569,61,M,tier1,high,"['Remax Rm-10000 Remax Vanguard 10000mah 10000 mAh...', ""Threads & Pals Full Sleeve Printed, Solid Men's ...""]","['Excellent4U', 'Karatcraft', 'Unnati', 'Blue', 'Adimani']",low,3.6800945647262164,low
+570,51,M,tier1,low,['clickforsign Sound horn Before entering Emergenc...'],[],high,3.8984045452120206,high
+571,44,M,tier3,medium,"[""Leading lady Women's Camisole""]","['Fotodiox Inc.', 'Total Furnishing', 'Exxotic Jewelz']",medium,4.040813995432199,low
+572,29,F,metro,medium,"['ANAND ARCHIES Girls Flats', 'GM Power mate 4 Strip Surge Protector (White)', ""Little Stars Girl's A-line Multicolor Dress""]","['The Pari', 'Transcend', 'SV Creations', 'COLORS FOR LIVING', 'Kook N Keech Disney']",medium,3.175306611387219,low
+573,56,M,tier2,low,"[""tadd Men's, Women's Ankle Length Socks"", 'JUSF2 Black Color Hair Band (Multicolor)', ""kem Flow Gold skinny Fit Baby Girl's Blue Jeans""]",['texclusive'],high,4.3920246408275805,medium
+574,23,F,tier2,medium,['K&P Dr.Ambedkar Large 04 Showpiece  -  19 cm (Po...'],"['Anker', 'Craft And Curtain', 'Iconnect World', 'Maniac']",medium,3.1988583200797662,medium
+575,27,M,tier2,medium,"[""EASIES Solid Single Breasted Casual Men's Blazer""]",[],medium,3.9094487490560983,medium
+576,19,F,tier1,high,['Srajanaa sr114 Travel Shaving Kit (Black)'],['Zyxel'],low,3.5385464949601,medium
+577,53,M,tier1,medium,"['Sugandh Vatika 24 Natural Masala, Sandal Incense...']",['Babyoye Premium'],medium,2.59988599330842,medium
+578,26,M,tier2,medium,"['Sugandh Vatika 24 Natural Masala, Sandal Incense...', ""Starsy Printed Women's Round Neck Black T-Shirt"", 'Pu-Good Women Flats']","['Hoffrichter', 'Regan', 'Mount Nano']",medium,3.694668167461411,low
+579,39,M,tier3,high,"[""Spa Culture Fit Fit Women's Black Jeans""]","['Decon', 'Mavi']",low,3.2277014982032943,low
+580,30,M,metro,low,"['INKT INKT A5 Wiro Notebook A5 Notebook Ring Boun...', ""PrivateLifes MasterPiece Women's Push-up Bra""]","['Style Homez', 'Fly', 'Juhi Malhotra']",high,5.0,high
+581,41,M,tier1,medium,"['REMSON INDIA Women Flats', 'Watches', 'Anuradha Art Stylish Hair Clip (Blue)']",['BnC'],medium,2.163387541171591,medium
+582,42,M,tier1,medium,"['NEWGEN TECH EO-HS3303 218 Wired Headset (White)', ""HANS Men's Crew Length Socks"", 'Arial Morris Women Flats']","['Gigabyte', 'Rishan', 'Sharani', 'Satovira', 'Miss Clyra']",medium,4.584533218452574,medium
+583,45,M,metro,medium,['K&P Dr.Ambedkar Large 04 Showpiece  -  19 cm (Po...'],"['Style Buy Style', 'Homefoster', 'Abhushan']",medium,2.9490265986511393,medium
+584,37,F,tier3,medium,"[""Threads & Pals Full Sleeve Self Design Men's Swe..."", ""TIMBERLAKE Slim Fit Fit Women's Red Jeans""]",[],medium,4.355391220337255,high
+585,62,F,tier2,medium,"['Favourite BikerZ 3514 RAD air filter Ionic Air F...', 'Kraft Seeds Dill Herb Seed (50 per packet)', 'Royal Seal Creations 40 ST COLOR Silver Zircon N...']","['Awesome', 'Deep Lavender', 'U. R. GOD', 'Pepe Jeans', 'Shopmania']",medium,3.9814135342353034,low
+586,34,M,tier3,low,"[""BLM Casual Printed Women's Kurti"", 'Asics Gel-Cumulus 17 Running Shoes']",['Grey'],high,2.593029016180228,high
+587,63,M,tier3,medium,"['Clickforsign Vehicles parked Illegally will be t...', 'Tools & Hardware', ""The Cotton Company Solid Women's Polo Neck Pink ...""]","['SIESTA', 'Satovira', 'ortel']",medium,2.711611718700177,high
+588,63,M,tier3,high,['Eyewear'],['Mustard'],low,4.038937777659302,medium
+589,25,F,tier1,medium,"['Knight Ace Kraasa Sports Running Shoes, Cycling ...', 'Foot Candy Women Flats']","['Lexel', 'Toygully']",medium,2.8757250566272865,medium
+590,51,M,tier1,medium,"[""fourgee Slim Fit Boy's Black Jeans"", 'Urban Girl Foundation Brush (Pack of 10)']","['Smile2u Retailers', 'D-ROCK', 'Peepal Comm', 'Jewels Guru', 'Carmity']",medium,4.770753859955484,high
+591,22,M,tier2,low,['Cellbazaar Blackberry 8520 WHITE LCD LCD (YIT-562)'],['Leppy'],high,2.372593411778484,high
+592,54,F,tier3,medium,"['Kalpaveda Copper Bowl (Gold, Pack of 1)', 'Amita Home Furnishing Cotton Floral Single Bedsh...', ""New Darling Women's Printed Top & Pyjama Set""]","['Agrima', 'JBC Collection']",medium,2.6733329736426232,low
+593,41,F,tier3,low,"['Sunglasses', ""Breakbounce Men's Vest"", ""piftif Women's Sports Bra""]",['Trendy Divva'],high,3.569747500687462,low
+594,23,F,tier3,low,['Autoplus M AP15 Arm Sleeve (Black)'],"['Prestige', 'VES', 'Imli Street', 'My Angel']",high,2.683775430821749,high
+595,60,F,tier1,medium,"[""TSG Breeze Printed Women's Round Neck Multicolor..."", 'Home & Kitchen', 'JUSF2 Black Color Hair Band (Multicolor)']","['Stallion Barware', 'OTC', 'Libas', 'STYLE CLUES FASHION']",medium,2.9680738608072788,low
+596,48,F,metro,low,"[""The Cotton Company Solid Women's Polo Neck Pink ..."", ""e-Fresh Boy's Brief (Pack of 5)""]","['Panit', 'Bms Lifestyle', 'Hand to Hearts']",high,5.0,low
+597,63,F,metro,low,"[""Little Stars Girl's A-line Multicolor Dress""]",['SENECIO'],high,4.259770484550831,high
+598,26,M,tier3,high,"['Amita Home Furnishing Cotton Printed Single Beds...', 'THERISE MD0005 Wired Headset (Pink)']","['Khanna Jupiter', 'Hommate', 'V-Luma', 'Nimfill', 'ATV']",low,4.33951940483284,medium
+599,33,F,tier3,medium,"[""killys Men's Solid No Show Socks""]","['Polyfibre', 'Crocs', 'eCraftIndia', 'B-Fashionable']",medium,3.798723258342923,medium
+600,50,M,tier2,high,"[""Attitude Printed Women's Round Neck Black T-Shirt"", 'Food & Nutrition']","['NEWGEN TECH', 'Jovan', 'VRTYA', 'Trak N Tell']",low,3.703661851343622,medium
+601,54,F,metro,medium,"[""Noor Embroidered Women's Straight Kurta"", ""Clovia Women's Full Coverage Bra"", 'Corcepts Universal Tablet HD Ultra Clear Transpa...']","['Salon Tech', 'Remix', 'Xupply']",medium,2.9470382361525944,medium
+602,60,F,tier3,low,"[""Starsy Printed Women's Round Neck Black T-Shirt"", 'Health & Personal Care Appliances']","['Home Genie', 'AaliyaB', 'SAJNA CELEBRATIONS']",high,3.540794907273342,medium
+603,57,M,tier1,high,['Toys & School Supplies'],['APS'],low,4.815371930409082,low
+604,31,M,tier2,medium,['Amita Home Furnishing Cotton Floral Single Bedsh...'],"['Sun Sports', 'Invogue Art', 'Edimax']",medium,4.349894227091605,high
+605,49,M,metro,medium,['Pia International 10X70X70 WITH ZOOM SAKURA Bino...'],"['JLT', 'Woven Terry', 'Raymond Home', 'IFROGZ', 'American-Elm']",medium,3.389270769844228,medium
+606,55,M,tier1,medium,"[""piftif Women's Sports Bra""]","['Smart Power', 'Alysa', 'Xenio', 'Softarts']",medium,3.7658982166092922,medium
+607,45,F,tier1,high,['clickforsign Sound horn Before entering Emergenc...'],['Satzuma'],low,4.219945194246433,low
+608,60,M,tier2,medium,['Glacier Running Shoes'],"['MK', 'Darvesh', 'D-Link', 'Fns']",medium,2.420314802236069,low
+609,23,F,metro,high,"['Prime Printed 8 Seater Table Cover (Multicolor, ...', 'Computers', ""Oly Two Fit Fit Women's Black Jeans""]","['Sunita Fashion', 'Lamika Creations', 'SportsHouse', 'Redex', 'Gifts By Meeta']",low,3.7605641668977574,medium
+610,50,F,tier1,medium,['Health & Personal Care Appliances'],['Wipro'],medium,3.7513863214101497,low
+611,41,F,tier2,high,"['Automation & Robotics', 'FEET FLOW Women Flats', ""Threads & Pals Full Sleeve Printed, Solid Men's ...""]","['Pretty Women', 'ZEVA', 'DANR']",low,4.273024282927747,low
+612,52,F,tier2,high,['Pens & Stationery'],"['Ira Soleil', 'DARPAN']",low,3.6400398869929305,low
+613,54,F,tier1,medium,"['Rasav Jewels Yellow Gold Diamond 18 K Ring', ""Pazel Slim Fit Men's Jeans"", 'SJ Comet Zoom DPSI Binoculars (30 mm, Black)']","['WRITEFLO', 'Himalayan Sutra', 'Devinez']",medium,2.9948292285717866,high
+614,26,M,tier3,medium,"['Pia International 10X70X70 WITH ZOOM SAKURA Bino...', ""E'Hiose Girl's Leggings (Pack of 6)"", 'Dressberry Orange Synthetic  Clutch']","['Lady Stark', 'IskiUski', 'INDIANO']",medium,3.3395951736706144,low
+615,20,M,tier2,medium,['Clovia Lingerie Set'],['BUTTERFILES'],medium,4.016462948124508,medium
+616,37,F,metro,low,['GM Power mate 4 Strip Surge Protector (White)'],[],high,2.182828884527816,low
+617,42,F,tier1,medium,"[""RajeshFashion Women's Leggings"", 'Zikrak Exim Women Wedges']","['Linzina', 'Van Don', 'womaniya', 'Black Multi', 'GOLDEN GIRL']",medium,3.383170954650624,low
+618,34,F,tier2,low,"['SMART TRADERS Women Flats', 'Bengal Blooms Rose Artificial Plant  with Pot (3...', 'Mast & Harbour Black Synthetic  Clutch']","['Gifts By Meeta', 'Fashblush']",high,4.808431538953896,low
+619,25,M,tier2,medium,"[""Vitamins Solid Baby Girl's Basic Shorts""]",['SkyWheels'],medium,4.790093347579592,high
+620,23,F,metro,low,"['Gking Hand Stiched Steering Cover For Maruti Ert...', 'V&G Professional HD-37 Hair Dryer (Red)', 'Just Wow Women Flats']","['ATHENA', 'Ruby']",high,2.9718270942177436,high
+621,25,F,tier2,medium,"['REMSON INDIA Women Flats', ""UFO Full Sleeve Solid Girl's Jacket"", ""Vishudh Printed Women's Anarkali Kurta""]",['Ninety One Degree'],medium,3.0094065795121963,low
+622,35,M,metro,high,"['The Crazy Me 1 Compartments Eco-Friendly leather...', ""Nine Maternity Wear Women's Fit and Flare Dress"", 'Just Wow Women Flats']","['Skanders', 'Linksys']",low,3.2780075321534996,low
+623,37,M,tier3,medium,['JUSF2 Black Color Hair Band (Multicolor)'],"['Scomp', 'Neo strike', 'Hadwin']",medium,2.913033805971526,high
+624,47,M,tier2,low,"[""GALLOWAY skinny Fit Women's Jeans"", 'Automotive', ""fourgee Slim Fit Boy's Black Jeans""]","['GAJ IMPEX', 'Laviva', 'ARMOIRE']",high,2.70780370936708,medium
+625,62,F,tier1,low,"['Home Furnishing', ""Oly Two Fit Fit Women's Black Jeans"", ""UFO Full Sleeve Solid Girl's Jacket""]",[],high,2.3921547822040736,medium
+626,64,M,tier1,low,"['Cellbazaar Blackberry 8520 WHITE LCD LCD (YIT-562)', 'SJ Comet Zoom DPSI Binoculars (30 mm, Black)', ""Legmark Slim Fit Women's Blue Jeans""]",[],high,2.5651657393547667,medium
+627,34,M,tier3,medium,"['Pens & Stationery', 'Furniture']","['Blanket Zone', 'QP360', 'CREEDS', 'DC Universe']",medium,3.7820880508882575,medium
+628,24,F,metro,high,"['V&G Professional HD-37 Hair Dryer (Red)', 'Mast & Harbour Gold Synthetic  Clutch', 'Firangi Cotton, Polyester Free Floor Mat Firangi...']","['Kapa', 'Avita', 'Olvin', 'Trigcars', 'Artifa']",low,3.036521903269229,medium
+629,20,F,metro,high,"['K&P Lord Ganesha Large 03 Showpiece  -  19 cm (P...', 'OEM 170774 Bike Side Stand', 'classyworld Brass Cufflink (Silver-01)']","['Normal Fit', 'Reinforce', 'Urban Diseno', 'Dark Blue', 'Techno TrendZ']",low,5.0,medium
+630,62,M,tier3,medium,"['Anuradha Art Stylish Hair Clip (Blue)', ""ANASAZI Casual 3/4 Sleeve Solid Women's Top""]","['Accessoreez', 'Texco', 'Decon']",medium,3.0600807928719007,low
+631,42,M,tier3,low,"[""LGRL Women's Leggings"", ""UFO Full Sleeve Solid Girl's Jacket"", 'Sugandh Vatika 24 Natural Masala, Sandal Incense...']",[],high,3.374470006418762,high
+632,30,F,tier3,medium,"['Olvin Rectangular Sunglasses', 'NEWGEN TECH EO-HS3303 179 Wired Headset (White)', 'Cameras & Accessories']","['Aara Arts', 'Riana', 'Cotton World', 'Hemden', 'Quartz']",medium,2.1840615653438675,low
+633,61,M,tier1,high,"['Frabjous German silver Rings For Women Alloy Zir...', 'classyworld Brass Cufflink (Silver-01)', 'Baby Care']","['Kishore Dresses', 'Predator', 'Tradeyard impex', 'Bms Lifestyle']",low,3.5737070412169127,medium
+634,53,F,metro,high,"[""Vitamins Solid Baby Girl's Basic Shorts"", 'Taurus Black & white Lace Up']",[],low,3.8059585180325417,low
+635,40,F,tier2,medium,"['Home Furnishing', 'Taurus Black & white Lace Up', ""Miss Wow Slim Fit Women's Blue Jeans""]",['Inspired Livingg'],medium,3.4301658357791722,high
+636,27,M,tier3,medium,"['Food & Nutrition', 'THERISE MD0005 Wired Headset (Pink)', 'Autoplus M AP15 Arm Sleeve (Black)']",[],medium,3.442480365880098,medium
+637,32,F,tier1,medium,"[""Starsy Printed Women's Round Neck Black T-Shirt"", ""Spa Culture Fit Fit Women's Black Jeans""]","['First Choice', 'YugshaJewels', 'Lotusa', 'Bio Kid', 'Urban Diseno']",medium,4.333521449384543,medium
+638,23,F,tier1,high,"[""Vitamins Solid Baby Girl's Basic Shorts"", 'Adidas IND PRO THI GUA Thigh Guard (White, Blue,...', 'Gaming']","['craftland', 'Deep Maroon', 'Ahuja', 'Kiya Trends']",low,4.727593310261227,medium
+639,43,F,tier3,low,"['Dilan Jewels Alloy Zircon 18K Yellow Gold Bangle...', 'Pu-Good Women Flats', 'INKT INKT A5 Wiro Notebook A5 Notebook Ring Boun...']",['Indian Heritage'],high,4.264919716099481,high
+640,55,M,tier2,medium,"[""TIMBERLAKE Slim Fit Fit Women's Brown Jeans""]","['Vitalwalls', 'rainfun', 'Zobello', 'youniqueshop']",medium,3.1528117148964045,medium
+641,40,F,metro,medium,['Dressberry Orange Synthetic  Clutch'],['ASIAN'],medium,4.024774518685795,medium
+642,41,M,tier1,low,"['Speedwav 216552 Manual Rear View Mirror (Right, ...', 'classyworld Brass Cufflink (Silver-01)', 'Pia International 10X70X70 WITH ZOOM SAKURA Bino...']","['Deziworkz', 'oxford', 'Parth Collection']",high,3.7058421581090832,medium
+643,61,F,tier2,medium,"['Linzina Fashions LIN-HOSS-1.5 Faucet Set', 'Koie  Battery - For Samsung 7562 Premium Quality...']","['Viari', 'Orientel', 'Wildcraft', 'Jutecentral', 'Elephant']",medium,5.0,low
+644,64,M,tier2,low,"['Eyewear', 'SHOPOJ Multicolor Paper Sky Lantern (80 cm X 34 ...']","['69th Avenue', 'Shree Creation', 'Utsav Handicraft', 'Sonaxo']",high,3.670063687018731,low
+645,52,M,tier1,medium,"['Bags, Wallets & Belts', ""Indistar Self Design Viscose Women's Stole""]","['Recrafto', 'King Traders', 'Mickey And Friends', 'Royal Canin']",medium,4.033370791591513,medium
+646,64,F,tier3,medium,['Frabjous German silver Rings For Women Alloy Zir...'],"['Njoy', 'Fashion Plus']",medium,4.12453498388019,medium
+647,59,F,tier2,medium,"['clickforsign Sound horn Before entering Emergenc...', ""HANS Men's Crew Length Socks""]","['Maple', 'Amazing India', 'Dernier Wear', 'Alobha']",medium,3.399434524641277,low
+648,35,F,tier2,medium,"[""Be 13 Printed Boy's Round Neck T-Shirt (Pack of 2)""]","['Hitway', 'Odoky', 'Ravetech', 'RONAKSILK']",medium,3.2000640963142244,high
+649,33,F,tier3,medium,"[""Threads & Pals Full Sleeve Printed, Solid Men's ..."", 'Mobiles & Accessories', 'Himmlisch 20503 Car Bottle Holder (Plastic)']",['GOLDEN GLOBE'],medium,4.135371867340298,low
+650,46,F,metro,low,['Dremel 2615.023.132 Plastic Friction Work Bench ...'],"['Amit Carpet', 'CHOCOBERRY', 'Caffeine', 'Forty Creek']",high,3.3948938642693833,medium
+651,54,M,tier1,low,"['BuildTrack PIR Wireless Motion Sensor - One Swit...', ""tadd Men's, Women's Ankle Length Socks""]","['Tom and Jerry', 'Jazz Eyewears', 'JK Import', 'Lip Rageous']",high,2.9294949262920014,high
+652,35,F,tier2,high,['Mast & Harbour Gold Synthetic  Clutch'],[],low,3.5641263902557077,medium
+653,53,F,tier3,medium,"['Computers', 'Eternal Gandhi Super Series Crystal Paper Weight...']","['MSC Shuangmin', 'Kiya Trends', 'Kuhuk', 'Fashion Craft']",medium,3.3592465089541266,medium
+654,64,M,tier1,low,"['Koie  Battery - For Samsung 7562 Premium Quality...', ""Clovia Women's T-Shirt Bra"", 'Amita Home Furnishing Cotton Printed Single Beds...']","['My Little Lambs', 'SLS', 'Swag India', 'raju purse collection']",high,3.977450453895847,low
+655,20,F,tier3,medium,"[""SUPERMOD Men's Brief""]",[],medium,4.597546919817162,low
+656,27,F,tier1,low,"['Home Decor & Festive Needs', ""Vinenzia Printed Winter Men's Gloves"", 'Impala Alloy Cufflink (White)']",['GB Jewellery'],high,2.90134347097493,high
+657,55,M,tier1,medium,"['Speedwav 216456 Manual Rear View Mirror (Right, ...', ""Selfcare Women's Thong Panty (Pack of 3)""]",[],medium,3.466843355419416,medium
+658,24,F,tier3,medium,"[""SMART DENIM Solid Women's White Denim Shorts"", ""Noor Embroidered Women's Straight Kurta"", 'Knight Ace Kraasa Sports Running Shoes, Cycling ...']",[],medium,2.6977721668524204,high
+659,27,M,tier1,medium,"['Olvin Wayfarer Sunglasses', ""LGRL Women's Leggings"", 'SMART TRADERS Women Flats']",[],medium,4.105454234401099,medium
+660,36,M,metro,low,"[""E'Hiose Girl's Leggings (Pack of 6)""]",[],high,3.5099144157340545,high
+661,21,F,tier1,medium,"['Baby Care', ""run of luck Solid Women's Round Neck Dark Blue T..."", ""Viral Girl Women's Full Coverage Bra""]","['Vps', 'Tiara Gems', 'Value Bay']",medium,2.7966295451971135,medium
+662,41,M,metro,medium,"['Koie  Battery - For Samsung 7562 Premium Quality...', 'COIRFIT Single Coir Mattress']","['AntiqueShop', 'KKD', 'Aerosoft', 'Airwind']",medium,4.223784061538776,low
+663,43,M,tier2,medium,"[""Laser X Checkered Men's Boxer (Pack of 4)"", ""Clovia Women's Plunge Bra""]",[],medium,3.2148572873530887,low
+664,21,F,metro,medium,"[""EASIES Solid Single Breasted Casual Men's Blazer"", 'Home & Kitchen']",[],medium,2.1892884588839463,medium
+665,53,F,tier3,medium,['Bengal Blooms Rose Artificial Plant  with Pot (3...'],"['Sigmatech', 'L Oreal', 'jay fashion', 'Saar', 'Belkin']",medium,3.890815136924263,medium
+666,54,M,tier3,high,"['Zevrr Sterling Silver Swarovski Zirconia Platinu...', 'Naaz 2 in 1 Paper Quilling Board Game']","['Download Apparel', 'MA Design Hut', 'ZORDEN', 'Atithee']",low,3.4682896937503855,medium
+667,22,F,metro,medium,"['Treppe Bellies', ""BLM Casual Printed Women's Kurti"", ""Nine Maternity Wear Women's Fit and Flare Dress""]","['Anshuhandicrafts', 'Unique Collections', 'Hot Pink', 'Pakshal Premium', 'SafeAnBTouch']",medium,3.84030576890544,medium
+668,25,M,tier3,medium,"['Naaz 2 in 1 Paper Quilling Board Game', 'clickforsign Avoid Contanimation Wash your Hands...']",[],medium,3.644264626542376,low
+669,56,F,tier1,high,"[""HANS Men's Crew Length Socks"", 'Speedwav 216456 Manual Rear View Mirror (Right, ...']",['ColorPlus'],low,3.008645875326586,low
+670,27,F,tier3,low,"['SJ Barstel 56m / 1000m Binoculars (30 mm, Black)', 'Dremel 2615.023.132 Plastic Friction Work Bench ...']","['Ortel', 'Mennenni Life Sciences']",high,3.831288915983138,medium
+671,62,F,metro,low,"['Home Decor & Festive Needs', 'Kraft Seeds Thyme Herbs Seed (200 per packet)']","['NELL', 'Phototech']",high,2.8514475051609174,low
+672,29,F,tier2,medium,['Wearable Smart Devices'],"['Abqa Hydrabadi Bangle', 'Sparx']",medium,3.5596066434670948,medium
+673,30,M,tier2,medium,"[""SMART DENIM Solid Women's White Denim Shorts""]",['Advika'],medium,4.1449695525122054,medium
+674,25,M,tier3,medium,"[""Camey Men's Quarter Length Socks""]","['Kamakhya Jewels', 'Iwonder', 'Elegance', 'Vivre Jewels', 'OceaN']",medium,2.9192191851409524,low
+675,32,F,tier3,medium,"['Taurus Black & white Lace Up', 'Urban Girl Foundation Brush (Pack of 7)']","['HIMGIRI', 'Sona', 'Valentine', 'Airplus']",medium,2.5006008892482217,medium
+676,53,M,tier2,low,['BuildTrack PIR Wireless Motion Sensor - One Swit...'],"['Calico Critters', 'Dress Villa']",high,2.191932059861381,medium
+677,32,M,tier3,medium,"['K&P Dr.Ambedkar Large 04 Showpiece  -  19 cm (Po...', 'D&D Women Flats']","['Jewelina Gems', 'Hand Art', 'Ditya', 'Future Tech']",medium,3.675240613517829,medium
+678,62,M,tier3,low,"['Prime Printed 8 Seater Table Cover (Multicolor, ...', ""piftif Women's Sports Bra"", 'Footwear']","['Pedrini', 'Enerzy', 'Fashion Fusion', 'FURNXT']",high,3.935824850156907,medium
+679,53,F,tier1,medium,"[""E'Hiose Girl's Leggings (Pack of 6)"", ""Starsy Printed Women's Round Neck Black T-Shirt""]","['UFC Mart', 'CASEDEAL', 'Silkworm', 'ShwetaInternational', 'JQR']",medium,4.164466770725811,low
+680,25,F,tier1,low,['Koie  Battery - For Samsung 7562 Premium Quality...'],['REDMOMD'],high,2.8715936183459365,low
+681,19,M,tier3,medium,"['COIRFIT Single Coir Mattress', 'Baby Care', ""MASARA Solid Women's Straight Kurta""]","['TRENDnet', 'Hot Muggs', 'Wi Retail', 'e-Fresh', 'Portia']",medium,4.150638805241059,low
+682,33,F,metro,high,"['Autoplus M AP15 Arm Sleeve (Black)', 'Joyra Heart Sterling Silver Swarovski Crystal, S...', 'Siyas Collection Lac Cubic Zirconia Bangle Set (...']",['Love Baby'],low,3.2195508101234096,low
+683,41,M,metro,medium,"['Wearable Smart Devices', ""Vinenzia Printed Winter Men's Gloves"", 'Sonaxo Men Running Shoes']","['ORKA', 'Star Wars', 'Omic', 'iBall', 'Good Way']",medium,5.0,low
+684,37,F,tier2,high,"[""Legmark Slim Fit Women's Light Blue Jeans"", ""TSG Breeze Printed Women's Round Neck Multicolor...""]",[],low,4.106351054041559,medium
+685,36,M,tier1,low,"[""Sisel Printed Poly Cotton Women's Stole"", ""piftif Women's Sports Bra""]","['MB', 'PALSUN WEARS']",high,2.126883011214879,medium
+686,54,M,metro,low,"['Adidas IND PRO THI GUA Thigh Guard (White, Blue,...', 'Zikrak Exim Women Wedges', 'Speedwav 186136 Manual Rear View Mirror (Right, ...']","['Lovehome', 'Pu-Good', 'Madhavs']",high,3.3384139297948607,high
+687,56,M,tier2,low,"['Autoplus M AP18 Arm Sleeve (Black)', 'Home & Kitchen']",[],high,4.047463946467334,low
+688,35,F,tier3,medium,"['Boreal Roller Brush', 'Srajanaa sr114 Travel Shaving Kit (Black)']","['Fourwalls', 'Damemoda', 'Tirupati']",medium,2.4731693501813963,high
+689,28,F,tier3,low,"['The Crazy Me 1 Compartments Eco-Friendly leather...', 'Jewellery', ""kem Flow Gold skinny Fit Baby Girl's Blue Jeans""]",['Allure Auto'],high,4.830066191806236,medium
+690,20,M,tier2,low,"[""Vishudh Printed Women's Anarkali Kurta"", 'Mast & Harbour Gold Synthetic  Clutch', 'Skayvon SUBMERSIBBLE THREE PHASE PUMP CONTROLLER...']",['Jss Exports'],high,2.495352638870145,high
+691,24,M,tier1,medium,"[""EASIES Solid Single Breasted Casual Men's Blazer"", 'Asics Gel-Kayano 22 Running Shoes', 'Skayvon SUMMERSIBLE SINGLE PHASE PUMP CONTROLLER...']","['The Craftz', 'Aamore Decor']",medium,3.797136147519715,high
+692,61,F,tier2,high,"['Clickforsign Vehicles parked Illegally will be t...', 'Corcepts Universal Tablet HD Ultra Clear Transpa...', 'BuildTrack PIR Wireless Motion Sensor - One Swit...']","['FURNXT', 'Ira Soleil', 'Calvin Klein', 'Sunvalley']",low,4.633204645178449,medium
+693,41,M,tier3,medium,"['Speedwav 216552 Manual Rear View Mirror (Right, ...', ""Spa Culture Fit Fit Women's Black Jeans""]","['GEMKOLABWELL', 'Piedpaper', 'Urthn', 'BLM']",medium,3.5659893013137745,medium
+694,41,F,tier3,high,"['Glacier Running Shoes', 'Bengal Blooms Rose Artificial Plant  with Pot (3...']","['eSms', 'Jelly8', 'Huawei']",low,2.9332647398964737,medium
+695,54,M,tier3,medium,"['Anuradha Art Stylish Hair Clip (Blue)', 'Kraft Seeds Dill Herb Seed (50 per packet)', ""Pazel Slim Fit Men's Jeans""]","['Shagun', 'Zeneme', 'Sun Sports']",medium,3.6598639224883556,high
+696,20,M,tier1,medium,"['Firangi Cotton, Polyester Free Floor Mat Firangi...']","['ABEEZ', 'Woly', 'Hunter', ""Vala'S"", 'Plush']",medium,2.973109685014747,high
+697,35,F,tier3,medium,"['REMSON INDIA Women Flats', ""soie Fashion Women's Sports Bra""]","['Klaur Melbourne', 'MYRA', 'SRK GROUPS', 'Tryfa', '3a Autocare']",medium,3.1201753500922544,low
+698,33,M,metro,medium,"[""Libas Printed Women's A-line Kurta"", ""United Colors of Benetton Girl's Trousers"", ""UFO Full Sleeve Solid Girl's Jacket""]","['Crafty Hands', 'Com-Paint', 'Kushies baby', 'Remax', 'Broche']",medium,3.0395606085208215,medium
+699,61,F,tier1,medium,"['Ocean GP/Pyramid Glass (300 ml, Clear, Pack of 12)', 'Olvin Rectangular Sunglasses', 'Zikrak Exim Women Wedges']","['Wishkey', ""Bull's Eye""]",medium,3.358214138078419,medium
+700,56,M,metro,high,"['Naaz 2 in 1 Paper Quilling Board Game', ""Breakbounce Men's Vest""]",[],low,3.842042152535489,low
+701,24,M,tier1,low,"['Mast & Harbour Black Synthetic  Clutch', 'Naaz Dart game Board Game']","['Sharleez', 'FIla']",high,3.7028103670937025,medium
+702,44,F,tier2,high,"['SMART TRADERS Women Wedges', 'Kraft Seeds Dill Herb Seed (50 per packet)']","['Kanvin', 'Vglit', 'Pruto']",low,3.88680516598941,medium
+703,50,M,metro,low,"['Autoplus M AP18 Arm Sleeve (Black)', 'SJ Barstel 56m / 1000m Binoculars (30 mm, Black)', 'Areon Luxurious Fragrance Long Lasting Car,Home,...']",[],high,3.832315539738629,low
+704,32,M,tier2,low,"['COIRFIT Single Coir Mattress', 'Kraft Seeds Dill Herb Seed (50 per packet)']","['OM SHIVAKRITI', 'dgold', 'Chap Ice', 'Sunvi']",high,3.546561139439721,low
+705,61,M,metro,medium,"['Wellon Fittings set (16 pieces) for RO Water Pur...', 'Lucky Thailand GL/ LG30 Glass (300 ml, Clear, Pa...']","['Flazee Home Trends', 'BM BELMONTE']",medium,3.0915522672340146,medium
+706,42,F,tier1,high,"[""Threads & Pals Full Sleeve Printed, Solid Men's ...""]",['Pakiza Design'],low,3.135971368619863,low
+707,24,F,tier2,high,"['Frabjous German silver Rings For Women Alloy Zir...', 'NEWGEN TECH EO-HS3303 179 Wired Headset (White)', 'Dressberry Green Synthetic  Clutch']","['JEWELIZER', 'KHUSHI HANDICRAFTS', 'Vizio']",low,4.543228026663927,low
+708,49,F,metro,medium,"['AutoKraftZ Optimum Locking Device For Bajaj Puls...', ""SUPERMOD Men's Brief"", ""Spa Culture Fit Fit Women's Black Jeans""]","['X-Doria', 'Celebrity', 'NITGEN']",medium,4.033323103406699,medium
+709,41,M,tier1,medium,"['Wearable Smart Devices', 'Himmlisch 20503 Car Bottle Holder (Plastic)', ""Yo Baby Girl's Trousers""]",[],medium,3.4788959803708415,high
+710,18,F,tier1,high,"[""SMART DENIM Solid Women's White Denim Shorts""]",[],low,3.1163158407106857,low
+711,22,F,tier3,medium,"[""Sisel Printed Poly Cotton Women's Stole"", 'Prime Printed 8 Seater Table Cover (Multicolor, ...', 'INKT INKT A5 Wiro Notebook A5 Notebook Ring Boun...']","['KAROZ', 'Black Butterfly']",medium,3.329159580836592,medium
+712,44,F,metro,medium,"['SHOPOJ Yellow Paper Sky Lantern (80 cm X 34 cm, ...']","['Riana', 'Eureka']",medium,2.4959701728109804,high
+713,56,M,metro,high,['Klaur Melbourne Bellies'],[],low,2.7501325610481784,low
+714,20,F,metro,low,"[""Ruhi's Creations Cotton Cartoon King sized Doubl..."", 'Autoplus M AP18 Arm Sleeve (Black)']","['Knot in Love', 'Crunchy Fashion']",high,4.470150716049831,low
+715,43,M,metro,medium,"['Anuradha Art Stylish Hair Clip (Blue)', 'Jazz Eyewears Over-sized Sunglasses']",['Bainsons'],medium,4.181088571447004,low
+716,41,F,metro,high,['BALAJI EXPORTS Bottled Wine Cooler (9 Bottles)'],[],low,3.0059295550198013,medium
+717,33,F,tier3,high,"['Food & Nutrition', 'Prime Printed 8 Seater Table Cover (Multicolor, ...', 'Kraft Seeds Thyme Herbs Seed (200 per packet)']","['INAYA', 'Celebrity']",low,3.660807736220554,medium
+718,61,M,tier2,low,"[""Oly Two Fit Fit Women's Dark Blue Jeans"", ""Vishudh Printed Women's Anarkali Kurta""]","['Femme Couture', ""Zaffre's"", 'OMS ZONE']",high,2.5666473663685423,low
+719,22,M,tier3,medium,"['Wellon Fittings set (16 pieces) for RO Water Pur...', 'Olvin Oval Sunglasses']","['adidas', 'Pearls India', 'Kirati', 'Intex', 'GOGLE SOURCING']",medium,3.0215525886391705,medium
+720,54,M,metro,high,"[""Legmark Slim Fit Women's Blue Jeans"", 'Dressberry Orange Synthetic  Clutch']",[],low,4.117221792180664,low
+721,54,M,metro,medium,"[""United Colors of Benetton Girl's Trousers"", ""883 Police Full Sleeve Solid Men's Jacket""]","['Xtandard', 'JDX', 'Ovente']",medium,4.402962552668302,low
+722,39,F,tier2,low,"[""Be 13 Printed Boy's Round Neck T-Shirt (Pack of 2)"", 'Cameras & Accessories']",['AMY'],high,4.387771277998617,high
+723,24,M,metro,medium,"['Firangi Cotton, Polyester Free Floor Mat Firangi...']","['Agnihotra Creations', 'Crocs', 'Allure', 'Khanna Jupiter']",medium,4.539519544551425,medium
+724,46,M,metro,low,"['Wearable Smart Devices', 'COIRFIT Single Coir Mattress']","['Corona', 'Exotica']",high,3.8781037138876604,low
+725,49,F,tier2,medium,"['Shonaya Printed Bhagalpuri Art Silk Sari', 'Sonaxo Men Running Shoes']",[],medium,3.0031025715825233,medium
+726,37,M,tier3,medium,['Amita Home Furnishing Cotton Floral Single Bedsh...'],"['Caratcents', 'KHUSHI HANDICRAFTS', 'Sona', 'Mobilecops', 'SYON']",medium,4.330310746514742,medium
+727,42,F,tier3,medium,"['Speedwav 216552 Manual Rear View Mirror (Right, ...']",[],medium,2.9748914194873612,medium
+728,54,M,metro,high,"[""United Colors of Benetton Girl's Trousers"", 'Pout Brass Bangle', 'Olvin Rectangular Sunglasses']","['Decot Paradise', 'C Kreul']",low,4.290636531341963,high
+729,56,F,tier1,low,['Urban Girl Foundation Brush (Pack of 7)'],"['Rajlaxmi', 'SKIDLERS', 'Coash', 'Welhouse']",high,3.4704551349222648,medium
+730,53,M,tier3,high,"[""United Colors of Benetton Girl's Trousers""]",['FemNmas'],low,1.8847803686812945,medium
+731,56,F,metro,medium,"[""United Colors of Benetton Girl's Trousers"", 'Eternal Gandhi Super Series Crystal Paper Weight...']","['Yuuup', 'red', 'SR Crafts', 'Suave', 'Tiedribbons']",medium,3.910502055553853,low
+732,32,M,tier1,medium,"['V&G Professional HD-37 Hair Dryer (Red)', ""e-Fresh Baby Boy's Brief (Pack of 10)""]","['Outgear', 'Memore', 'Xerobic', 'Eastman']",medium,3.63507760620952,medium
+733,60,F,metro,medium,['Olvin Wayfarer Sunglasses'],"['Platinum', 'Texlon', 'reckonon']",medium,4.030276096356755,low
+734,30,F,tier1,medium,"['Jewellery', 'Dilan Jewels Alloy Zircon 18K Yellow Gold Bangle...', 'classyworld Brass Cufflink (Silver-01)']","['PI ZON', 'Conair']",medium,2.368199105783124,medium
+735,59,F,metro,high,"[""883 Police Full Sleeve Solid Men's Jacket"", ""e-Fresh Baby Boy's Brief (Pack of 10)""]","['Accessoreez', 'JOVIFashion', 'LG', 'Zaicus', 'Fresh From Loom']",low,2.912128674256807,medium
+736,53,F,tier2,low,"['Naaz Dart game Board Game', ""Libas Printed Women's Anarkali Kurta"", 'Srajanaa sr114 Travel Shaving Kit (Black)']","['ShopSince', 'IndianShelf', 'Roadster']",high,4.467641097058863,medium
+737,44,F,metro,medium,"['Prime Printed 8 Seater Table Cover (Multicolor, ...']","['BeYOUtiful', 'TOP Q', 'Zrestha']",medium,3.2136321780300445,medium
+738,55,F,tier2,medium,"['Toys & School Supplies', 'Pet Supplies']","['Khadi Herbal', 'V-Luma']",medium,4.4044760512084,medium
+739,41,F,tier2,medium,"['Olvin Rectangular Sunglasses', 'INKT INKT A5 Wiro Notebook A5 Notebook Ring Boun...', 'SJ Barstel 56m / 1000m Binoculars (30 mm, Black)']","['Funku Fashion', 'Welwear', 'Playhood', 'zasmina', 'Darvesh']",medium,5.0,low
+740,63,M,tier2,medium,"['Power Smart Quick Charging Pack For PAN CGR-DU-2...', ""Yo Baby Girl's Trousers"", ""Fly U Slim Fit Fit Women's Brown Jeans""]","['Seven Seas', 'At Ur Door', 'Tryfa', 'Wi-Bridge']",medium,3.8414381623934606,medium
+741,22,F,metro,low,"['NEWGEN TECH EO-HS3303 58 Wired Headset (White)', 'SMART TRADERS Women Wedges']","['Youshine', 'Arghyam']",high,2.620931027473474,low
+742,54,M,tier1,medium,"['Mobiles & Accessories', 'Automation & Robotics']","['Khanna Jupiter', 'Affinity Jewellers', 'Ocean', 'k shopping', 'Crystle']",medium,4.013677054540454,high
+743,64,M,tier3,low,"['Zevrr Sterling Silver Swarovski Zirconia Platinu...', 'BALAJI EXPORTS Bottled Wine Cooler (9 Bottles)']",['Wecart'],high,3.4870137209240264,low
+744,61,M,tier2,low,['Bootwale Bellies'],"['medha', 'Charvee', 'Shiv Shankar Handloom', 'PALSUN WEARS', 'MayurShilpa']",high,4.080829426976141,low
+745,35,F,tier1,high,"['K&P Lord Ganesha Large 03 Showpiece  -  19 cm (P...', 'Koie  Battery - For Samsung 7562 Premium Quality...', 'Sunglasses']",[],low,3.755628040277924,low
+746,22,F,metro,low,"['Dressberry Orange Synthetic  Clutch', ""piftif Women's Sports Bra"", ""fourgee Slim Fit Women's Blue Jeans""]",['Funku Fashion'],high,4.8988915537483635,medium
+747,49,F,metro,medium,['Health & Personal Care Appliances'],"['Furncoms', 'Marvel', 'ETHICS', 'next steps', 'Lula']",medium,1.6518036684200008,low
+748,26,M,tier2,high,"['GM Power mate 4 Strip Surge Protector (White)', ""FIFO Bottom Women's  Combo""]","['Total Furnishing', 'Dark Grey', 'JQR', 'LA ATTIRE']",low,3.5505979130240415,high
+749,19,F,tier2,medium,['Wearable Smart Devices'],"['Happiness Is', 'BGS']",medium,3.637785264985919,low
+750,40,F,tier2,low,"['Home Decor & Festive Needs', 'Samprada Modern art Tapestry (Black, Pink)', 'SMART TRADERS Women Flats']","['Texus', 'Very Me', 'Quoface']",high,3.6015774914488565,high
+751,30,M,tier2,medium,"[""Ruhi's Creations Polyester Silk Blend Cartoon Ki..."", 'classyworld Brass Cufflink (Silver-01)']","['King George V', 'Starmark', 'Krishna Carpets', 'Marwal']",medium,1.9224799408136866,low
+752,38,M,tier1,medium,"['Furniture', 'ABEEZ Boys, Men, Girls (Black, Pack of 1)']","['MSL', 'Rejewel', 'OSS-FUEL', 'Quilt India', 'Akin']",medium,3.1141838614121555,high
+753,54,M,tier1,low,"['SJ Bushnell 122/1000M Binoculars (36 mm, Black)', 'Watches', 'ANAND ARCHIES Girls Flats']",['PINK FEVER'],high,3.5387615210293206,low
+754,54,M,tier2,low,"[""Ruhi's Creations Cotton Cartoon King sized Doubl..."", 'Planet Waves Woodstock Strap (Multicolor)']",['rainfun'],high,1.8534350459006546,low
+755,39,M,metro,medium,['SMART TRADERS Women Flats'],['HERDY'],medium,4.399330733871574,high
+756,50,M,tier1,medium,"[""Dassler Slim Fit Women's Multicolor Jeans""]","['SKC', 'Smart Power', 'People', 'DailyObjects', 'Oggo Deo']",medium,3.280464290120194,low
+757,57,M,tier1,medium,"['Kitchen & Dining', 'Automation & Robotics']","['ColorPlus', 'CHKOKKO']",medium,3.332706959641486,low
+758,60,M,metro,low,['Just Wow Women Flats'],[],high,2.9999175988833784,low
+759,27,F,metro,low,"['Sunglasses', ""soie Fashion Women's Sports Bra"", 'Mobiles & Accessories']","['The Bean House', 'LRB', 'Pezzava', 'Dinoimpex', 'Lucky Thailand']",high,4.647143534685517,low
+760,32,F,tier3,medium,"[""EASIES Solid Single Breasted Casual Men's Blazer"", 'Olvin Oval Sunglasses', ""Oly Two Fit Fit Women's Black Jeans""]",['A A STORE'],medium,3.3609514451596953,low
+761,51,F,tier2,low,"['Automotive', 'THERISE MD0005 Wired Headset (Pink)', ""soie Fashion Women's Full Coverage Bra""]",[],high,3.503793715215108,high
+762,33,F,metro,low,"['JUSF2 Black Color Hair Band (Multicolor)', 'Car vastra 1pcs Car Vastra Honda Beige Backrest ...', 'clickforsign Avoid Contanimation Wash your Hands...']","['Seven Seas', 'Menjestic', 'GENIAL']",high,3.1698760506500046,low
+763,48,M,tier2,high,"['Speedwav 216510 Manual Rear View Mirror (Right, ...', ""Starsy Solid Women's Round Neck Green T-Shirt"", 'Samprada Modern art Tapestry (Black, Pink)']","['ALL DAY 365', 'Budding Bees', 'AM Creation', 'DFR']",low,3.1534696774526783,medium
+764,26,F,tier3,medium,"['Beauty and Personal Care', 'Klaur Melbourne Bellies', 'Escan Lace Up']",[],medium,3.9989151273533547,medium
+765,27,F,tier1,low,['JUSF2 Black Color Hair Band (Multicolor)'],"['ORIFLAME SWEDEN', 'DIY']",high,3.964363067370665,medium
+766,44,F,tier1,high,"[""New Darling Women's Printed Top & Pyjama Set"", 'Speedwav 186926 Royal Enfield 350 Twin Spark LED...', 'Speedwav 216510 Manual Rear View Mirror (Right, ...']",[],low,3.870349482121439,medium
+767,54,F,metro,high,"[""New Darling Women's Printed Top & Pyjama Set"", ""Oly Two Fit Fit Women's Dark Blue Jeans""]","['Minervanaturals', 'KAJCI', 'Toy Balloon Kids', 'Kiara Jewellery', 'Onlineshoppee']",low,4.285636202715792,low
+768,18,M,tier1,medium,['Wearable Smart Devices'],['V&G Professional'],medium,3.988023656399149,low
+769,39,F,metro,medium,"[""Nine Maternity Wear Women's Fit and Flare Dress"", 'SJ Comet Zoom DPSI Binoculars (30 mm, Black)']","[""Cynthia's Fashion"", 'Sea Shell', 'CHKOKKO', 'Yashasvi', 'Vinex']",medium,4.5237186571915595,medium
+770,32,M,metro,medium,"['eBooks', 'ATV Pouch for Acer Liquid Z330 (STEEL BLUE)', 'Clothing']",[],medium,3.659814090302027,low
+771,54,F,tier3,low,"[""soie Fashion Women's Full Coverage Bra"", ""SMART DENIM Solid Women's White Denim Shorts"", 'Amita Home Furnishing Cotton Printed Single Beds...']","['C&E', 'A Bit of Me', 'Ela', 'Deben & Hill', 'Karp']",high,2.5444712648470134,low
+772,30,F,metro,medium,"['Skayvon SUMMERSIBLE SINGLE PHASE PUMP CONTROLLER...', ""Oly Two Fit Fit Women's Black Jeans"", 'NEWGEN TECH EO-HS3303 218 Wired Headset (White)']","['Vio', 'ROYLE KATOCH']",medium,4.902091952395545,low
+773,58,F,tier2,low,['Olvin Oval Sunglasses'],"['Vgreen', 'MDI', 'BornBabyKids']",high,3.6105592918082934,medium
+774,18,F,tier3,medium,"[""Dolz Slim Fit Fit Women's Brown Jeans"", 'SJ Barstel 56m / 1000m Binoculars (30 mm, Black)', ""Miss Wow Slim Fit Women's Blue Jeans""]","['run of luck', 'HugMe.fashion']",medium,3.470529031688548,medium
+775,50,F,tier1,low,['Tools & Hardware'],"['zaidis', 'The House of Tara']",high,4.17750360804794,medium
+776,52,F,tier3,high,['Health & Personal Care Appliances'],"['PURYS', 'VK Jewels', 'Tech Fit', 'Lifestyle-You', 'Bike World']",low,3.418951316428033,high
+777,51,F,tier3,low,"['clickforsign Avoid Contanimation Wash your Hands...', 'Urban Girl Foundation Brush (Pack of 10)']","['Goyal India', 'Sanayacollection', 'Nkp', 'Stellar']",high,2.883153993639578,low
+778,47,F,tier2,medium,"['Royal Seal Creations 40 ST COLOR Silver Zircon N...', 'Autoplus M AP15 Arm Sleeve (Black)']","['Laadli Boutique', 'Avalon Organics']",medium,3.5629006457558923,low
+779,29,M,tier1,high,"[""HANS Men's Crew Length Socks""]","['TruSo', 'Zrestha']",low,2.847032583295962,medium
+780,19,M,tier1,medium,['Speedwav 240437 Sun Shade For Hyundai i10 (Dashb...'],"['Scion', 'SANTOSH ROYAL FASHION', 'RRP', 'Sohardhastshilp']",medium,3.4818272548352462,high
+781,21,M,tier3,medium,"['Dilan Jewels Alloy Zircon 18K Yellow Gold Bangle...', ""ANASAZI Casual 3/4 Sleeve Solid Women's Top"", 'Naaz Dart game Board Game']",[],medium,3.6116244576673617,medium
+782,25,F,tier3,low,"['Autoplus M AP15 Arm Sleeve (Black)', 'INVENTURE RETAIL Nail Cutter', ""Legmark Slim Fit Women's Blue Jeans""]","['BelleGirl', 'Slim fit']",high,3.8920815675666414,high
+783,58,M,tier1,medium,"[""Attitude Printed Women's Round Neck Black T-Shirt"", ""LondonHouze Printed Women's Round Neck Grey T-Shirt""]",[],medium,3.1265915573636063,high
+784,22,M,metro,high,"[""Ajaero Slim Fit Women's Dark Blue Jeans""]","['SahiBUY', 'Moulin Roty', 'Kumkum', 'Color Palatte']",low,2.117867031712745,medium
+785,42,M,tier1,medium,"['NEWGEN TECH EO-HS3303 58 Wired Headset (White)', ""E'Hiose Girl's Leggings (Pack of 6)"", 'Siyas Collection Lac Cubic Zirconia Bangle Set (...']","['Dernier Wear', 'CHIKFAB', 'Klaur Melbourne']",medium,5.0,low
+786,37,M,metro,low,['Dressberry Gold Synthetic  Clutch'],"['Fun Box', 'Aerosoft', 'Shrikant Traders', 'Texco', 'Iwonder']",high,5.0,low
+787,37,M,tier3,low,"[""UFO Self Design Round Neck Casual Girl's Sweater"", 'Wellon Fittings set (16 pieces) for RO Water Pur...', ""Clovia Women's T-Shirt Bra""]","['Gliteri', 'Dgold']",high,3.140530310643599,high
+788,24,M,metro,high,['Glacier Running Shoes'],"['The Art Treasure', 'Cinderella Collection By Shining Diva']",low,2.86302184881106,medium
+789,39,F,metro,high,"['SMART TRADERS Women Flats', ""tadd Men's, Women's Ankle Length Socks"", 'Amita Home Furnishing Cotton Printed Single Beds...']","['SAYITLOUD', 'Hariom enterprises', 'MUDIT', 'Udhayam']",low,2.26873116733286,medium
+790,34,M,metro,medium,"['Skayvon SUMMERSIBLE SINGLE PHASE PUMP CONTROLLER...', 'Speedwav 186136 Manual Rear View Mirror (Right, ...']",[],medium,3.5003570574379257,low
+791,31,F,metro,medium,['Jewellery'],"['MyKid', 'Nordlich', 'UpTown', 'Bottoms More', 'OSS-FUEL']",medium,2.1061854284133332,low
+792,35,F,metro,high,"[""Disney Printed Baby Boy's Hooded Grey T-Shirt"", ""Fabpoppy Printed Women's Jumpsuit"", 'ANAND ARCHIES Girls Flats']",['the jewelbox'],low,3.0872112503142977,low
+793,45,M,tier2,low,['ANAND ARCHIES Girls Flats'],"[""Dr. Thapar's""]",high,2.8741641211663222,low
+794,54,F,tier1,medium,"[""PrivateLifes MasterPiece Women's Push-up Bra""]","['Elegance', 'KANCHOO', 'INAYA', 'HuppmeGift', 'JVC']",medium,3.310910508123968,medium
+795,59,M,tier3,medium,"['Urban Girl Foundation Brush (Pack of 10)', ""ANASAZI Casual 3/4 Sleeve Solid Women's Top""]","['Hadwin', 'Agnihotra Creations', 'Rustic India']",medium,3.2904807360824044,medium
+796,33,M,metro,medium,['Favourite BikerZ 3514 RAD air filter Ionic Air F...'],"['Royal Canin', 'R S Jewels', 'Mavi', 'Logitech', 'Smart Fit']",medium,2.0011899935075474,low
+797,34,M,metro,medium,"['Prime Printed 8 Seater Table Cover (Multicolor, ...', 'ANAND ARCHIES Girls Wedges', 'SRPC BAOER STARWALKER EXECUTIVE ROLLERBALL Pen G...']","['Masaba for Magic fairy', 'Himalayan Sutra', 'Auto Power Gold']",medium,3.2244695470604032,low
+798,27,F,metro,high,['Walkline Slippers'],"['Earthrosystem', 'Amaze Mobile', 'The Fine World', 'Rainfun']",low,2.968808065256864,medium
+799,44,M,tier2,medium,"['Autoplus M AP15 Arm Sleeve (Black)', 'Sonaxo Men Running Shoes']","['Gift Island', 'HuppmeGift', 'Moulin Roty', 'Ridhi-Impex', 'Cross Fingers']",medium,1.6792313579635165,low
+800,27,M,tier3,medium,['OEM 170774 Bike Side Stand'],['Reebok'],medium,2.7644493674962494,low
+801,55,F,tier1,medium,['Skayvon SUMMERSIBLE SINGLE PHASE PUMP CONTROLLER...'],[],medium,2.090103175493131,low
+802,32,F,tier2,medium,"['Automation & Robotics', ""e-Fresh Boy's Brief (Pack of 5)""]","['YoudyCo', 'asa products']",medium,2.6478805417904097,high
+803,36,M,tier2,medium,"['Favourite BikerZ 3514 RAD air filter Ionic Air F...', 'ANAND ARCHIES Girls Flats', 'SRPC BAOER STARWALKER EXECUTIVE ROLLERBALL Pen G...']","['Shashvat Jewels', 'Nivea', 'Krg Enterprises', 'Zakaah Jewels', 'TP-LINK']",medium,3.343601381740082,high
+804,36,F,metro,low,"['OEM 170774 Bike Side Stand', ""Libas Printed Women's A-line Kurta"", 'Urban Girl Foundation Brush (Pack of 7)']","['Totta', 'LA ATTIRE', 'Interio Crafts', 'Good Way']",high,4.396372314883571,low
+805,20,F,tier2,medium,"[""HANS Men's Crew Length Socks""]","['Lowe Alpine', 'Rockshose', 'Panditnmshrimali', 'OTC', 'Fab Palace']",medium,3.562491050267979,high
+806,39,M,tier1,medium,"['Jewellery', 'Gking Hand Stiched Steering Cover For Maruti Ert...']",[],medium,3.020000068270923,high
+807,44,F,metro,high,['Kittens Boys Flats'],['Wayona'],low,3.97856062637206,low
+808,46,F,metro,high,"['Shrih Toe & Foot Protector Pain Relief Pad (Pack...', 'Pet Supplies', 'ABEEZ Boys, Men, Girls (Black, Pack of 1)']","['TRENDIEZ', 'Robotel']",low,4.841345676539695,medium
+809,30,F,tier1,medium,"['xy decor Cotton Sofa Cover (white Pack of 6)', 'Dressberry Gold Synthetic  Clutch']","['Metallino', 'Majestic']",medium,3.408838657054636,medium
+810,32,F,tier1,medium,"[""Sisel Printed Poly Cotton Women's Stole"", 'Olvin Rectangular Sunglasses']","['CHINMAY KIDS', 'Cm Treder', 'dongli', 'GIMS']",medium,3.5319556739440454,low
+811,40,M,metro,low,['Pout Brass Bangle'],"['Envoy', 'keco', 'TOC']",high,3.975582498002928,medium
+812,50,F,tier3,low,"[""Oly Two Fit Fit Women's Black Jeans""]",['Anno Dominii'],high,3.1593414118721905,medium
+813,26,M,tier2,high,"[""Vishudh Printed Women's Anarkali Kurta"", 'BuildTrack PIR Wireless Motion Sensor - One Swit...']",[],low,3.3273305900120946,medium
+814,46,F,tier1,medium,"['Olvin Aviator Sunglasses', 'ATV Pouch for Acer Liquid Z330 (STEEL BLUE)']","['Quiksilver', 'Hadwin', 'Awari', 'Royal Canin']",medium,4.024153007014798,high
+815,53,F,tier1,medium,['Car vastra 1pcs Car Vastra Honda Beige Backrest ...'],"['TimberTaste', 'SUNPLEON', 'Le Angelique']",medium,2.2138619509994024,low
+816,59,F,tier3,medium,"['Himmlisch 20503 Car Bottle Holder (Plastic)', ""Laser X Checkered Men's Boxer (Pack of 4)""]","['Type R', 'Anupam', 'HIMMLISCH', 'Smiledrive']",medium,2.2712930185372078,low
+817,29,M,tier3,medium,"['Speedwav 216552 Manual Rear View Mirror (Right, ...', 'Sunglasses']",['Joyra'],medium,4.57004559550998,medium
+818,37,M,tier1,medium,"['Olvin Aviator Sunglasses', ""Oly Two Fit Fit Women's Black Jeans""]","['Clazz', 'Schwarzkopf', 'New Darling', 'HuppmeGift']",medium,3.461531873536655,medium
+819,51,M,metro,low,"['Firangi Cotton, Polyester Free Floor Mat Firangi...', 'Linzina Fashions LIN-HOSS-1.5 Faucet Set', 'Small Toes Bellies']","['Leaftrend', 'Vio', 'Progear', 'StyBuzz', 'Epresent']",high,3.9865953779154784,medium
+820,49,M,tier1,low,['Mast & Harbour Gold Synthetic  Clutch'],"['MSC Shuangmin', 'Suranas Jewelove']",high,3.7333309635411354,medium
+821,49,M,tier3,low,"['Jewellery', 'SAY UV Sterilizer Solid Filter Cartridge (0, Pac...']","['Tullis', 'Unique Collections', 'TOC', 'Tipsy']",high,5.0,low
+822,46,M,tier3,medium,"['ANAND ARCHIES Girls Flats', ""Miss Wow Slim Fit Women's Blue Jeans"", ""UFO Self Design Round Neck Casual Girl's Sweater""]",['Sizzlacious'],medium,4.504953854074088,medium
+823,18,M,tier3,medium,"[""tadd Men's, Women's Ankle Length Socks"", 'NEWGEN TECH EO-HS3303 179 Wired Headset (White)']","['SHANY', 'carrol']",medium,4.1700724759174985,low
+824,22,M,tier1,medium,"[""United Colors of Benetton Girl's Trousers"", 'Siemens 5SL Betagard 5SL MCB (1)']","['Moladz', 'appleofmyi', 'Wisdom', 'N.Blue']",medium,3.7668030191454536,low
+825,55,F,metro,medium,['Koie  Battery - For Samsung 7562 Premium Quality...'],"['ISHWA', 'NEVI', 'Fashionite', 'Rehoboth', 'Point Fit']",medium,3.483673114359502,low
+826,22,M,metro,medium,"['Mast & Harbour Black Synthetic  Clutch', 'eBooks']",['GM'],medium,2.547390682270043,medium
+827,56,F,metro,medium,"['Asics Gel-Kayano 22 Running Shoes', 'Adidas IND PRO THI GUA Thigh Guard (White, Blue,...', ""e-Fresh Baby Boy's Brief (Pack of 10)""]","['Enerzy', 'Ratnam', 'Blackberrys', 'TOTU DESIGN']",medium,3.3505008387691766,low
+828,23,M,metro,high,"[""Camey Men's Quarter Length Socks"", 'INDILEGO Women Flats', ""killys Men's Solid No Show Socks""]","['Ubiquiti', 'BrandMeUp', 'Jewelmantra', 'MNTC']",low,3.2031054637447003,low
+829,28,M,metro,low,"[""Laser X Checkered Men's Boxer (Pack of 4)"", 'Dressberry Gold Synthetic  Clutch', 'Jewellery']","['Titrit', 'PROBOTT']",high,3.5525332879487705,low
+830,27,F,tier2,high,"['Computers', 'Remax Rm-10000 Remax Vanguard 10000mah 10000 mAh...', ""TIMBERLAKE Slim Fit Fit Women's Brown Jeans""]","['Bosch', 'Skovin', 'Zeneme']",low,2.884603872133544,high
+831,48,M,tier1,low,['INKT INKT A5 Wiro Notebook A5 Notebook Ring Boun...'],"['Zeroed', 'Miracle Furnishings', 'OEM', 'Ndura', 'Silver Shoppee']",high,3.316849440468071,low
+832,47,F,tier1,high,"['ABEEZ Boys, Men, Girls (Black, Pack of 1)', 'FEET FLOW Women Flats', 'Urban Girl Foundation Brush (Pack of 7)']","['Nuteez', 'LITTLE FEETZ', 'Glitterss', 'Spangel Fashion']",low,3.8362659926553935,medium
+833,43,M,tier1,medium,"[""TSG Breeze Printed Women's Round Neck Multicolor..."", 'Automation & Robotics']",[],medium,4.409461004667028,high
+834,50,M,tier1,medium,"[""Little Stars Girl's A-line Multicolor Dress""]","['KOHL', 'Yuuup', 'I cube', 'giftsthatwow', 'LIME']",medium,5.0,medium
+835,39,F,tier3,low,"['Cameras & Accessories', 'Jazz Eyewears Over-sized Sunglasses', 'Dressberry Black Synthetic  Clutch']","['Status Quo', 'Manjaree', 'Hasbro', 'Jewels5', 'Swaraj']",high,4.224705723519827,low
+836,31,F,tier3,medium,['REMSON INDIA Women Flats'],"['RANGSUTRA', 'Hand Art']",medium,3.573986554756855,low
+837,58,F,metro,high,"['classyworld Brass Cufflink (Grey-02)', ""soie Fashion Women's Sports Bra"", 'SJ Comet Zoom DPSI Binoculars (30 mm, Black)']","['LittleThings', 'Liberty', 'Imitzworld', 'Ratnam', 'Abqa Hydrabadi Bangle']",low,2.7938731520536795,high
+838,23,F,tier2,medium,"[""Clovia Women's T-Shirt Bra"", 'Kittens Boys Flats', 'Anuradha Art Stylish Hair Clip (Black)']","['SSCP', 'La Shades']",medium,3.1057288922199904,medium
+839,25,F,tier3,low,"['ABEEZ Boys, Men, Girls (Black, Pack of 1)']",[],high,3.0022934321478183,high
+840,31,M,tier2,low,"['Areon Luxurious Fragrance Long Lasting Car,Home,...', 'GM Power mate 4 Strip Surge Protector (White)']",[],high,2.8220009110378004,medium
+841,53,M,tier2,low,"['Adidas IND PRO THI GUA Thigh Guard (White, Blue,...', 'SHOPOJ Purple Paper Sky Lantern (80 cm X 34 cm, ...']","['LAMS', 'Oswal']",high,2.186589935799299,low
+842,46,F,tier2,low,"[""883 Police Full Sleeve Solid Men's Jacket"", ""Libas Printed Women's A-line Kurta"", 'classyworld Brass Cufflink (Grey-02)']",[],high,1.8111891004769425,low
+843,21,M,tier3,low,"['Shrih SH-0192 Wired USB Flexible Keyboard (Red)', ""RajeshFashion Women's Leggings"", 'SHOPOJ Yellow Paper Sky Lantern (80 cm X 34 cm, ...']","['X-WELL', 'Silver Kartz', 'Rishan', 'Ziveg', 'Mayor']",high,3.347042323447929,low
+844,59,F,tier3,medium,"[""e-Fresh Baby Boy's Brief (Pack of 10)"", ""Ruhi's Creations Cotton Cartoon King sized Doubl..."", 'Ocean GP/Pyramid Glass (300 ml, Clear, Pack of 12)']","['raju purse collection', 'Indian Fashion Guru', 'Babeezworld', 'Man2 OSH Kimaka', 'UNCLE BENIT']",medium,2.8729414552873775,medium
+845,48,F,metro,low,"['Pia International 10X70X70 WITH ZOOM SAKURA Bino...', 'Clothing', ""PrivateLifes MasterPiece Women's Push-up Bra""]",[],high,3.36036194129715,medium
+846,41,F,tier3,medium,"['SJ Bushnell 122/1000M Binoculars (36 mm, Black)']","['Payalwala', 'KHUSHI HANDICRAFTS', 'Just Wow', 'ZeroKaata', 'Grey']",medium,2.8691071255684455,low
+847,22,M,tier2,low,"[""Be 13 Printed Boy's Round Neck T-Shirt (Pack of 2)""]","['iAccy', 'Eaglemoss Publications', 'C9', 'Jums']",high,3.778962693544593,high
+848,32,M,tier3,high,"['K&P Dr.Ambedkar Large 04 Showpiece  -  19 cm (Po...', 'Asics Gel-Cumulus 17 Running Shoes']",['Selfcare'],low,4.341978050659964,low
+849,46,M,tier2,high,"['SHOPOJ Multicolor Paper Sky Lantern (80 cm X 34 ...', 'Kalpaveda Copper Bowl (Gold, Pack of 1)']",['Action Shoes'],low,2.842810874246084,medium
+850,35,M,tier2,low,['Mast & Harbour Black Synthetic  Clutch'],"['Ajaero', 'Status Quo', 'Wow', 'Dhiyaa Traders', 'Monmione']",high,4.1304102635911235,medium
+851,46,M,metro,high,"['Skayvon SUBMERSIBBLE THREE PHASE PUMP CONTROLLER...', 'SHOPOJ White Paper Sky Lantern (80 cm X 34 cm, P...']","['MIb', 'Coffee']",low,2.4925789158603315,low
+852,27,M,tier2,medium,['Asics Gel-Kayano 22 Running Shoes'],"['Right', 'Dark Blue', 'Jewel Paradise']",medium,3.1418477816097625,high
+853,47,M,tier1,medium,"['classyworld Brass Cufflink (Grey-02)', 'Sonaxo Men Running Shoes', 'Cellbazaar Blackberry 8520 WHITE LCD LCD (YIT-562)']","['Leading lady', 'YBC', 'Beanz', 'GoMerryKids']",medium,4.818810153801234,low
+854,64,F,tier2,low,['Anuradha Art Stylish Hair Clip (Blue)'],"['HP', 'SAVON', 'Oly Two']",high,2.882687772673616,low
+855,27,M,metro,medium,"['Favourite BikerZ 3514 RAD air filter Ionic Air F...', ""Vitamins Solid Baby Girl's Basic Shorts"", 'Household Supplies']","['PEDI SPIN', 'Jewelz', 'Lava', 'Case Logic']",medium,4.182184990054455,medium
+856,59,M,tier2,medium,"[""ANASAZI Casual 3/4 Sleeve Solid Women's Top"", 'Sumo Baby Walker (Red)', 'Home Furnishing']",['SANTOSH ROYAL FASHION'],medium,3.5867819320954846,high
+857,62,F,tier3,medium,"['Watches', 'Walkline Slippers']","['FIFA', 'LAIBA']",medium,4.183391701870393,high
+858,31,M,tier1,low,"[""HANS Men's Crew Length Socks""]","['Paisa worth', 'AYMH']",high,3.36709653089542,high
+859,48,F,tier1,medium,['ATV Pouch for Acer Liquid Z330 (STEEL BLUE)'],[],medium,2.014617576872772,medium
+860,52,F,tier3,medium,"['Home Entertainment', ""Leading lady Women's Camisole""]",['N Choice'],medium,2.8400663089179248,medium
+861,41,M,metro,low,"[""TSG Breeze Printed Women's Round Neck Multicolor..."", 'Olvin Oval Sunglasses', 'Arial Morris Women Flats']","['Wayona', 'sharp n style', 'Dolphin Product', 'Paras', 'Right Florist']",high,5.0,low
+862,28,F,tier1,high,"[""Disney Printed Baby Boy's Hooded Grey T-Shirt""]","['Interio Crafts', 'Carmity']",low,3.5623468434125263,low
+863,58,M,tier3,low,"['GM Power mate 4 Strip Surge Protector (White)', 'Kraft Seeds Rosemary Herb (Pack Of 5) Seed (75 p...']",['Ibz'],high,4.15552559429313,medium
+864,20,F,metro,medium,['Klaur Melbourne Bellies'],"['Itiha', 'Saihan', 'NOMADIC']",medium,2.8305849096264106,high
+865,42,M,tier2,low,"[""soie Fashion Women's Full Coverage Bra""]","['FEET FLOW', 'Unravel India', 'knp enterprise', ""My Lil' Berry"", 'Sony']",high,3.712648873910726,high
+866,50,F,tier2,medium,"[""kem Flow Gold skinny Fit Baby Girl's Blue Jeans"", 'Dilan Jewels Alloy Zircon 18K Yellow Gold Bangle...']",['Khushi Fashions'],medium,3.6218959772984376,medium
+867,37,M,metro,low,['Rasav Jewels Yellow Gold Diamond 18 K Ring'],"['Pinc Ginger', 'Philips', 'Coash']",high,4.877064762494779,high
+868,64,F,tier2,low,['classyworld Brass Cufflink (Grey-02)'],['Quartz'],high,3.099361494791203,high
+869,27,F,tier3,high,['Foot Candy Women Flats'],"['Pindia', 'Agrasen International']",low,3.883176599840256,low
+870,23,M,tier1,medium,"['SAY UV Sterilizer Solid Filter Cartridge (0, Pac...']",['OutMad'],medium,3.221345069090404,medium
+871,32,M,metro,medium,['Cellbazaar Blackberry 8520 WHITE LCD LCD (YIT-562)'],[],medium,3.1880552278765766,medium
+872,63,F,tier1,high,"['ANAND ARCHIES Girls Flats', ""soie Fashion Women's Sports Bra"", ""Clovia Women's T-Shirt Bra""]","['My Party Suppliers', 'Pigeon', 'Perfect']",low,3.1443276007813368,medium
+873,50,M,tier1,medium,"[""LondonHouze Printed Women's Round Neck Grey T-Shirt"", 'Anuradha Art Stylish Hair Clip (Black)', 'Arial Morris Women Flats']",['Miss Wow'],medium,2.89877389075546,medium
+874,43,M,tier2,medium,"['SAY Thread Wounded Candle 10"" Set of 4 pcs Solid...']",['Crokrok'],medium,3.2653618499224706,medium
+875,37,M,tier3,medium,"[""Vinenzia Printed Winter Men's Gloves"", 'Adidas IND PRO THI GUA Thigh Guard (White, Blue,...', 'Olvin Wayfarer Sunglasses']","['Lava', 'FRENEMY', 'R.B']",medium,4.615297318072513,medium
+876,42,F,tier3,medium,"['SJ Comet Zoom DPSI Binoculars (30 mm, Black)', 'Home Improvement', 'Abhinl Fashion Cotton Printed Semi-stitched Salw...']","['Opc', 'SSM', 'MRK Communication', 'SMS', 'Magic']",medium,3.016580316705553,medium
+877,40,F,tier3,high,"[""piftif Women's Sports Bra"", ""Starsy Solid Women's Round Neck Green T-Shirt""]",[],low,2.82490737555641,medium
+878,36,M,tier3,low,"[""PrivateLifes MasterPiece Women's Push-up Bra"", 'Speedwav 216552 Manual Rear View Mirror (Right, ...']",['EON'],high,4.124099636188666,high
+879,58,M,tier2,low,"['Favourite BikerZ 3514 RAD air filter Ionic Air F...', ""Threads & Pals Full Sleeve Self Design Men's Swe..."", 'Areon Luxurious Fragrance Long Lasting Car,Home,...']","['I SQUARE ENTERPRISES', 'Only']",high,3.1633638094154812,medium
+880,51,M,tier1,low,"['Nut Khut Embroidered Kurta & Churidar', ""piftif Women's Sports Bra""]","['Gehna', 'BI', 'Liz Lange']",high,2.8569135262197998,medium
+881,21,M,tier1,medium,"['Carbanao Chrome Grill Chevrolet Cruze Car Grill ...', 'Dilan Jewels Alloy Zircon 18K Yellow Gold Bangle...', 'Koie  Battery - For Samsung 7562 Premium Quality...']",['Smart Fit'],medium,3.176430644898578,high
+882,30,M,tier3,low,"['Urban Girl Foundation Brush (Pack of 12)', ""883 Police Full Sleeve Solid Men's Jacket""]","['keshar', 'Breakbounce', 'PrivateLifes']",high,3.7721571393429305,medium
+883,43,M,metro,medium,"['ANAND ARCHIES Girls Wedges', 'Toys & School Supplies', 'Synergy SFJB0105 Grocery Bag (Blue)']","['Kanvin', 'Angelfish', 'JHON DIEGO']",medium,5.0,low
+884,19,M,metro,low,"[""Ruhi's Creations Cotton Floral King sized Double...""]","['UFC Mart', 'Vision', 'SPANGLE']",high,2.842543043787528,low
+885,51,M,tier2,low,['Royal Seal Creations 40 ST COLOR Silver Zircon N...'],['R S Jewels'],high,3.521178083672677,low
+886,29,F,tier2,medium,"['Bengal Blooms Rose Artificial Plant  with Pot (3...', 'classyworld Brass Cufflink (Silver-01)']","['Babysid Collection', 'Ashdan']",medium,3.1410856065543764,low
+887,49,M,tier1,medium,['INVENTURE RETAIL Nail Cutter'],"['vinaya', 'Indian Swan', 'NEWLOOK', 'Hawai', 'SV Creations']",medium,2.834990893513249,medium
+888,26,M,tier3,low,"[""BLM Casual Printed Women's Kurti"", ""Ruhi's Creations Cotton Cartoon King sized Doubl...""]","['Nuteez', 'Murtiwala']",high,2.1963699101334404,high
+889,56,F,tier3,medium,"['INKT INKT A5 Wiro Notebook A5 Notebook Ring Boun...', ""TIMBERLAKE Slim Fit Fit Women's Brown Jeans"", ""The Cotton Company Solid Women's Polo Neck Pink ...""]","['Wink', 'Think3']",medium,3.066874378106782,medium
+890,46,M,tier2,medium,"[""BLM Casual Printed Women's Kurti"", ""Fly U Slim Fit Fit Women's Brown Jeans""]","['Tks', 'Star Wars', 'BelleGirl']",medium,1.9023988961475617,low
+891,46,F,tier1,medium,"['Behringer Xenyx 502 Analog Sound Mixer', ""FIFO Bottom Women's  Combo"", 'Royal Seal Creations 40 ST COLOR Silver Zircon N...']",['keshar'],medium,2.798385114446403,low
+892,36,M,tier3,medium,"['clickforsign Sound horn Before entering Emergenc...', 'SMART TRADERS Girls Bellies', ""Vitamins Solid Baby Girl's Basic Shorts""]","['CASEDEAL', 'dongli', 'Prisha', 'Gkidz']",medium,4.469978673151843,high
+893,18,F,metro,high,"[""Ruhi's Creations Polyester Silk Blend Cartoon Ki..."", 'SHOPOJ Yellow Paper Sky Lantern (80 cm X 34 cm, ...', ""Lilliput Top Baby Girl's  Combo""]","['LIENZ', 'Amore', 'Mobirite', 'Spangel Fashion']",low,3.956250940296714,medium
+894,19,F,metro,low,"['Small Toes Bellies', 'INKT INKT A5 Wiro Notebook A5 Notebook Ring Boun...']","['Udaipur Art Gallery', 'Color Palatte', 'Suranas Jewelove', 'UAG']",high,3.631503271092705,low
+895,21,F,tier2,high,"['Gaming', 'Walkline Slippers']",['ROSHNI FASHIONS'],low,4.0074836047922195,high
+896,31,F,tier3,low,"[""Selfcare Women's Thong Panty (Pack of 3)"", 'Baby Care']",['LAMS'],high,3.087379374212276,low
+897,63,F,tier2,low,"['Skayvon SUMMERSIBLE SINGLE PHASE PUMP CONTROLLER...', 'classyworld Brass Cufflink (Grey-02)', 'ANAND ARCHIES Girls Wedges']","['Dizionario', 'Hot Muggs']",high,3.641803405977539,medium
+898,37,F,metro,medium,"['Sugandh Vatika 24 Natural Masala, Sandal Incense...', 'REMSON INDIA Women Flats', 'Dressberry Black Synthetic  Clutch']",[],medium,1.9282347731808855,low
+899,40,M,tier1,medium,['Toys & School Supplies'],"['Fashion Craft', 'Quirky']",medium,3.5933197982660015,high
+900,59,M,metro,medium,"['INDILEGO Women Flats', 'Speedwav 186879 Bajaj Pulsar 200 NS DTS-i LED In...']","['Royal Enfield', 'Aagam', 'Caratify', 'Leppy', 'Glacier']",medium,2.7971607332196373,low
+901,61,M,metro,medium,"['Eternal Gandhi Super Series Crystal Paper Weight...', 'Asics Gel-Kayano 22 Running Shoes', 'Speedwav 216456 Manual Rear View Mirror (Right, ...']","['United', 'BagsHub', 'Baltra']",medium,4.4136743111982275,medium
+902,28,M,tier3,medium,['SRPC BAOER STARWALKER EXECUTIVE ROLLERBALL Pen G...'],"['Kiosha', 'Eternal Gandhi', 'Itzmyfashion']",medium,3.8496389203804933,low
+903,36,M,tier1,high,"[""Attitude Printed Women's Round Neck Black T-Shirt"", 'Computers']","['Durian', 'Chevron']",low,4.3623334887421485,medium
+904,36,F,tier3,medium,"['ATV Pouch for Acer Liquid Z330 (STEEL BLUE)', 'Linzina Fashions LIN-HOSS-1.5 Faucet Set', 'SHOPOJ Multicolor Paper Sky Lantern (80 cm X 34 ...']","['Sunlast', 'Demira Jewels', 'SUNPLEON', 'Transcend']",medium,4.138351084438206,low
+905,63,F,tier3,medium,"['Areon Luxurious Fragrance Long Lasting Car,Home,...']","['ZAIRE', 'Novel', 'Pittsburgh Polo Club']",medium,4.139551509705772,low
+906,22,F,tier2,medium,['Olvin Oval Sunglasses'],[],medium,3.7734535154296576,low
+907,61,M,metro,medium,"['Furniture', 'Speedwav 186926 Royal Enfield 350 Twin Spark LED...']","['Instella', 'Jewels of Jaipur', 'Firangi']",medium,3.921725205605221,medium
+908,63,M,metro,medium,"['SAY Thread Wounded Candle 10"" Set of 4 pcs Solid...']",['Dloop'],medium,3.07997285947804,medium
+909,37,M,metro,high,"['Home Improvement', 'Shrih SH-0192 Wired USB Flexible Keyboard (Red)', ""Vishudh Printed Women's Anarkali Kurta""]",['Lotusa'],low,3.7945944605617887,high
+910,31,M,tier1,medium,['Style World Women Flats'],['Interio Crafts'],medium,1.7380425173402978,low
+911,46,F,tier3,low,"['INKT INKT A5 Wiro Notebook A5 Notebook Ring Boun...', 'Home & Kitchen']","['Noise', 'Scrunchh']",high,3.6161981299031782,medium
+912,51,F,tier2,medium,"[""Oly Two Fit Fit Women's Dark Blue Jeans"", 'Gaming', 'Power Smart Quick Charging Pack For PAN CGR-D28 ...']","['Linzina Fashions', 'Fab Palace', 'BUTTERFILES']",medium,3.7502757848248125,medium
+913,56,F,tier2,medium,['Olvin Oval Sunglasses'],"['Mandhania', 'Shop24decor']",medium,3.7533996024495595,medium
+914,50,M,tier2,high,['Wellon Fittings set (16 pieces) for RO Water Pur...'],['CLASSY'],low,2.8907724987116383,medium
+915,53,F,metro,low,"['SAY Thread Wounded Candle 10"" Set of 4 pcs Solid...']",[],high,3.4115912532221455,medium
+916,39,F,tier2,medium,"[""E'Hiose Girl's Leggings (Pack of 6)"", 'FEET FLOW Women Flats', ""Little Stars Girl's A-line Multicolor Dress""]","['Treasure Trunk', 'Aarnaa', 'Digni', 'Shopernow', 'BUMPKIN']",medium,3.470734036687102,high
+917,43,M,tier3,medium,['AutoKraftZ Optimum Locking Device For Bajaj Puls...'],['Classmate'],medium,1.9246730177557552,low
+918,34,M,tier3,high,"['Carbanao Chrome Grill Chevrolet Cruze Car Grill ...', ""Be 13 Printed Boy's Round Neck T-Shirt (Pack of 2)""]","['KalaBhawan', 'GINI & JONY', 'FTCBazar', 'Happy walls', 'Fns']",low,4.589380949887392,medium
+919,18,M,tier3,medium,"[""Libas Printed Women's A-line Kurta"", 'Sj Bushnell 119M / 1000 Binoculars (36 mm, Black)']","['FATEN', 'Kishore Dresses']",medium,2.8564919653006258,low
+920,51,F,tier3,medium,"['Shrih SH-0192 Wired USB Flexible Keyboard (Red)', 'SAY UV Sterilizer Solid Filter Cartridge (0, Pac...', 'Pout Brass Bangle']",['RANGSUTRA'],medium,3.798048463160927,low
+921,18,M,tier3,medium,"[""soie Fashion Women's Sports Bra""]","['Shashvat Jewels', 'REDMOMD', 'Stanley']",medium,4.986755955903787,high
+922,22,F,tier3,medium,"['Escan Lace Up', ""Ruhi's Creations Cotton Cartoon King sized Doubl...""]","['Yellow Pingo', 'Action Shoes', 'Eclat', 'Coddle']",medium,2.137928682128897,medium
+923,62,F,metro,medium,"['Kittens Boys Flats', 'Favourite BikerZ 3514 RAD air filter Ionic Air F...', 'Mast & Harbour Gold Synthetic  Clutch']","['Ocean', 'OBS', 'ARISE', 'Karigaari', 'LGC']",medium,1.602153865617566,low
+924,39,F,metro,high,['Skayvon SUMMERSIBLE SINGLE PHASE PUMP CONTROLLER...'],"['Peepal Comm', 'LAIBA', 'Silver Prince']",low,3.5187244430581783,medium
+925,27,F,tier2,medium,"[""LondonHouze Printed Women's Round Neck Grey T-Shirt"", 'Rasav Jewels Yellow Gold Diamond 18 K Ring']","['SMS', 'Mickey And Friends']",medium,3.8489248635859283,medium
+926,34,M,tier3,medium,"['Eternal Gandhi Super Series Crystal Paper Weight...', 'Sunglasses']","['Cotton World', 'Star Wars', 'Indian Gems And Jewells', 'Marvel']",medium,3.735165079504147,low
+927,22,M,tier2,low,"['Speedwav 216456 Manual Rear View Mirror (Right, ...', ""Auraa Men's, Women's Solid No Show Socks"", 'Royal Seal Creations 40 ST COLOR Silver Zircon N...']",['Good Win'],high,2.623145627910241,high
+928,26,M,tier2,low,"['Lucky Thailand GL/ LG30 Glass (300 ml, Clear, Pa...', ""fourgee Slim Fit Boy's Black Jeans""]","['Dreamszone', 'FS Brass', 'Sovam International', 'HealthMax']",high,2.5271000431359747,low
+929,55,M,tier2,medium,"['Speedwav 186879 Bajaj Pulsar 200 NS DTS-i LED In...', ""Vishudh Printed Women's Straight Kurta""]","['Avita', 'Dhhan', 'JOVIFashion', 'Rute']",medium,5.0,high
+930,51,F,tier1,low,"['Autoplus M AP18 Arm Sleeve (Black)', 'Power Smart Quick Charging Pack For PAN CGR-DU-2...']","['vinay', 'Mineral', 'Damemoda', 'OMRD', 'Kuhuk']",high,2.7012394409065212,low
+931,52,F,tier3,high,"['Amita Home Furnishing Cotton Printed Single Beds...', 'Tools & Hardware']","['the jewelbox', 'Vgreen']",low,3.2800418568391567,low
+932,57,F,tier3,high,"['Bengal Blooms Rose Artificial Plant  with Pot (3...', 'NEWGEN TECH EO-HS3303 218 Wired Headset (White)']","['Xupply', 'Elegance', 'FNB', 'Shrih', 'Sun Band']",low,3.437826350302596,low
+933,32,F,metro,high,['Shrih SH-0192 Wired USB Flexible Keyboard (Red)'],"['Ruby', 'Wardtrobe']",low,4.154396310687116,high
+934,36,M,tier2,medium,['Baby Care'],['JBG Home Store'],medium,3.0861934477695687,high
+935,35,M,tier2,low,"[""e-Fresh Baby Boy's Brief (Pack of 10)"", ""HANS Men's Crew Length Socks""]","['MOCC', 'Woven Terry', 'Mydress Mystyle']",high,2.411902044694929,medium
+936,49,F,tier2,low,"['Home & Kitchen', ""TIMBERLAKE Slim Fit Fit Women's Brown Jeans""]","['Nude', 'Goodyear']",high,5.0,medium
+937,34,M,tier2,low,"[""Clovia Women's Plunge Bra"", ""Kombee Girl's Printed Red, Pink Top & Capri Set"", 'Health & Personal Care Appliances']","['925 Silver', 'ISUN', 'TOUCHWOOD', 'TSG Escape', 'Abhomedecor']",high,3.7436523875096275,medium
+938,40,F,tier3,medium,['Skayvon SUMMERSIBLE SINGLE PHASE PUMP CONTROLLER...'],"['Belkin', 'JewelHub', 'Probott', 'Ditya']",medium,3.2233410800288627,medium
+939,24,M,tier3,medium,"['Dressberry Green Synthetic  Clutch', 'Furniture']","['Speedo', 'induscraft']",medium,2.9777909327532024,low
+940,58,F,tier3,low,"['Kraft Seeds Thyme Herbs Seed (200 per packet)', 'Urban Girl Foundation Brush (Pack of 10)']",[],high,3.5439915043063768,medium
+941,55,F,tier2,medium,"['Pu-Good Women Flats', ""Ruhi's Creations Cotton Cartoon King sized Doubl...""]","['florence9', 'Wellon']",medium,4.32912655036454,low
+942,42,F,tier3,low,"['Naaz Dart game Board Game', 'Speedwav 240437 Sun Shade For Hyundai i10 (Dashb...']",[],high,4.1240835834248255,medium
+943,51,M,tier2,medium,"['Frabjous German silver Rings For Women Alloy Zir...', 'Prime Printed 8 Seater Table Cover (Multicolor, ...']","['The Art Treasure', 'Inddus', 'Loreal', 'PHOCOS', 'Taino']",medium,1.3717908123545062,medium
+944,51,F,metro,medium,"[""E'Hiose Girl's Leggings (Pack of 6)""]",[],medium,4.357086147824481,low
+945,52,F,tier2,low,"['Beauty and Personal Care', 'Speedwav 186926 Royal Enfield 350 Twin Spark LED...']","['Nitra', 'Hot Pink', 'Jovifashion', 'Iron Crafts']",high,3.4830448818201956,medium
+946,47,F,metro,high,"['Just Wow Women Flats', ""Lilliput Top Baby Girl's  Combo""]",['BOLLYWOOD ACCESSORY'],low,4.06343534436513,low
+947,63,F,tier2,medium,"['Firangi Cotton, Polyester Free Floor Mat Firangi...', ""Ruhi's Creations Cotton Floral King sized Double..."", 'Rasav Jewels Yellow Gold Diamond 18 K Ring']","['Zyxel', 'OMRD', 'Lushomes', 'Luxor']",medium,2.922695063553411,medium
+948,24,F,tier1,low,"['Shonaya Printed Bhagalpuri Art Silk Sari', ""EASIES Solid Single Breasted Casual Men's Blazer"", 'classyworld Brass Cufflink (Silver-01)']",[],high,3.2710913011821146,low
+949,19,M,tier2,high,"[""Sisel Printed Poly Cotton Women's Stole"", 'Bootwale Bellies', 'Carbanao Chrome Grill Chevrolet Cruze Car Grill ...']","['Orchard', 'Agromech']",low,4.302016793565443,medium
+950,38,F,tier3,high,"['Sumo Baby Walker (Red)', 'Adidas IND PRO THI GUA Thigh Guard (White, Blue,...']","['DOLZ', 'Harissons', 'GLAMWALK', 'TPH Covers', 'GAYATRI CREATIONS']",low,2.6074560749661098,high
+951,64,M,tier2,medium,"[""Viral Girl Women's Full Coverage Bra""]",[],medium,3.730494871552581,low
+952,20,M,metro,high,"[""Oly Two Fit Fit Women's Black Jeans"", 'Food & Nutrition']",['addee'],low,3.3687688774022573,medium
+953,47,M,tier3,low,"['Ocean GP/Pyramid Glass (300 ml, Clear, Pack of 12)']","['Spinn', 'Smart Wall Guru', 'Man2 OSH Kimaka', 'Envoy', 'Excellent4U']",high,3.2177871133152087,high
+954,37,M,metro,high,"['Power Smart Quick Charging Pack For PAN CGR-DU-2...', ""Selfcare Women's Thong Panty (Pack of 3)""]","['Easy Gardening', 'e.l.f. Cosmetics']",low,3.096989749094101,low
+955,43,F,tier3,low,"[""Vitamins Solid Baby Girl's Basic Shorts"", ""Attitude Printed Women's Round Neck Black T-Shirt"", 'Siyas Collection Lac Cubic Zirconia Bangle Set (...']","['Platignum', 'BMS Lifestyle', 'Dev Jewellery', 'BEARDO', 'IskiUski']",high,3.330136647987332,low
+956,59,F,tier1,medium,"['Kalpaveda Copper Bowl (Gold, Pack of 1)', 'SJ Comet Zoom DPSI Binoculars (30 mm, Black)', 'Favourite BikerZ 3514 RAD air filter Ionic Air F...']",[],medium,4.144030119814722,medium
+957,55,F,metro,low,"[""Leading lady Women's Camisole""]",[],high,3.213701749798643,low
+958,50,F,tier3,low,"[""RajeshFashion Women's Leggings"", ""Ajaero Slim Fit Women's Dark Blue Jeans"", ""Ruhi's Creations Cotton Cartoon King sized Doubl...""]","['BM BELMONTE', 'Knighthood']",high,3.356375905543843,high
+959,51,M,tier3,medium,['Autoplus M AP18 Arm Sleeve (Black)'],"['Khaan Saab Editions', 'Anmol', 'LUXANTRA', 'Fida']",medium,4.053773107420755,medium
+960,28,M,tier1,low,"[""883 Police Full Sleeve Solid Men's Jacket"", 'Asics Gel-Cumulus 17 Running Shoes']","['Rugby', 'Japdan', 'Soy Impulse', 'UR Image', 'Amber']",high,2.883062069436496,high
+961,32,M,metro,high,"['The Crazy Me 1 Compartments Eco-Friendly leather...', ""Clovia Women's T-Shirt Bra""]","['DFR', 'Pandora', 'Casa Copenhagen', 'Jaipan']",low,3.259790923398931,high
+962,25,M,tier2,medium,['Mast & Harbour Gold Synthetic  Clutch'],"['Little Frog', 'BOMBAY VELVAT FAB']",medium,5.0,medium
+963,32,M,tier1,high,"[""e-Fresh Boy's Brief (Pack of 5)"", ""Threads & Pals Full Sleeve Self Design Men's Swe..."", ""Attitude Printed Women's Round Neck Black T-Shirt""]","['FIFA', 'RajLaxmi']",low,2.1040965099407396,medium
+964,23,M,tier3,low,['Autoplus M AP15 Arm Sleeve (Black)'],"['Pioneerpragati', 'MUCHMORE', '99Gems', 'Total', 'Reyes Reales']",high,4.964455292301381,high
+965,48,F,tier1,low,"['Naaz Dart game Board Game', ""TIMBERLAKE Slim Fit Fit Women's Blue Jeans"", 'ANAND ARCHIES Girls Flats']","['Stanley', 'Cambio']",high,4.101067338014461,medium
+966,35,M,tier1,medium,"['Crafty Hands Kutchchi Mirrorwork Tapestry (Maroon)', 'BuildTrack PIR Wireless Motion Sensor - One Swit...', 'Sonaxo Men Running Shoes']","['Udhayam', 'Axcess', 'Darkpink']",medium,2.6741501191921597,low
+967,32,M,tier1,medium,['THERISE MD0005 Wired Headset (Pink)'],"['RoyalLifestyle', 'Sherie']",medium,4.475995474637356,low
+968,47,F,tier3,low,"[""SUPERMOD Men's Brief"", ""Camey Men's Quarter Length Socks""]","['Krypton', 'Smart Picks', 'Alpha Man', 'Decore Sources']",high,4.421072646815875,medium
+969,42,F,tier2,low,"['Zixtro Bug (Black, Backpack)', 'Srajanaa sr114 Travel Shaving Kit (Black)']","['Delberto', 'MKJewellers', 'Tech Yug', 'Pu-Right']",high,4.1583166763066135,high
+970,61,F,tier2,low,"['Naaz 2 in 1 Paper Quilling Board Game', ""Vishudh Printed Women's Anarkali Kurta"", 'Automation & Robotics']","['KalaSanthe', 'Unnati', 'Jaipur Crafts', 'Saum Creation', 'My Angel']",high,4.347648245412675,low
+971,21,F,tier1,medium,"[""tadd Men's, Women's Ankle Length Socks"", ""Legmark Slim Fit Women's Light Blue Jeans"", ""Dolz Slim Fit Fit Women's Brown Jeans""]",[],medium,2.78139188361719,low
+972,52,M,tier3,medium,['Treppe Bellies'],['JUHI CREATIONS'],medium,2.7174532295864973,low
+973,53,M,tier2,high,"['NEWGEN TECH EO-HS3303 58 Wired Headset (White)', 'INKT INKT A5 Wiro Notebook A5 Notebook Ring Boun...']","['ARISE', 'Medimix', 'vency creation', 'Nkp', 'Fab Fashion']",low,3.4534498356956904,low
+974,31,F,tier3,medium,"['Power Smart Quick Charging Pack For PAN CGR-DU-2...', 'Kraft Seeds Thyme Herbs Seed (200 per packet)', 'SJ Bushnell 122/1000M Binoculars (36 mm, Black)']",['9blings'],medium,2.6233185276378848,high
+975,49,F,tier1,low,"[""Ruhi's Creations Polyester Silk Blend Cartoon Ki...""]","['TSG Breeze', 'Amadore', 'Frames']",high,3.060816344794043,medium
+976,33,M,tier2,low,"[""Threads & Pals Full Sleeve Printed, Solid Men's ...""]","['Gift Island', 'RAA', 'Berge', 'Carmity', 'Hkge']",high,3.8744123249438265,low
+977,42,M,tier3,low,['Mast & Harbour Gold Synthetic  Clutch'],"['Pure Source', 'Suranas Jewelove', 'Chrome', 'Sumeet', 'Canon']",high,3.1163326735671655,low
+978,21,M,metro,medium,"['Speedwav 186879 Bajaj Pulsar 200 NS DTS-i LED In...', 'REMSON INDIA Women Flats', ""TIMBERLAKE Slim Fit Fit Women's Blue Jeans""]","['Leebo', 'FTCBAZAR', 'Bracevor', 'Bold Black', 'Bestech']",medium,2.9177420292287533,high
+979,31,F,tier2,medium,"[""Threads & Pals Full Sleeve Self Design Men's Swe...""]","['Golden Petals', 'Micromax']",medium,3.6114774839423998,low
+980,24,M,tier2,medium,['Zevrr Sterling Silver Swarovski Zirconia Platinu...'],"['Sharani', 'DIVAS CHOICE', 'Clickforsign', 'Styleworld']",medium,4.211503563124211,high
+981,24,F,tier3,medium,"['SAY UV Sterilizer Solid Filter Cartridge (0, Pac...', 'Bengal Blooms Rose Artificial Plant  with Pot (3...']","['Surprise Gifts', 'Johhny Cash', 'Divine Gifts & Artificial Jewellery', 'Styleworld', 'Taj Pearl']",medium,2.8817471112721202,medium
+982,29,M,metro,low,"['Wearable Smart Devices', 'Walkline Slippers', 'SJ Barstel 56m / 1000m Binoculars (30 mm, Black)']","['Harini', 'You', 'Petto', 'Vijisan']",high,3.3492182175112375,medium
+983,45,M,tier3,medium,"['Urban Girl Foundation Brush (Pack of 10)', 'Shonaya Printed Bhagalpuri Art Silk Sari', 'Bags, Wallets & Belts']","['DreamShop', 'LUMBER BOY', 'DivineXt', 'Tescoma']",medium,4.61647425874988,low
+984,28,F,tier2,medium,['Baby Care'],"['Jojo', 'LAIBA', 'Kothari', 'CTW', 'Rubera']",medium,4.499748727624486,medium
+985,44,F,tier3,low,"['Kalpaveda Copper Bowl (Gold, Pack of 1)', ""Threads & Pals Full Sleeve Printed, Solid Men's ..."", 'Speedwav 240437 Sun Shade For Hyundai i10 (Dashb...']","['Hariom Enterprises', 'Little Stars', 'Aligatorr', 'Wecart']",high,3.2540189246182742,high
+986,27,F,tier2,high,"[""TIMBERLAKE Slim Fit Fit Women's Red Jeans""]","['Wow!', 'Champ', 'Quirky', 'Skycandle.in', 'D-Link']",low,2.8565170112013907,medium
+987,57,M,tier3,medium,"['Computers', ""MASARA Solid Women's Straight Kurta"", 'Kanvas Bellies']","['ABCD', 'Saba Garments', 'CookAid', 'Estilo', 'Surface180']",medium,4.168350787888614,low
+988,19,F,tier1,medium,"['Rasav Jewels Yellow Gold Diamond 18 K Ring', ""Ajaero Slim Fit Women's Dark Blue Jeans""]","['Herbal Jewellery', 'SHOP FRENZY']",medium,3.789618709838859,low
+989,39,F,tier1,high,"['V&G Professional HD-37 Hair Dryer (Red)', 'Speedwav 216552 Manual Rear View Mirror (Right, ...', 'Pia International 10X70X70 WITH ZOOM SAKURA Bino...']","['Merlin', 'Velvetcase']",low,3.7878005989624284,medium
+990,41,F,metro,medium,"['SHOPOJ Purple Paper Sky Lantern (80 cm X 34 cm, ...', 'Pout Brass Bangle']","['THREE WICKETS', 'Zacharias', 'Joola']",medium,3.456625371746043,low
+991,50,F,tier2,medium,"[""The Cotton Company Solid Women's Polo Neck Pink ..."", ""Leading lady Women's Camisole"", ""fourgee Slim Fit Boy's Black Jeans""]","['YK', 'You Got Plan B', 'stylishvilla', 'Sifty Collection', 'Gathbandhan']",medium,4.3001473375154475,medium
+992,59,F,metro,low,"['Shrih Toe & Foot Protector Pain Relief Pad (Pack...', ""Nine Maternity Wear Women's Fit and Flare Dress"", 'Taurus Black & white Lace Up']","['Antariksh', 'PALSUN WEARS', 'TRENDnet', 'Sitaram', 'Abhinl Fashion']",high,5.0,medium
+993,42,F,tier2,high,['Pu-Good Women Flats'],"['Samradhi', 'ARIHANT', 'Samsung']",low,2.6738260298671275,medium
+994,33,M,tier1,low,"[""Spa Culture Fit Fit Women's Black Jeans"", 'Dressberry Gold Synthetic  Clutch']","['iBall', 'i-KitPit', 'Aara Arts', 'Sony']",high,3.218156145558391,medium
+995,25,F,metro,low,"[""TSG Breeze Printed Women's Round Neck Multicolor..."", 'Kittens Boys Flats']","['Zaisch', 'SG Creations', 'Vector X', 'VASTUGHAR']",high,3.729684890141412,low
+996,43,F,tier2,low,"[""Little Stars Girl's A-line Multicolor Dress"", 'Jewellery']","['Woven Terry', 'Remax', 'Via Italia', 'Jiya Fashion Pretties', 'Swag India']",high,3.457883245007802,high
+997,45,F,tier3,medium,"['INVENTURE RETAIL Nail Cutter', ""Oly Two Fit Fit Women's Dark Blue Jeans""]","['benext', 'soie', 'BagsHub']",medium,1.6582296243201764,high
+998,31,F,metro,low,['Dressberry Black Synthetic  Clutch'],"['SayItLoud', 'Easy']",high,4.602185633568145,high
+999,41,F,metro,medium,"[""Vishudh Printed Women's Anarkali Kurta"", ""kem Flow Gold skinny Fit Baby Girl's Blue Jeans""]","['Gene Shoppiee', 'Wadhwa creations', 'Wecart', 'Tradition India']",medium,3.351390611093667,medium
