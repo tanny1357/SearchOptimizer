@@ -5,12 +5,14 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import App from './App.jsx'
 import HomePage from './pages/HomePage.jsx';
 import ResultsPage from './pages/ResultsPage.jsx';
+import Login from './pages/Login.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<HomePage />} />
       <Route path="search" element={<ResultsPage />} />
+      <Route path="/login" element={<Login />} />
     </Route>
   )
 );

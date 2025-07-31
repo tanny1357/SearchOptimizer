@@ -10,7 +10,7 @@ function App() {
       </main>
       <footer className="bg-gray-800 text-white py-6">
         <div className="container mx-auto text-center">
-          <p>© 2023 SearchOptimizer - Powered by Semantic Search and AI</p>
+          <p>© 2025 SearchOptimizer - Powered by Semantic Search and AI</p>
         </div>
       </footer>
     </div>

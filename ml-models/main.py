@@ -407,34 +407,34 @@ def _get_dynamic_filters() -> Dict:
         }
     }
 
+from src.trie import Trie
+trie = Trie()
+
 @app.on_event("startup")
 async def startup_event():
     """Initialize services when the app starts"""
     global predictor, products, suggestion_bank
-    
+
     # Load products for search functionality
     try:
-        with open("unified_products.json", "r") as f:
+        with open("unified_products.json", "r", encoding='utf-8') as f:
             products = json.load(f)
-        
-        # Build category suggestions instead of product titles
+
+        # --- Build the category suggestion bank as before ---
         categories_set = set()
         for p in products:
             category = p.get("category", "")
             if category and category != 'nan':
-                # Parse the category string to extract hierarchy
                 try:
-                    # Remove the outer brackets and quotes
+                    # Remove the outer brackets and quotes, split by '>>' for hierarchy
                     if category.startswith('[') and category.endswith(']'):
                         category_clean = category[2:-2]  # Remove ["..."]
-                        # Split by ">>" to get hierarchy levels
                         levels = [level.strip() for level in category_clean.split(">>")]
-                        
-                        # Add each level and combinations as suggestions
+
+                        # Add each level and parent paths
                         for i, level in enumerate(levels):
                             if level and len(level) > 2:
                                 categories_set.add(level)
-                                # Add parent categories (e.g., "Electronics", "Mobile Phones", etc.)
                                 if i > 0:
                                     parent_path = " >> ".join(levels[:i+1])
                                     categories_set.add(parent_path)
@@ -442,22 +442,39 @@ async def startup_event():
                     # Fallback: add the raw category
                     if len(category) > 2:
                         categories_set.add(category)
-        
         suggestion_bank = sorted(list(categories_set))
+
+        # --- Build trie with product titles and all suggestion bank values ---
+        titles_inserted = 0
+        category_suggestions_inserted = 0
+
+        # Insert product titles into trie
+        for p in products:
+            title = p.get("title", "").strip()
+            if title:
+                trie.insert(title)
+                titles_inserted += 1
+
+        # Insert category suggestions into trie (if not already present)
+        for suggestion in suggestion_bank:
+            trie.insert(suggestion)
+            category_suggestions_inserted += 1
+
         print(f"✅ Loaded {len(products)} unified products for search")
         print(f"✅ Built {len(suggestion_bank)} category suggestions")
-        
+        print(f"✅ Inserted {titles_inserted} product titles and {category_suggestions_inserted} category suggestions into trie!")
+
     except FileNotFoundError:
         print("⚠️  unified_products.json not found. Search functionality will be limited.")
         products = []
         suggestion_bank = []
-    
+
     # Initialize two-tower predictor (optional)
     if TWO_TOWER_AVAILABLE:
         try:
             model_path = "flipkart_twin_tower.pt"
             csv_path = "flipkart_com-ecommerce_sample.csv"
-            
+
             if os.path.exists(model_path) and os.path.exists(csv_path):
                 predictor = FlipkartPredictor(model_path, csv_path)
                 print("✅ Two-tower predictor initialized successfully!")
@@ -465,6 +482,7 @@ async def startup_event():
                 print("⚠️  Two-tower model files not found. Recommendation endpoints will be disabled.")
         except Exception as e:
             print(f"⚠️  Failed to initialize two-tower predictor: {e}")
+
 
 # API Endpoints
 
@@ -809,6 +827,14 @@ async def get_statistics():
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")
+    
+@app.get("/suggest")
+async def suggest(query: str = Query(...), max_results: int = 10):
+    prefix = query.strip().lower()
+    if not prefix or len(prefix) < 1:
+        return {"suggestions": []}
+    matches = trie.search_prefix(prefix, max_results=max_results)
+    return {"suggestions": matches}
 
 if __name__ == "__main__":
     import uvicorn

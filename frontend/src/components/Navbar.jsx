@@ -5,10 +5,12 @@ import axios from 'axios';
 import _ from 'lodash';
 import { FaCamera } from 'react-icons/fa';
 import { FiSearch } from 'react-icons/fi';
+import { getCurrentUser, logoutUser } from '../utils/auth';
 
 function Navbar() {
   const [query, setQuery] = useState('');
   const [suggestions, setSuggestions] = useState([]);
+  const [user, setUser] = useState(getCurrentUser());
   const navigate = useNavigate();
   const location = useLocation();
   const isHomePage = location.pathname === '/';
@@ -16,8 +18,11 @@ function Navbar() {
   const fetchSuggestions = useCallback(
     _.debounce(async (input) => {
       try {
-        const res = await axios.get('http://127.0.0.1:8000/search', {
-          params: { query: input },
+        const res = await axios.get('http://127.0.0.1:8000/suggest', {
+          params: { 
+            query: input,
+            username: user?.username || "",
+          },
         });
         setSuggestions(res.data.suggestions || []);
       } catch {
@@ -28,10 +33,20 @@ function Navbar() {
   );
 
   useEffect(() => {
+    const handleStorage = () => setUser(getCurrentUser());
+    window.addEventListener("storage", handleStorage);
+    return () => window.removeEventListener("storage", handleStorage);
+  }, []);
+
+  useEffect(() => {
+    setUser(getCurrentUser());
+  }, [location]);
+
+  useEffect(() => {
     if (query.trim()) fetchSuggestions(query);
     else setSuggestions([]);
     return () => fetchSuggestions.cancel && fetchSuggestions.cancel();
-  }, [query, fetchSuggestions]);
+  }, [query, fetchSuggestions, user]);
 
   const handleSubmit = (e) => {
     e && e.preventDefault();
@@ -120,9 +135,25 @@ function Navbar() {
           <Link to="/cart" className="hover:text-yellow-300 transition-colors">
             Cart
           </Link>
-          <Link to="/account" className="hover:text-yellow-300 transition-colors">
-            Account
+          {user ? (
+          <>
+            <span className="font-bold">Hi, {user.username}</span>
+            <button
+              className="hover:text-yellow-300 transition-colors"
+              onClick={() => {
+                logoutUser();
+                setUser(null);
+                navigate("/");
+              }}
+            >
+              Log out
+            </button>
+          </>
+        ) : (
+          <Link to="/login" className="hover:text-yellow-300 transition-colors">
+            Login
           </Link>
+        )}
         </div>
       </div>
     </header>
