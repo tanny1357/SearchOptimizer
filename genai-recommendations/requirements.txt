@@ -8,3 +8,4 @@ openai
 streamlit
 faiss-cpu
 sentence-transformers
+langchain_community
