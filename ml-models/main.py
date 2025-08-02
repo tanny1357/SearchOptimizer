@@ -16,6 +16,7 @@ from pathlib import Path
 # Import local modules
 from ecommerce_spell_correction import get_detailed_correction, get_corrected_query
 from caption_image import generate_caption
+from seasonal_recommendations import SeasonalRecommendationSystem
 
 # Add src directory to path for two-tower model
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
@@ -285,6 +286,7 @@ class FlipkartPredictor:
 # Global instances
 predictor = None
 search_model = SentenceTransformer('all-MiniLM-L6-v2')
+seasonal_system = None
 products = []
 suggestion_bank = []
 
@@ -483,6 +485,18 @@ async def startup_event():
         except Exception as e:
             print(f"⚠️  Failed to initialize two-tower predictor: {e}")
 
+    # Initialize seasonal recommendation system
+    try:
+        global seasonal_system
+        csv_path = "Product,Month,Season.csv"
+        if os.path.exists(csv_path):
+            seasonal_system = SeasonalRecommendationSystem(csv_path)
+            print("✅ Seasonal recommendation system initialized successfully!")
+        else:
+            print("⚠️  Seasonal data file not found. Seasonal recommendations will be disabled.")
+    except Exception as e:
+        print(f"⚠️  Failed to initialize seasonal recommendation system: {e}")
+
 
 # API Endpoints
 
@@ -516,9 +530,123 @@ async def health_check():
             "search": len(products) > 0,
             "spell_correction": True,
             "image_captioning": True,
-            "recommendations": predictor is not None
+            "recommendations": predictor is not None,
+            "seasonal_recommendations": seasonal_system is not None
         }
     }
+
+# Seasonal Recommendations Endpoint
+
+@app.get("/seasonal-recommendations")
+async def get_seasonal_recommendations(
+    query: str = Query(..., description="User search query"),
+    month: Optional[str] = Query(None, description="Month name (if not provided, uses current month)"),
+    top_k: int = Query(10, description="Number of recommendations to return", ge=1, le=20)
+):
+    """
+    Get intelligent seasonal product recommendations based on the user's search query and current month.
+    Uses advanced semantic matching and category filtering to find relevant products.
+    """
+    if seasonal_system is None:
+        raise HTTPException(status_code=503, detail="Seasonal recommendation system not available")
+    
+    if not products:
+        raise HTTPException(status_code=503, detail="Product catalog not available")
+    
+    try:
+        # Get current time information
+        from datetime import datetime
+        current_time = datetime.now()
+        current_month = month if month else current_time.strftime("%B")
+        
+        # Get seasonal recommendations from the CSV (both month-specific and season-general)
+        seasonal_recommendations = seasonal_system.get_seasonal_recommendations_with_fallback(
+            search_query=query,
+            month=current_month,
+            top_k=15,  # Get more seasonal items to work with
+            min_similarity=0.05
+        )
+        
+        # Get season for the month
+        season = seasonal_system.get_season_for_month(current_month)
+
+        # Combine the user's query with seasonal context for a powerful semantic search
+        seasonal_keywords = " ".join(rec['product'] for rec in seasonal_recommendations[:5]) # Top 5 seasonal terms
+
+        # Create a list of search terms: the original query + top seasonal keywords
+        search_terms = [rec['product'] for rec in seasonal_recommendations[:5]]
+
+        print(search_terms)
+
+        # Get all product embeddings once
+        product_embeddings = np.array([p["embedding"] for p in products])
+        
+        # Initialize final products list
+        final_products = []
+        used_product_ids = set()
+
+        # Process each search term and get the TOP 1 result for each
+        for term in search_terms:
+            term_embedding = search_model.encode([term])
+            similarities = cosine_similarity(term_embedding, product_embeddings)[0]
+            
+            # Find the best matching product for this specific term
+            best_score = -1
+            best_product = None
+            best_index = -1
+            
+            for i, score in enumerate(similarities):
+                product = products[i]
+                product_id = product.get("id", "")
+                price = product.get("discounted_price", 0.0) if product.get("discounted_price", 0.0) > 0 else product.get("retail_price", 0.0)
+                
+                # Only consider products with valid price and not already used
+                if price > 0 and product_id not in used_product_ids and score > best_score:
+                    best_score = score
+                    best_product = product
+                    best_index = i
+            
+            # Add the best product for this term if found
+            if best_product is not None:
+                used_product_ids.add(best_product.get("id", ""))
+                
+                final_products.append({
+                    "id": best_product.get("id", ""),
+                    "title": best_product.get("title", ""),
+                    "description": best_product.get("description", "")[:200] + "..." if len(best_product.get("description", "")) > 200 else best_product.get("description", ""),
+                    "brand": best_product.get("brand", ""),
+                    "category": best_product.get("category", ""),
+                    "price": float(best_product.get("discounted_price", 0.0) if best_product.get("discounted_price", 0.0) > 0 else best_product.get("retail_price", 0.0)),
+                    "retail_price": float(best_product.get("retail_price", 0.0)),
+                    "discounted_price": float(best_product.get("discounted_price", 0.0)),
+                    "image": best_product.get("image", ""),
+                    "rating": best_product.get("rating", "No rating available"),
+                    "relevance_score": float(best_score),
+                    "seasonal_term": term,  # Which seasonal term matched this product
+                    "seasonal_context": f"Best match for '{term}' in {season} season",
+                    "season": season,
+                    "month": current_month,
+                    "rank": len(final_products) + 1,
+                    "match_percentage": f"{round(best_score * 100, 1)}% match for {term}"
+                })
+                
+                # Stop if we have enough products
+                if len(final_products) >= top_k:
+                    break
+
+        return {
+            "success": True,
+            "query": query,
+            "search_terms_used": search_terms,
+            "month": current_month,
+            "season": season,
+            "timestamp": current_time.isoformat(),
+            "recommendations": final_products,
+            "total_results": len(final_products)
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error generating seasonal recommendations: {str(e)}")
 
 # Search & Query Processing Endpoints
 
@@ -537,7 +665,7 @@ async def semantic_search(request: Request):
         raise HTTPException(status_code=503, detail="Product database not available")
 
     query_embedding = search_model.encode([query])
-    product_embeddings = [p["embedding"] for p in products]
+    product_embeddings = np.array([p["embedding"] for p in products])
     similarities = cosine_similarity(query_embedding, product_embeddings)[0]
 
     keyword_matches = []
@@ -632,7 +760,7 @@ async def search(
 
     # Semantic search with corrected query
     query_embedding = search_model.encode([corrected_query])
-    product_embeddings = [p["embedding"] for p in products]
+    product_embeddings = np.array([p["embedding"] for p in products])
     similarities = cosine_similarity(query_embedding, product_embeddings)[0]
 
     # Create products with scores and apply filters

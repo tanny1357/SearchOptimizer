@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import { useSearchParams } from "react-router-dom"
 import axios from "axios"
 import {
   FiFilter,
@@ -15,6 +16,8 @@ import {
   FiTrendingUp,
   FiSearch,
 } from "react-icons/fi"
+import SeasonalRecommendations from "../components/SeasonalRecommendations"
+import { fetchSeasonalRecommendations } from "../api/seasonalAPI"
 
 // Enhanced Button component with animations
 const Button = ({
@@ -72,15 +75,9 @@ const Input = ({ className = "", ...props }) => {
 }
 
 export default function ResultsPage() {
-  // Get query from URL parameters (vanilla JS approach)
-  const getQueryParam = () => {
-    if (typeof window !== "undefined") {
-      const urlParams = new URLSearchParams(window.location.search)
-      return urlParams.get("query") || ""
-    }
-    return ""
-  }
-
+  const [searchParams] = useSearchParams()
+  const queryFromUrl = searchParams.get('query') || ''
+  
   const [originalQuery, setOriginalQuery] = useState("")
   const [filtersOpen, setFiltersOpen] = useState(false)
   const [results, setResults] = useState([])
@@ -97,31 +94,46 @@ export default function ResultsPage() {
     category: true,
   })
 
-  const [newQuery, setNewQuery] = useState("")
-
-  const handleNewSearch = (e) => {
-    e.preventDefault()
-    if (newQuery.trim()) {
-      // Update URL and trigger new search
-      window.history.pushState({}, "", `?query=${encodeURIComponent(newQuery.trim())}`)
-      setOriginalQuery(newQuery.trim())
-      setNewQuery("")
-    }
-  }
+  // Seasonal recommendations state
+  const [seasonalRecommendations, setSeasonalRecommendations] = useState(null)
+  const [seasonalLoading, setSeasonalLoading] = useState(false)
 
   // Filter states
   const [priceRange, setPriceRange] = useState([0, 5000])
   const [selectedRating, setSelectedRating] = useState(0)
   const [selectedBrands, setSelectedBrands] = useState([])
   const [selectedCategories, setSelectedCategories] = useState([])
+  
+  // Dynamic filter options from API
+  const [availableFilters, setAvailableFilters] = useState({
+    brands: [],
+    categories: [],
+    price_range: { min: 0, max: 5000 }
+  })
 
-  const brands = ["Samsung", "Apple", "Sony", "LG", "Xiaomi"]
-  const categories = ["Electronics", "Smartphones", "Accessories", "Computers", "Home Appliances"]
+  const brands = availableFilters.brands || []
+  const categories = availableFilters.categories || []
 
   useEffect(() => {
     setIsVisible(true)
-    setOriginalQuery(getQueryParam())
-  }, [])
+    setOriginalQuery(queryFromUrl)
+    
+    // Fetch initial filters
+    if (!queryFromUrl) {
+      axios.get("http://127.0.0.1:8000/filters")
+        .then((res) => {
+          if (res.data) {
+            setAvailableFilters(res.data)
+            if (res.data.price_range) {
+              setPriceRange([res.data.price_range.min, res.data.price_range.max])
+            }
+          }
+        })
+        .catch(() => {
+          // Ignore errors for filter fetching
+        })
+    }
+  }, [queryFromUrl])
 
   useEffect(() => {
     if (!originalQuery) return
@@ -172,6 +184,16 @@ export default function ResultsPage() {
         })
         .then((res) => {
           setResults(res.data.results || [])
+          
+          // Update available filters from API response
+          if (res.data.filters) {
+            setAvailableFilters(res.data.filters)
+            // Update price range if this is the first load
+            if (priceRange[0] === 0 && priceRange[1] === 5000 && res.data.filters.price_range) {
+              setPriceRange([res.data.filters.price_range.min, res.data.filters.price_range.max])
+            }
+          }
+          
           setLoading(false)
         })
         .catch(() => {
@@ -180,6 +202,22 @@ export default function ResultsPage() {
         })
     }
   }, [usedQuery, sortOption, priceRange, selectedRating, selectedBrands, selectedCategories])
+
+  // Fetch seasonal recommendations when query changes
+  useEffect(() => {
+    if (usedQuery) {
+      setSeasonalLoading(true)
+      fetchSeasonalRecommendations(usedQuery)
+        .then((seasonalData) => {
+          setSeasonalRecommendations(seasonalData)
+          setSeasonalLoading(false)
+        })
+        .catch(() => {
+          setSeasonalRecommendations(null)
+          setSeasonalLoading(false)
+        })
+    }
+  }, [usedQuery])
 
   const toggleFilterSection = (section) => {
     setExpandedFilters({
@@ -215,7 +253,10 @@ export default function ResultsPage() {
   }
 
   const clearAllFilters = () => {
-    setPriceRange([0, 5000])
+    setPriceRange([
+      availableFilters.price_range?.min || 0, 
+      availableFilters.price_range?.max || 5000
+    ])
     setSelectedRating(0)
     setSelectedBrands([])
     setSelectedCategories([])
@@ -274,30 +315,6 @@ export default function ResultsPage() {
           </div>
         </div>
       )}
-
-      {/* Search Bar on Results Page */}
-      <div
-        className={`mb-6 transition-all duration-700 delay-100 transform ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
-      >
-        <form onSubmit={handleNewSearch} className="relative group max-w-2xl mx-auto">
-          <div className="relative flex items-center bg-white rounded-full shadow-lg border border-blue-200 overflow-hidden hover:shadow-xl transition-all duration-300">
-            <FiSearch className="ml-4 text-blue-500 text-lg" />
-            <Input
-              type="text"
-              placeholder="Search for something else..."
-              className="flex-1 py-4 px-4 text-base border-none focus:ring-0 bg-transparent"
-              value={newQuery}
-              onChange={(e) => setNewQuery(e.target.value)}
-            />
-            <Button
-              type="submit"
-              className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-4 rounded-r-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
-            >
-              Search
-            </Button>
-          </div>
-        </form>
-      </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 relative z-10">
         {/* Mobile filter button */}
@@ -376,16 +393,16 @@ export default function ResultsPage() {
                     <div className="space-y-2">
                       <input
                         type="range"
-                        min="0"
-                        max="5000"
+                        min={availableFilters.price_range?.min || 0}
+                        max={availableFilters.price_range?.max || 5000}
                         value={priceRange[0]}
                         onChange={(e) => handlePriceChange(0, e.target.value)}
                         className="w-full h-2 bg-gradient-to-r from-blue-200 to-yellow-200 rounded-lg appearance-none cursor-pointer slider"
                       />
                       <input
                         type="range"
-                        min="0"
-                        max="5000"
+                        min={availableFilters.price_range?.min || 0}
+                        max={availableFilters.price_range?.max || 5000}
                         value={priceRange[1]}
                         onChange={(e) => handlePriceChange(1, e.target.value)}
                         className="w-full h-2 bg-gradient-to-r from-blue-200 to-yellow-200 rounded-lg appearance-none cursor-pointer slider"
@@ -459,7 +476,7 @@ export default function ResultsPage() {
 
                 {expandedFilters.brand && (
                   <div className="space-y-3 mt-4">
-                    {brands.map((brand) => (
+                    {brands.length > 0 ? brands.map((brand) => (
                       <div key={brand} className="flex items-center p-2 rounded-xl hover:bg-gray-50 transition-all">
                         <input
                           id={`brand-${brand}`}
@@ -475,7 +492,9 @@ export default function ResultsPage() {
                           {brand}
                         </label>
                       </div>
-                    ))}
+                    )) : (
+                      <p className="text-sm text-gray-500 p-2">No brands available for current search</p>
+                    )}
                   </div>
                 )}
               </div>
@@ -498,7 +517,7 @@ export default function ResultsPage() {
 
                 {expandedFilters.category && (
                   <div className="space-y-3 mt-4">
-                    {categories.map((category) => (
+                    {categories.length > 0 ? categories.map((category) => (
                       <div key={category} className="flex items-center p-2 rounded-xl hover:bg-gray-50 transition-all">
                         <input
                           id={`category-${category}`}
@@ -514,7 +533,9 @@ export default function ResultsPage() {
                           {category}
                         </label>
                       </div>
-                    ))}
+                    )) : (
+                      <p className="text-sm text-gray-500 p-2">No categories available for current search</p>
+                    )}
                   </div>
                 )}
               </div>
@@ -603,16 +624,19 @@ export default function ResultsPage() {
                   >
                     <div className="relative h-64 overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100">
                       <img
-                        src={product.image || `/placeholder.svg?height=400&width=400&text=Product ${index + 1}`}
+                        src={product.image || `/placeholder.svg?height=400&width=400&text=${encodeURIComponent(product.title || 'Product')}`}
                         alt={product.title || `Product ${index + 1}`}
                         className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
+                        onError={(e) => {
+                          e.target.src = `/placeholder.svg?height=400&width=400&text=${encodeURIComponent(product.title || 'Product')}`
+                        }}
                       />
 
                       {/* Enhanced badges */}
-                      {product.discount && (
-                        <div className="absolute top-4 left-4 bg-gradient-to-r from-red-500 to-red-600 text-white text-xs font-bold px-3 py-2 rounded-full flex items-center shadow-lg animate-pulse">
+                      {product.retail_price && product.price && product.retail_price > product.price && (
+                        <div className="absolute top-4 left-4 bg-gradient-to-r from-red-500 to-red-600 text-white text-xs font-bold px-3 py-2 rounded-full flex items-center shadow-lg">
                           <FiZap className="mr-1" />
-                          {product.discount}% OFF
+                          {Math.round(((product.retail_price - product.price) / product.retail_price) * 100)}% OFF
                         </div>
                       )}
 
@@ -637,7 +661,7 @@ export default function ResultsPage() {
 
                     <div className="p-6">
                       <h3 className="font-semibold text-gray-900 text-base mb-3 line-clamp-2 h-12 group-hover:text-blue-600 transition-colors">
-                        {product.title || `Amazing Product ${index + 1}`}
+                        {product.title || `Product ${index + 1}`}
                       </h3>
 
                       <div className="flex items-center mb-4">
@@ -645,21 +669,23 @@ export default function ResultsPage() {
                           {[...Array(5)].map((_, i) => (
                             <FiStar
                               key={i}
-                              className={`${i < (product.rating || 4) ? "fill-current" : ""} w-4 h-4 transition-all duration-200`}
+                              className={`${i < Math.floor(parseFloat(product.rating) || 0) ? "fill-current" : ""} w-4 h-4 transition-all duration-200`}
                             />
                           ))}
                         </div>
                         <span className="text-sm text-gray-500 ml-2 font-medium">
-                          ({product.reviewCount || Math.floor(Math.random() * 1000) + 50})
+                          {product.rating && product.rating !== "No rating available" 
+                            ? `(${parseFloat(product.rating).toFixed(1)})` 
+                            : "(No rating)"}
                         </span>
                       </div>
 
                       <div className="flex items-center mb-6">
                         <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-yellow-600 bg-clip-text text-transparent">
-                          ₹{product.price || Math.floor(Math.random() * 10000) + 500}
+                          ₹{product.price ? product.price.toLocaleString() : 'N/A'}
                         </span>
-                        {product.originalPrice && (
-                          <span className="text-sm text-gray-500 line-through ml-3">₹{product.originalPrice}</span>
+                        {product.retail_price && product.retail_price !== product.price && (
+                          <span className="text-sm text-gray-500 line-through ml-3">₹{product.retail_price.toLocaleString()}</span>
                         )}
                       </div>
 
@@ -688,6 +714,19 @@ export default function ResultsPage() {
                   🗑️ Clear All Filters
                 </Button>
               </div>
+            )}
+
+            {/* Seasonal Recommendations Section */}
+            {!loading && !seasonalLoading && seasonalRecommendations && seasonalRecommendations.success && (
+              <SeasonalRecommendations
+                recommendations={seasonalRecommendations.recommendations}
+                season={seasonalRecommendations.season}
+                month={seasonalRecommendations.month}
+                query={seasonalRecommendations.query}
+                relevantCount={seasonalRecommendations.relevant_count}
+                fallbackCount={seasonalRecommendations.fallback_count}
+                hasFallback={seasonalRecommendations.has_fallback}
+              />
             )}
 
             {/* Enhanced pagination */}

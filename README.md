@@ -64,7 +64,7 @@ Open another terminal and run:
 
 ```bash
 cd genai-recommendations
-uvicorn main:app --reload
+uvicorn main:app --reload or uvicorn main:app --port 8001
 ```
 
 The FastAPI backends will run at:

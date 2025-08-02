@@ -49,11 +49,12 @@ function Navbar() {
   }, [query, fetchSuggestions, user]);
 
   const handleSubmit = (e) => {
-    e && e.preventDefault();
+    if (e) e.preventDefault();
     const searchText = query.trim();
     if (searchText) {
       navigate(`/search?query=${encodeURIComponent(searchText)}`);
       setSuggestions([]);
+      setQuery(''); // Clear search after navigation
     }
   };
 
@@ -73,7 +74,8 @@ function Navbar() {
       const data = await res.json();
       if (data.caption) {
         setQuery(data.caption);
-        handleSubmit();
+        navigate(`/search?query=${encodeURIComponent(data.caption)}`);
+        setSuggestions([]);
       }
     } catch (error) {
       console.error('Error uploading image:', error);
@@ -89,7 +91,7 @@ function Navbar() {
     <header className={`bg-blue-600 text-white px-6 py-4 shadow sticky top-0 z-50 ${isHomePage ? 'bg-opacity-90' : ''}`}>
       <div className="container mx-auto flex flex-col sm:flex-row items-center gap-4">
         <Link to="/" className="text-2xl font-bold text-white hover:text-yellow-300 transition-colors">
-          SearchOptimizer
+          Veritas
         </Link>
         
         {/* Only show search on non-homepage routes */}
@@ -121,7 +123,8 @@ function Navbar() {
                 suggestions={suggestions} 
                 onSelect={(text) => {
                   setQuery(text);
-                  handleSubmit();
+                  navigate(`/search?query=${encodeURIComponent(text)}`);
+                  setSuggestions([]);
                 }} 
               />
             )}

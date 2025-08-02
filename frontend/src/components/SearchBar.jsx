@@ -13,7 +13,7 @@ function SearchBar({ onSelectQuery }) {
     if (debouncedInput.length > 0) {
       const filtered = dummySuggestions.filter((q) =>
         q.toLowerCase().includes(debouncedInput.toLowerCase())
-      );
+      )
       setSuggestions(filtered.slice(0, 5));
     } else {
       setSuggestions([]);
