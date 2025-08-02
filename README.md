@@ -31,7 +31,7 @@ venv\Scripts\activate
 
 ### 3. Install backend dependencies
 
-# Install requirements for ml-models:
+### Install requirements for ml-models:
 
 ```bash
 cd ml-models
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 cd ..
 ```
 
-# Install requirements for genai-recommendations:
+### Install requirements for genai-recommendations:
 
 ```bash
 cd genai-recommendations
@@ -60,8 +60,9 @@ uvicorn main:app --reload
 
 ### Start GenAI Recommendations backend (genai-recommendations):
 
+Open another terminal and run:
+
 ```bash
-Open a new terminal window/tab.
 cd genai-recommendations
 uvicorn main:app --reload
 ```
