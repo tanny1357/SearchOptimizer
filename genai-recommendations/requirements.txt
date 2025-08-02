@@ -4,7 +4,7 @@ matplotlib
 python-dotenv
 tiktoken
 langchain
-openai
+langchain-google-genai
 streamlit
 faiss-cpu
 sentence-transformers

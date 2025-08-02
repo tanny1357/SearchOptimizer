@@ -30,11 +30,11 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
-Set up the OpenRouter API key:
+Set up the Gemini API key:
 - Create a .env file in the project root directory.
-- Add your OpenRouter API key to the .env file in the following format:
+- Add your Gemini API key to the .env file in the following format:
 ```
-OPENROUTER_API_KEY=sk-or-v1-your-api-key
+GEMINI_API_KEY=your-gemini-api-key
 ```
 
 ## Usage
@@ -75,9 +75,9 @@ ecommerce-product-recommendation/
 - `app.py`: The main Streamlit application file that handles the user interface and integrates different components of the system.
 - `data_processing.py`: Contains functions for data preprocessing, cleaning, and analysis.
 - `recommendation.py`: Implements the product recommendation system using NLP and machine learning techniques.
-- `config.py`: Configuration file for OpenRouter API settings.
+- `config.py`: Configuration file for Gemini API settings.
 - `requirements.txt`: Lists the required Python dependencies for the project.
-- `.env`: Environment file to store the OpenRouter API key.
+- `.env`: Environment file to store the Gemini API key.
 - `README.md`: Provides an overview of the project, installation instructions, and usage guidelines.
 
 ## Dependencies
@@ -87,7 +87,7 @@ The project relies on the following major dependencies:
 - **Pandas**: For data manipulation and analysis.
 - **Seaborn and Matplotlib**: For data visualization.
 - **Langchain**: For building the language model and recommendation system.
-- **OpenRouter**: For leveraging AI models through OpenRouter API.
+- **Google Gemini**: For leveraging AI models through Gemini API.
 - **HuggingFace**: For text embeddings using sentence-transformers.
 
 For a complete list of dependencies, please refer to the `requirements.txt` file.

@@ -4,22 +4,20 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-# OpenRouter configuration
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
-OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+# Gemini configuration
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
-# Default model for OpenRouter
-DEFAULT_MODEL = "openai/gpt-3.5-turbo"
+# Default model for Gemini
+DEFAULT_MODEL = "gemini-1.5-flash"
 
-def get_openrouter_config():
+def get_gemini_config():
     """
-    Get OpenRouter configuration for LangChain.
+    Get Gemini configuration for LangChain.
     
     Returns:
-        dict: Configuration dictionary for OpenRouter API
+        dict: Configuration dictionary for Gemini API
     """
     return {
-        "openai_api_key": OPENROUTER_API_KEY,
-        "openai_api_base": OPENROUTER_BASE_URL,
+        "google_api_key": GEMINI_API_KEY,
         "model_name": DEFAULT_MODEL
     }

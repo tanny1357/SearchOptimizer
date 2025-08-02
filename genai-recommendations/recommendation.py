@@ -2,14 +2,14 @@ import os
 from dotenv import load_dotenv
 import streamlit as st
 from langchain.chains import RetrievalQA, LLMChain
-from langchain.chat_models import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.document_loaders import DataFrameLoader
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import FAISS
-from config import get_openrouter_config
+from config import get_gemini_config
 
 # Load environment variables from .env file
 load_dotenv()
@@ -87,22 +87,43 @@ def display_product_recommendation(refined_df):
         save_vectorstore(vectorstore, vectorstore_dir)
 
     manual_template = """
-    Kindly suggest three similar products based on the description I have provided below:
+    Based on the product department: {department}
 
-    Product Department: {department}.
+    Provide exactly 3 product recommendations in this structured format:
 
-    Please provide complete answers including product department name, product category, product name, price, and stock quantity.
+    Product 1:
+    - Department: [department name]
+    - Category: [product category]
+    - Name: [product name]
+    - Price: $[price]
+    - Stock: [quantity] units
+
+    Product 2:
+    - Department: [department name]
+    - Category: [product category]  
+    - Name: [product name]
+    - Price: $[price]
+    - Stock: [quantity] units
+
+    Product 3:
+    - Department: [department name]
+    - Category: [product category]
+    - Name: [product name]
+    - Price: $[price]
+    - Stock: [quantity] units
+
+    Do not include any explanatory text or paragraphs. Only provide the structured product data above.
     """
     prompt_manual = PromptTemplate(
         input_variables=["department"],
         template=manual_template,
     )
 
-    config = get_openrouter_config()
-    llm = ChatOpenAI(
-        openai_api_key=config["openai_api_key"],
-        openai_api_base=config["openai_api_base"],
-        model_name=config["model_name"],
+    config = get_gemini_config()
+    from langchain_google_genai import ChatGoogleGenerativeAI
+    llm = ChatGoogleGenerativeAI(
+        google_api_key=config["google_api_key"],
+        model=config["model_name"],
         temperature=0
     )
 
@@ -112,11 +133,31 @@ def display_product_recommendation(refined_df):
         verbose=True)
 
     chatbot_template = """
-    You are a friendly, conversational retail shopping assistant that helps customers find products that match their preferences.
-    From the following context and chat history, assist customers in finding what they are looking for based on their input.
-    For each question, suggest three products, including their category, price, and current stock quantity.
-    Sort the answer by the cheapest product.
-    If you don't know the answer, just say that you don't know, don't try to make up an answer.
+    You are a retail shopping assistant. Based on the context and customer input, provide exactly 3 product recommendations.
+
+    Use this structured format only:
+
+    Product 1:
+    - Category: [category]
+    - Name: [product name]
+    - Price: $[price]
+    - Stock: [quantity] units
+
+    Product 2:
+    - Category: [category]
+    - Name: [product name]
+    - Price: $[price]
+    - Stock: [quantity] units
+
+    Product 3:
+    - Category: [category]
+    - Name: [product name]
+    - Price: $[price]
+    - Stock: [quantity] units
+
+    Sort products by price (cheapest first).
+    Do not include explanatory text, introductions, or paragraphs.
+    If you don't know the answer, respond with: "No matching products found."
 
     {context}
 
