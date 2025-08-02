@@ -31,22 +31,44 @@ venv\Scripts\activate
 
 ### 3. Install backend dependencies
 
+# Install requirements for ml-models:
+
 ```bash
-pip install -r ml-models/requirements.txt
+cd ml-models
+pip install -r requirements.txt
+cd ..
 ```
 
----
+# Install requirements for genai-recommendations:
+
+```bash
+cd genai-recommendations
+pip install -r requirements.txt
+cd ..
+```  
 
 ## 🚀 Running the Project
 
 ### 🧠 Start the backend server
+
+### Start ML models backend (ml-models):
 
 ```bash
 cd ml-models
 uvicorn main:app --reload
 ```
 
-The FastAPI backend will run at: `http://127.0.0.1:8000`
+### Start GenAI Recommendations backend (genai-recommendations):
+
+```bash
+Open a new terminal window/tab.
+cd genai-recommendations
+uvicorn main:app --reload
+```
+
+The FastAPI backends will run at:
+- ML Models: `http://127.0.0.1:8000`
+- GenAI Recommendations: `http://127.0.0.1:8001`
 
 ---
 
